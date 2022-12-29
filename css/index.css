@@ -1,0 +1,88 @@
+body{background: #fff;}
+/* 모바일 헤더 */
+header{width: 100%; position: absolute; z-index: 999;}
+header .header_top{padding: 3.8rem 2rem 0 2rem; display: flex; justify-content: space-between;}
+header .header_top div{font-size: 0;}
+header .header_top div a{display: inline-block; width: 2.6rem; height: 2.6rem;}
+header .header_top div a:not(:first-child){margin-left: 0.7rem;}
+header .header_top div a.ico_search{background: url(../img/search.png) no-repeat center;}
+header .header_top div a.ico_alarm{background: url(../img/alarm.png) no-repeat center;}
+header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png) no-repeat center;}
+.logo a {display: block; width: 12.5rem; height: 2.6rem; background: url(../img/logo.png) no-repeat 0 0 / 100% auto;}
+
+.header_gnb{padding-top: 2.1rem;}
+.header_gnb ul{padding: 0 2.5rem; height: 4.1rem; display: flex; justify-content: space-between;}
+.header_gnb li{line-height: 4.1rem; }
+.header_gnb ul li a{display: block; padding: 0 1.2rem; color: #fff; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem;}
+
+.bottom_gnb{font-size: 0; position: fixed; bottom: 0; width: 100%; z-index: 999; background: #fff; border-top: 1px solid #f5f5f5;}
+.bottom_gnb>ul{display: flex; justify-content: space-between; padding: 0 1.8rem 0.4rem 1.7rem;}
+.bottom_gnb>ul>li{}
+.bottom_gnb>ul>li>a{display: inline-block; width: 6.5rem; height: 5.6rem;}
+.bottom_gnb>ul>li>a.ico_menu{background: url(../img/ic-menu.png) no-repeat center;}
+.bottom_gnb>ul>li>a.ico_home{background: url(../img/ic-home.png) no-repeat center;}
+.bottom_gnb>ul>li>a.ico_recent{background: url(../img/ic-recent.png) no-repeat center;}
+.bottom_gnb>ul>li>a.ico_like{background: url(../img/ic-like.png) no-repeat center;}
+.bottom_gnb>ul>li>a.ico_mypage{background: url(../img/ic-my.png) no-repeat center;}
+
+/* 모바일 헤더 스크룰시 고정 */
+#header{}
+#header>.header_top{transition:.5s; /* position: absolute; top: -100px; */}
+#header>.header_gnb.fixed{position: fixed; left: 0; top: 0; width: 100%; background: #fff; transition: .8s;}
+#header>.header_gnb.fixed>ul>li>a{color: #969696;}
+#header>.header_gnb.fixed>ul>li.on>a{color: #222;}
+/* nav .on */
+.header_gnb ul li.on{position: relative;}
+.header_gnb ul li.on>a::after{content: ""; width: 0.5rem; height: 0.5rem; position: absolute; top: 0.5rem; right: 0.5rem; background: red; border-radius: 50%;}
+
+/* home_section_quick_menu */
+.home_section_quick_menu{position: relative; padding: 1.6rem 0 8.5rem 0;}
+.quick_menu_five{display: flex; box-sizing: border-box; margin: 0 auto; padding: 0 2rem; max-width: 44rem; flex-wrap: wrap; justify-content: left;}
+.quick_menu_five>.quick_menu_item{width: calc(100% / 5); max-width: 8rem;}
+.quick_menu_five>.quick_menu_item:nth-child(-n+5){margin-bottom: 1.6rem;}
+.quick_menu_item>a{display: block; width: 100%;}
+.quick_menu_item>a>span{width: 62.5%; display: block; overflow: hidden; margin: 0.6rem auto;}
+.quick_menu_item>a>span>img{ /* position: absolute; top:0; left: 0; */ width: 100%; }
+.quick_menu_item>a>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; color: #696969; font-size: 1.2rem;}
+
+/* home_section_best */
+.home_section_best>h3{padding-left: 2rem; padding-bottom: 1.2rem;}
+.catrgory_tab{}
+.category_tabnav{ overflow-x: scroll; padding: 1.2rem 2rem 1.2rem 2rem;}/* 오른쪽 패딩 안먹는이유 */
+.category_tabnav>ul{display: flex;}
+.category_tabnav>ul>li:not(:first-child){margin-left: 1.2rem;}
+.category_tabnav>ul>li>a{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #222; padding: 0.4rem 1.2rem; background: #f5f5f5; border-radius: 20px; }
+.category_tabnav>ul>li>a.on{background: #222; color: #fff;}
+
+.category_tabnav{padding-left: 2rem;}
+.home_section_best>h3{padding-left: 2rem; padding-bottom: 1.2rem;}
+
+.category_tabcontent{padding-top: 0.8rem;}
+.tab{}
+.tab>ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.tab>ul>li{width: 49.5%; position: relative;}
+.tab>ul>li>a{}
+.tab>ul>li>a>img{width: 100%;}
+.tab>ul>li>a>.tab_item{padding: 1.2rem 1.2rem 0.8rem 1.2rem; height: 5.9rem;}
+.tab>ul>li>a>.tab_item>.title{overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.4rem;}
+.tab>ul>li>a>.tab_item>.caption{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #222; line-height: 2rem;  overflow: hidden; text-overflow: ellipsis;}
+.tab>ul>li>a>.item_price{padding-left: 1.2rem;}
+.tab>ul>li>a>.item_price>.sale_price{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #bdbdbd; text-decoration-line: line-through; height: 20px; line-height: 2rem;}
+.tab>ul>li>a>.item_price>.no_sale_price{display: flex; height: 2.4rem;}
+.tab>ul>li>a>.item_price>.no_sale_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #e31616; line-height: 2.4rem;}
+.tab>ul>li>a>.item_price>.no_sale_price>.percent>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
+.tab>ul>li>a>.item_price>.no_sale_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; line-height: 2.4rem; margin-left: 0.4rem;}
+.tab>ul>li>a>.coupon{padding-left: 1.2rem; padding-top: 1rem;}
+.tab>ul>li>a>.coupon>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; padding: 0.4rem 0.8rem; background: #f5f5f5; display: inline-block; }
+.tab>ul>li>a>.review_wrap{height: 2rem; display: flex; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696; padding-left: 1.2rem; padding-top: 1.6rem; padding-bottom: 3.8rem;}
+.tab>ul>li>a>.review_wrap>.star_review{display: flex;}
+.tab>ul>li>a>.review_wrap>.star_review>img{width: 100%;}
+.tab>ul>li>a>.review_wrap>.star_review>span{margin-left: 0.5rem;}
+.tab>ul>li>a>.review_wrap>.review_count{margin-left: 1rem;}
+.tab>ul>li>a>.review_wrap>.review_count>.review_text{}
+.tab>ul>li>a>.review_wrap>.review_count>.review_count{}
+.tab>ul>li>.item_num{position: absolute; top: 0.8rem; left: 0.8rem; width: 32px; height: 32px; background: #222; text-align: center; }
+.tab>ul>li>.item_num>span{color: #fff; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; display: block; line-height: 3rem;}
+.tab>ul>li>.item_like{position: absolute; top: 0; right: 0;}
+.tab>ul>li>.item_like>button{background: none; z-index: 100;}
+.tab>ul>li>.item_like>button>img{/* width: 100%; */ display: block; padding: 1.2rem 1.1rem;}
