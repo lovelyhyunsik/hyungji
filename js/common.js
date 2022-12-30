@@ -1,6 +1,9 @@
 $(function () {
   var swiper = new Swiper(".first-slide", {
     loop: true,
+    autoplay:{
+      delay:5000
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -53,6 +56,18 @@ $(function () {
 			num = 0;
 		}
 	});
+
+  var swiper = new Swiper(".recomm_brand_main", {
+    loop: true,
+    autoplay:{
+      delay:5000
+    }
+  });
+
+  var swiper = new Swiper(".recomm_brand_item", {
+    loop: true,
+    slidesPerView:1.1
+  });
 });
 
 

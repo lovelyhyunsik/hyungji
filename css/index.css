@@ -1,6 +1,6 @@
 body{background: #fff;}
 /* 모바일 헤더 */
-header{width: 100%; position: absolute; z-index: 999;}
+header{width: 100%; position: absolute; z-index: 999; background: linear-gradient(180deg, rgba(0,0,0,0.6) -12.5%, rgba(0,0,0,0) 99.99%), rgba(0,0,0,0) 100%;}
 header .header_top{padding: 3.8rem 2rem 0 2rem; display: flex; justify-content: space-between;}
 header .header_top div{font-size: 0;}
 header .header_top div a{display: inline-block; width: 2.6rem; height: 2.6rem;}
@@ -59,10 +59,10 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 
 .category_tabcontent{padding-top: 0.8rem;}
 .tab{}
-.tab>ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.tab>ul{display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 0.8rem;}
 .tab>ul>li{width: 49.5%; position: relative;}
-.tab>ul>li>a{}
-.tab>ul>li>a>img{width: 100%;}
+.tab>ul>li>a>.item_img{height: 23.8rem;}
+.tab>ul>li>a>.item_img>img{width: 100%; height: 100%;}
 .tab>ul>li>a>.tab_item{padding: 1.2rem 1.2rem 0.8rem 1.2rem; height: 5.9rem;}
 .tab>ul>li>a>.tab_item>.title{overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.4rem;}
 .tab>ul>li>a>.tab_item>.caption{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #222; line-height: 2rem;  overflow: hidden; text-overflow: ellipsis;}
@@ -86,3 +86,23 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .tab>ul>li>.item_like{position: absolute; top: 0; right: 0;}
 .tab>ul>li>.item_like>button{background: none; z-index: 100;}
 .tab>ul>li>.item_like>button>img{/* width: 100%; */ display: block; padding: 1.2rem 1.1rem;}
+.tab>.best_item_more{ padding: 0 2rem 6rem 2rem;}
+.tab>.best_item_more>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; color: #222; padding: 1.2rem 0; border: 1px solid #e2e2e2; border-radius: 4px; text-align: center;}
+.tab>.line_banner{padding-bottom: 6rem;}
+.tab>.line_banner>img{display: block; width: 100%; height: auto;}
+
+.recomm_brand{padding: 2.5rem 0 0 0;}
+.recomm_brand>h3{padding-bottom: 1.2rem; padding-left: 2rem;}
+.recomm_brand_main{}
+.recomm_brand_main img{}
+.recomm_brand_item{padding-top: 1.6rem;}
+.recomm_brand_item a{padding-left: 2rem;}
+.recomm_brand_item_top{display: flex;}
+.recomm_brand_item_bottom{display: flex;}
+.recomm_brand_item_title{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem;}
+.recomm_brand_item_price{display: flex;}
+.recomm_brand_item_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #e31616; line-height: 2.4rem;}
+.recomm_brand_item_price>.percent>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
+.recomm_brand_item_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; line-height: 2.4rem; margin-left: 0.4rem;}
+
+
