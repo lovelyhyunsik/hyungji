@@ -1,0 +1,12 @@
+@media (min-width:390px){
+    .tab>ul>li>a>.item_img{height: 25rem; line-height: 25rem;}
+}
+@media (min-width:420px){
+    .tab>ul>li>a>.item_img{height: 28rem; line-height: 28rem;}
+}
+@media (min-width:450px){
+    .tab>ul>li>a>.item_img{height: 31rem; line-height: 31rem;}
+}
+@media (min-width:500px){
+    .tab>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
+}

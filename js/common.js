@@ -1,9 +1,9 @@
 $(function () {
-  var swiper = new Swiper(".first-slide", {
+  var swiper = new Swiper(".auto-slide", {
     loop: true,
-    autoplay:{
+    /* autoplay:{
       delay:5000
-    },
+    }, */
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -29,9 +29,11 @@ $(function () {
     tp = $(this).scrollTop();
 
     if (tp > prevScrollTop) {
-      $('.bottom_gnb').stop().animate({ bottom: "-6rem" }, 300)
+      /* $('#bottom_gnb').stop().animate({ bottom: "-6rem" }, 300) */
+      $('#bottom_gnb').addClass('active')
     } else if (tp < prevScrollTop) {
-      $('.bottom_gnb').stop().animate({ bottom: "0" }, 300)
+      /* $('#bottom_gnb').stop().animate({ bottom: "0" }, 300) */
+      $('#bottom_gnb').removeClass('active')
     }
     prevScrollTop = tp;
 
@@ -57,16 +59,9 @@ $(function () {
 		}
 	});
 
-  var swiper = new Swiper(".recomm_brand_main", {
+  var swiper = new Swiper(".rec_brand_item", {
     loop: true,
-    autoplay:{
-      delay:5000
-    }
-  });
-
-  var swiper = new Swiper(".recomm_brand_item", {
-    loop: true,
-    slidesPerView:1.1
+    slidesPerView:1.15
   });
 });
 

@@ -15,15 +15,15 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .header_gnb li{line-height: 4.1rem; }
 .header_gnb ul li a{display: block; padding: 0 1.2rem; color: #fff; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem;}
 
-.bottom_gnb{font-size: 0; position: fixed; bottom: 0; width: 100%; z-index: 999; background: #fff; border-top: 1px solid #f5f5f5;}
-.bottom_gnb>ul{display: flex; justify-content: space-between; padding: 0 1.8rem 0.4rem 1.7rem;}
-.bottom_gnb>ul>li{}
-.bottom_gnb>ul>li>a{display: inline-block; width: 6.5rem; height: 5.6rem;}
-.bottom_gnb>ul>li>a.ico_menu{background: url(../img/ic-menu.png) no-repeat center;}
-.bottom_gnb>ul>li>a.ico_home{background: url(../img/ic-home.png) no-repeat center;}
-.bottom_gnb>ul>li>a.ico_recent{background: url(../img/ic-recent.png) no-repeat center;}
-.bottom_gnb>ul>li>a.ico_like{background: url(../img/ic-like.png) no-repeat center;}
-.bottom_gnb>ul>li>a.ico_mypage{background: url(../img/ic-my.png) no-repeat center;}
+#bottom_gnb{font-size: 0; position: fixed; bottom: 0; width: 100%; z-index: 999; background: #fff; border-top: 1px solid #f5f5f5; transition: 0.5s;}
+#bottom_gnb.active{transform: translateY(6rem); transition: 0.5s;}
+#bottom_gnb>ul{display: flex; justify-content: space-between; padding: 0 1.8rem 0.4rem 1.7rem;}
+#bottom_gnb>ul>li{}
+#bottom_gnb>ul>li>a{display: inline-block; width: 6.5rem; height: 5.6rem; text-align: center; line-height: 5.6rem;}
+
+/* nav .on */
+.header_gnb ul li.on{position: relative;}
+.header_gnb ul li.on>a::after{content: ""; width: 0.5rem; height: 0.5rem; position: absolute; top: 0.5rem; right: 0.5rem; background: red; border-radius: 50%;}
 
 /* 모바일 헤더 스크룰시 고정 */
 #header{}
@@ -31,14 +31,12 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 #header>.header_gnb.fixed{position: fixed; left: 0; top: 0; width: 100%; background: #fff; transition: .8s;}
 #header>.header_gnb.fixed>ul>li>a{color: #969696;}
 #header>.header_gnb.fixed>ul>li.on>a{color: #222;}
-/* nav .on */
-.header_gnb ul li.on{position: relative;}
-.header_gnb ul li.on>a::after{content: ""; width: 0.5rem; height: 0.5rem; position: absolute; top: 0.5rem; right: 0.5rem; background: red; border-radius: 50%;}
+
 
 /* home_section_quick_menu */
-.home_section_quick_menu{position: relative; padding: 1.6rem 0 8.5rem 0;}
-.quick_menu_five{display: flex; box-sizing: border-box; margin: 0 auto; padding: 0 2rem; max-width: 44rem; flex-wrap: wrap; justify-content: left;}
-.quick_menu_five>.quick_menu_item{width: calc(100% / 5); max-width: 8rem;}
+#home_section_quick_menu{position: relative; padding: 2rem 0 8.5rem 0;}
+.quick_menu_five{display: flex; box-sizing: border-box; margin: 0 auto; padding: 0 2rem; flex-wrap: wrap; justify-content: left;}
+.quick_menu_five>.quick_menu_item{width: 20%;}
 .quick_menu_five>.quick_menu_item:nth-child(-n+5){margin-bottom: 1.6rem;}
 .quick_menu_item>a{display: block; width: 100%;}
 .quick_menu_item>a>span{width: 62.5%; display: block; overflow: hidden; margin: 0.6rem auto;}
@@ -46,7 +44,7 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .quick_menu_item>a>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; color: #696969; font-size: 1.2rem;}
 
 /* home_section_best */
-.home_section_best>h3{padding-left: 2rem; padding-bottom: 1.2rem;}
+#home_section_best>h3{padding-left: 2rem; padding-bottom: 1.2rem;}
 .catrgory_tab{}
 .category_tabnav{ overflow-x: scroll; padding: 1.2rem 2rem 1.2rem 2rem;}/* 오른쪽 패딩 안먹는이유 */
 .category_tabnav>ul{display: flex;}
@@ -55,14 +53,13 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .category_tabnav>ul>li>a.on{background: #222; color: #fff;}
 
 .category_tabnav{padding-left: 2rem;}
-.home_section_best>h3{padding-left: 2rem; padding-bottom: 1.2rem;}
 
 .category_tabcontent{padding-top: 0.8rem;}
 .tab{}
 .tab>ul{display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 0.8rem;}
 .tab>ul>li{width: 49.5%; position: relative;}
-.tab>ul>li>a>.item_img{height: 23.8rem;}
-.tab>ul>li>a>.item_img>img{width: 100%; height: 100%;}
+.tab>ul>li>a>.item_img{height: 23.8rem; line-height: 23.8rem;}
+.tab>ul>li>a>.item_img>img{width: 100%; height: auto;}
 .tab>ul>li>a>.tab_item{padding: 1.2rem 1.2rem 0.8rem 1.2rem; height: 5.9rem;}
 .tab>ul>li>a>.tab_item>.title{overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.4rem;}
 .tab>ul>li>a>.tab_item>.caption{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #222; line-height: 2rem;  overflow: hidden; text-overflow: ellipsis;}
@@ -73,7 +70,7 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .tab>ul>li>a>.item_price>.no_sale_price>.percent>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
 .tab>ul>li>a>.item_price>.no_sale_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; line-height: 2.4rem; margin-left: 0.4rem;}
 .tab>ul>li>a>.coupon{padding-left: 1.2rem; padding-top: 1rem;}
-.tab>ul>li>a>.coupon>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; padding: 0.4rem 0.8rem; background: #f5f5f5; display: inline-block; }
+.tab>ul>li>a>.coupon>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; padding: 0.4rem 0.8rem; background: #f5f5f5; display: inline-block; color: #222;}
 .tab>ul>li>a>.review_wrap{height: 2rem; display: flex; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696; padding-left: 1.2rem; padding-top: 1.6rem; padding-bottom: 3.8rem;}
 .tab>ul>li>a>.review_wrap>.star_review{display: flex;}
 .tab>ul>li>a>.review_wrap>.star_review>img{width: 100%;}
@@ -91,18 +88,54 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .tab>.line_banner{padding-bottom: 6rem;}
 .tab>.line_banner>img{display: block; width: 100%; height: auto;}
 
-.recomm_brand{padding: 2.5rem 0 0 0;}
-.recomm_brand>h3{padding-bottom: 1.2rem; padding-left: 2rem;}
-.recomm_brand_main{}
-.recomm_brand_main img{}
-.recomm_brand_item{padding-top: 1.6rem;}
-.recomm_brand_item a{padding-left: 2rem;}
-.recomm_brand_item_top{display: flex;}
-.recomm_brand_item_bottom{display: flex;}
-.recomm_brand_item_title{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem;}
-.recomm_brand_item_price{display: flex;}
-.recomm_brand_item_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #e31616; line-height: 2.4rem;}
-.recomm_brand_item_price>.percent>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
-.recomm_brand_item_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; line-height: 2.4rem; margin-left: 0.4rem;}
+#home_section_rec_brand{padding: 2.5rem 0 0 0;}
+#home_section_rec_brand>h3{padding-bottom: 1.2rem; padding-left: 2rem;}
+#home_section_rec_brand_main{}
+#home_section_rec_brand_main img{}
+.rec_brand_item{padding-top: 1.6rem;}
+.rec_brand_item_img{width: 32%;}
+.rec_brand_item_text{width: 68%;}
+.rec_brand_item_top{display: flex;}
+.rec_brand_item_text>.coupon{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; background: #f5f5f5; display: inline-block; padding: 0.4rem 0.8rem; color: #222;}
+.rec_brand_item_bottom{display: flex;}
+.rec_brand_item_text{padding: 0 1.6rem 0 2rem;}
+.rec_brand_item_title{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; padding: 0.8rem 0 0.4rem 0; }
+.rec_brand_item_price{display: flex;}
+.rec_brand_item_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #e31616; line-height: 2.4rem;}
+.rec_brand_item_price>.percent>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
+.rec_brand_item_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; line-height: 2.4rem; margin-left: 0.4rem;}
+
+#home_section_magazine{padding-top: 8.5rem;}
+#home_section_magazine a{display: block; width: 100%;}
+#home_section_magazine img{width: 100%;}
+#home_section_magazine>h3{padding: 0 2rem 1.2rem 2rem;}
+#home_section_magazine>.best_item_more{padding: 4rem 2rem 8.5rem 2rem;}
+#home_section_magazine>.best_item_more>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; color: #222; padding: 1.2rem 0; border: 1px solid #e2e2e2; border-radius: 4px; text-align: center;}
+
+#home_section_brand{padding: 0 2rem;}
+#home_section_brand>ul{display: flex; box-sizing: border-box;   flex-wrap: wrap;  justify-content: space-between; padding-top: 2.4rem; padding-bottom: 3.7rem; gap: 0.8rem;}
+#home_section_brand>ul>li{width: 31.8%}
+#home_section_brand>ul>li>a{display: block; width: 100%;}
+#home_section_brand>ul>li>a>img{width: 100%;}
+
+#footer{}
+#footer>.footer_ask{display: flex; width: 100%; justify-content: space-between;}
+#footer>.footer_ask>li{ width: 33.3%; text-align: center;}
+#footer>.footer_ask>li>a{display: block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; padding: 1.4rem 0; line-height: 2rem;}
+#footer>.footer_ask>li>a>span{display: block;}
+#footer>.footer_ask>li:not(:last-child)>a>span{border-right: 1px solid #e2e2e2;}
+#footer>.footer_info{padding: 2.8rem 2rem;}
+#footer>.footer_info>.info_title{display: flex; justify-content: space-between; padding-right: 0.9rem; padding-bottom: 1.2rem;}
+#footer>.footer_info>.info_title>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem;}
+#footer>.footer_info>.info_sub{display: flex; padding-bottom: 1.6rem;}
+#footer>.footer_info>.info_sub>li{position: relative; font-family: 'Pretendard'; font-weight: 500; font-size: 1.2rem; line-height: 1.6rem; color: #696969; padding-right: 1rem;}
+#footer>.footer_info>.info_sub>li:not(:first-child){padding-left: 1rem;}
+#footer>.footer_info>.info_sub>li:not(:last-child):after{content: ""; position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: #bdbdbd; width: 1px; height: 8px;}
+#footer>.footer_info>.info_ico{padding-bottom: 3.6rem;}
+#footer>.footer_info>.info_ico>ul{display: flex;}
+#footer>.footer_info>.info_ico>ul>li:not(:first-child){margin-left: 1.2rem;}
+#footer>.footer_info>.info_ico a{position: relative; display: block; width: 2.8rem; height: 2.8rem; background: #222;  line-height: 2.8rem; border-radius: 50%;}
+#footer>.footer_info>.info_ico a>img{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#footer>.footer_info>.info_copy>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #bdbdbd;}
 
 

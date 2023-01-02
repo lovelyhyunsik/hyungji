@@ -11,7 +11,7 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   background: #fff;
 
@@ -37,6 +37,25 @@ body {
   object-fit: cover;
 }
 
-.recomm_brand_item .swiper-slide{
+#home_section_rec_brand>.swiper_container{
+  /* width: 100%; */
+  padding: 0 2rem;
+}
+
+/* .rec_brand_main a{padding: 0 2rem;} */
+
+.rec_brand_item .swiper-slide{
   display: block;
 }
+
+.rec_brand_item>.swiper-wrapper{padding-left: 2rem;}
+
+.slide_text_wrap>a{position: relative; display: block; width: 100%;}
+.slide_text_wrap>a>.slide_text{width: 100%; position: absolute; bottom: 0; background: linear-gradient(360deg, rgba(0,0,0,0.6) -5.96%, rgba(0,0,0,0) 99.99%, rgba(0,0,0,0) 100%); padding: 1.7rem 2rem 6rem 2rem; color: #fff; font-family: 'Pretendard';}
+.slide_text_wrap>a>.slide_text>.slide_text_top>p{display: inline-block; padding: 0.4rem 0.8rem; line-height: 2rem; border: 1px solid #fff;   font-weight: 400; font-size: 1.4rem; border-radius: 0.2rem;}
+.slide_text_wrap>a>.slide_text>.slide_text_middle{padding-top: 1.2rem;  font-weight: 700; font-size: 2.4rem;}
+.slide_text_wrap>a>.slide_text>.slide_text_middle>p{}
+.slide_text_wrap>a>.slide_text>.slide_text_bottom{padding-top: 0.8rem; font-size: 1.4rem; font-weight: 400; line-height: 2rem;}
+.rec_slide_text_wrap>a>.slide_text{padding: 2.2rem 2rem 3.4rem 2rem;}
+.mag_slide_text_wrap>a>.slide_text{padding: 0.8rem 2rem 6rem 2rem;}
+.mag_slide_text_wrap>a>.slide_text>.slide_text_top>p{background: rgba(0,0,0,0.5); border-radius: 0; border: none;}

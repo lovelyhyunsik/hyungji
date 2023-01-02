@@ -25,32 +25,32 @@
                 <li><a href="javascript:void(0);">매거진</a></li>
             </ul>
         </nav>
-    </header>
-    <nav class="bottom_gnb">
+</header>
+<nav id="bottom_gnb">
         <ul>
             <li>
                 <a href="" class="ico_menu">
-                    <span class="hide">하단메뉴아이콘</span>
+                    <img src="./img/ic-menu.png" alt="하단메뉴아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_home">
-                    <span class="hide">하단홈아이콘</span>
+                    <img src="./img/ic-home-active .png" alt="하단홈아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_recent">
-                    <span class="hide">하단최근목록아이콘</span>
+                    <img src="./img/ic-recent.png" alt="하단최근아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_like">
-                    <span class="hide">하단"좋아요"아이콘</span>
+                    <img src="./img/ic-like.png" alt="하단'좋아요'아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_mypage">
-                    <span class="hide">하단마이페이지아이콘</span>
+                    <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
                 </a>
             </li>
         </ul>

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/response.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-<header id="header">
+    <header id="header">
         <div class="header_top">
             <h1 class="logo"><a href=""><span class="hide">바우하우스</span></a></h1>
             <div>
@@ -37,50 +38,92 @@
             </ul>
         </nav>
     </header>
-    <nav class="bottom_gnb">
+    <nav id="bottom_gnb">
         <ul>
             <li>
                 <a href="" class="ico_menu">
-                    <span class="hide">하단메뉴아이콘</span>
+                    <img src="./img/ic-menu.png" alt="하단메뉴아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_home">
-                    <span class="hide">하단홈아이콘</span>
+                    <img src="./img/ic-home-active .png" alt="하단홈아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_recent">
-                    <span class="hide">하단최근목록아이콘</span>
+                    <img src="./img/ic-recent.png" alt="하단최근아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_like">
-                    <span class="hide">하단"좋아요"아이콘</span>
+                    <img src="./img/ic-like.png" alt="하단'좋아요'아이콘">
                 </a>
             </li>
             <li>
                 <a href="" class="ico_mypage">
-                    <span class="hide">하단마이페이지아이콘</span>
+                    <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
                 </a>
             </li>
         </ul>
     </nav>
-    <div class="swiper first-slide">
+    <div class="swiper first-slide auto-slide">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="./img/home_visual.png" alt="">
+            <div class="swiper-slide slide_text_wrap">
+                <a href="">
+                    <img src="./img/home_visual.png" alt="">
+                    <div class="slide_text">
+                        <div class="slide_text_top">
+                            <p>NEW</p>
+                        </div>
+                        <div class="slide_text_middle">
+                            <p>22F/W WINTER</p> 
+                            <p>COLLECTION</p> 
+                        </div>
+                        <div class="slide_text_bottom">
+                            <p>추운 겨울 속 따뜻함을 더할 윈터 컬렉션</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="swiper-slide">
-                <img src="./img/home_visual.png" alt="">
+            <div class="swiper-slide slide_text_wrap">
+                <a href="">
+                    <img src="./img/home_visual.png" alt="">
+                    <div class="slide_text">
+                        <div class="slide_text_top">
+                            <p>NEW</p>
+                        </div>
+                        <div class="slide_text_middle">
+                            <p>22F/W WINTER</p> 
+                            <p>COLLECTION</p> 
+                        </div>
+                        <div class="slide_text_bottom">
+                            <p>추운 겨울 속 따뜻함을 더할 윈터 컬렉션</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="swiper-slide">
-                <img src="./img/home_visual.png" alt="">
+            <div class="swiper-slide slide_text_wrap">
+                <a href="">
+                    <img src="./img/home_visual.png" alt="">
+                    <div class="slide_text">
+                        <div class="slide_text_top">
+                            <p>NEW</p>
+                        </div>
+                        <div class="slide_text_middle">
+                            <p>22F/W WINTER</p> 
+                            <p>COLLECTION</p> 
+                        </div>
+                        <div class="slide_text_bottom">
+                            <p>추운 겨울 속 따뜻함을 더할 윈터 컬렉션</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
-    <section class="home_section_quick_menu">
+    <section id="home_section_quick_menu">
         <ul class="quick_menu_five">
             <li class="quick_menu_item">
                 <a href="">
@@ -156,7 +199,7 @@
             </li>
         </ul>
     </section>
-    <section class="home_section_best">
+    <section id="home_section_best">
         <h3>BEST</h3>
         <div class="category_tab">
             <div class="category_tabnav">
@@ -329,7 +372,7 @@
                         </li>
                     </ul>
                     <div class="best_item_more">
-                        <a href="">베스트 상품 더보기</a>
+                        <a href="./best_item_more.html">베스트 상품 더보기</a>
                     </div>
                     <div class="line_banner">
                         <img src="./img/line_banner.png" alt="">
@@ -486,109 +529,305 @@
             </div>
         </div>
     </section>
-    <section class="recomm_brand">
-            <h3>추천브랜드</h3>
-            <div class="swiper recomm_brand_main">
+    <section id="home_section_rec_brand">
+        <h3>추천브랜드</h3>
+        <div class="swiper_container">
+            <div class="swiper rec_brand_main auto-slide">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><a href=""><img src="./img/rec_brand_img.png" alt=""></a></div>
-                  <div class="swiper-slide"><a href=""><img src="./img/rec_brand_img.png" alt=""></a></div>
-                  <div class="swiper-slide"><a href=""><img src="./img/rec_brand_img.png" alt=""></a></div>
+                    <div class="swiper-slide slide_text_wrap rec_slide_text_wrap">
+                        <a href="">
+                            <img src="./img/rec_brand_img.png" alt="">
+                            <div class="slide_text">
+                                <div class="slide_text_middle">
+                                    <p>OLIVIA HASSLER</p> 
+                                </div>
+                                <div class="slide_text_bottom">
+                                    <p>트렌디한 감각고 세련된 스타일.</p>
+                                    <p>올리비아 하슬러</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide_text_wrap rec_slide_text_wrap">
+                        <a href="">
+                            <img src="./img/rec_brand_img.png" alt="">
+                            <div class="slide_text">
+                                <div class="slide_text_middle">
+                                    <p>OLIVIA HASSLER</p> 
+                                </div>
+                                <div class="slide_text_bottom">
+                                    <p>트렌디한 감각고 세련된 스타일.</p>
+                                    <p>올리비아 하슬러</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide_text_wrap rec_slide_text_wrap">
+                        <a href="">
+                            <img src="./img/rec_brand_img.png" alt="">
+                            <div class="slide_text">
+                                <div class="slide_text_middle">
+                                    <p>OLIVIA HASSLER</p> 
+                                </div>
+                                <div class="slide_text_bottom">
+                                    <p>트렌디한 감각고 세련된 스타일.</p>
+                                    <p>올리비아 하슬러</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div class="swiper rec_brand_item">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="rec_brand_item_top">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img1.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <p class="coupon">쿠폰</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="rec_brand_item_bottom">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img2.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <div class="coupon">
+                                    <p>쿠폰</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="rec_brand_item_top">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img1.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <div class="coupon">
+                                    <p>쿠폰</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="rec_brand_item_bottom">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img2.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <div class="coupon">
+                                    <p>쿠폰</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="rec_brand_item_top">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img1.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <p class="coupon">쿠폰</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="rec_brand_item_bottom">
+                            <div class="rec_brand_item_img">
+                                <img src="./img/rec-item-img2.png" alt="">
+                            </div>
+                            <div class="rec_brand_item_text">
+                                <div class="rec_brand_item_title">
+                                    Lorem ipsum dolor sit
+                                </div>
+                                <div class="rec_brand_item_price">
+                                    <div class="percent">
+                                        20<span>%</span>
+                                    </div>
+                                    <div class="price">
+                                        215,000
+                                    </div>
+                                </div>
+                                <div class="coupon">
+                                    <p>쿠폰</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="swiper recomm_brand_item">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+        </div>
+    </section>
+    <section id="home_section_magazine">
+        <h3>매거진</h3>
+        <div class="swiper magazine-slide auto-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_text_wrap mag_slide_text_wrap">
                     <a href="">
-                        <div class="recomm_brand_item_top">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img1.png" alt="">
+                        <img src="./img/magagine_main.png" alt="">
+                        <div class="slide_text">
+                            <div class="slide_text_top">
+                                <p>라떼센스</p>
                             </div>
-                            <div class="recomm_brand_item_text">
-                                <div class="recomm_brand_item_title">
-                                    Lorem ipsum dolor sit
-                                </div>
-                                <div class="recomm_brand_item_price">
-                                    <div class="percent">
-                                        20<span>%</span>
-                                    </div>
-                                    <div class="price">
-                                        215,000
-                                    </div>
-                                </div>
+                            <div class="slide_text_middle">
+                                <p>에디터들의</p> 
+                                <p>왓츠 인 마이 쇼핑백</p> 
+                            </div>
+                            <div class="slide_text_bottom">
+                                <p>에디터들은 봄을 맞이해 어떤 아이템을 구매할까?</p>
+                                <p>그들의 장바구니를 살펴보자</p>
                             </div>
                         </div>
                     </a>
+                </div>
+                <div class="swiper-slide slide_text_wrap mag_slide_text_wrap">
                     <a href="">
-                        <div class="recomm_brand_item_bottom">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img2.png" alt="">
+                        <img src="./img/magagine_main.png" alt="">
+                        <div class="slide_text">
+                            <div class="slide_text_top">
+                                <p>라떼센스</p>
                             </div>
-                            <div class="recomm_brand_item_text"></div>
-                        </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="">
-                        <div class="recomm_brand_item_top">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img1.png" alt="">
+                            <div class="slide_text_middle">
+                                <p>에디터들의</p> 
+                                <p>왓츠 인 마이 쇼핑백</p> 
                             </div>
-                            <div class="recomm_brand_item_text">
-                                <div class="recomm_brand_item_title">
-                                    Lorem ipsum dolor sit
-                                </div>
-                                <div class="recomm_brand_item_price">
-                                    <div class="percent">
-                                        20<span>%</span>
-                                    </div>
-                                    <div class="price">
-                                        215,000
-                                    </div>
-                                </div>
+                            <div class="slide_text_bottom">
+                                <p>에디터들은 봄을 맞이해 어떤 아이템을 구매할까?</p>
+                                <p>그들의 장바구니를 살펴보자</p>
                             </div>
                         </div>
                     </a>
+                </div>
+                <div class="swiper-slide slide_text_wrap mag_slide_text_wrap">
                     <a href="">
-                        <div class="recomm_brand_item_bottom">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img2.png" alt="">
+                        <img src="./img/magagine_main.png" alt="">
+                        <div class="slide_text">
+                            <div class="slide_text_top">
+                                <p>라떼센스</p>
                             </div>
-                            <div class="recomm_brand_item_text"></div>
-                        </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="">
-                        <div class="recomm_brand_item_top">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img1.png" alt="">
+                            <div class="slide_text_middle">
+                                <p>에디터들의</p> 
+                                <p>왓츠 인 마이 쇼핑백</p> 
                             </div>
-                            <div class="recomm_brand_item_text">
-                                <div class="recomm_brand_item_title">
-                                    Lorem ipsum dolor sit
-                                </div>
-                                <div class="recomm_brand_item_price">
-                                    <div class="percent">
-                                        20<span>%</span>
-                                    </div>
-                                    <div class="price">
-                                        215,000
-                                    </div>
-                                </div>
+                            <div class="slide_text_bottom">
+                                <p>에디터들은 봄을 맞이해 어떤 아이템을 구매할까?</p>
+                                <p>그들의 장바구니를 살펴보자</p>
                             </div>
                         </div>
                     </a>
-                    <a href="">
-                        <div class="recomm_brand_item_bottom">
-                            <div class="recomm_brand_item_img">
-                                <img src="./img/rec-item-img2.png" alt="">
-                            </div>
-                            <div class="recomm_brand_item_text"></div>
-                        </div>
-                    </a>
-                  </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="best_item_more">
+            <a href="">베스트 상품 더보기</a>
+        </div>
+    </section>
+    <section id="home_section_brand">
+        <h3>브랜드</h3>
+        <ul>
+            <li><a href=""><img src="./img/brand_1.png" alt=""></a></li>
+            <li><a href=""><img src="./img/brand_2.png" alt=""></a></li>
+            <li><a href=""><img src="./img/brand_3.png" alt=""></a></li>
+            <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
+            <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
+            <li><a href=""><img src="./img/brand_5.png" alt=""></a></li>
+        </ul>
+    </section>
+    <section id="footer">
+         <ul class="footer_ask">
+            <li><a href=""><span>고객센터</span></a></li>
+            <li><a href=""><span>1:1 문의</span></a></li>
+            <li><a href=""><span>ID/PW 찾기</span></a></li>
+         </ul>
+         <div class="footer_info">
+            <div class="info_title">
+                <p>패션형지그룹(주) 사업자정보</p>
+                <div class="info_d_arrow">
+                    <a href=""><img src="./img/down_arrow.png" alt=""></a>
+                </div>
+            </div>
+            <div class="info_sub">
+                <li>개인정보처리방침</li>
+                <li>이용약관</li>
+                <li>사업자정보확인</li>
+            </div>
+            <div class="info_ico">
+                <ul>
+                    <li><a href=""><img src="./img/fb_ico.png" alt=""></a></li>
+                    <li><a href=""><img src="./img/yt_ico.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info_copy">
+                <p>FASHION GROUP HYUNGJI. ALL RIGHTS RESERVED</p>
+            </div>
+         </div>
     </section>
 </body>
 
