@@ -82,10 +82,10 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .tab>ul>li>.item_like{position: absolute; top: 0; right: 0;}
 .tab>ul>li>.item_like>button{background: none; z-index: 100;}
 .tab>ul>li>.item_like>button>img{/* width: 100%; */ display: block; padding: 1.2rem 1.1rem;}
-.tab>.best_item_more{ padding: 0 2rem 6rem 2rem;}
-.tab>.best_item_more>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; color: #222; padding: 1.2rem 0; border: 1px solid #e2e2e2; border-radius: 4px; text-align: center;}
-.tab>.line_banner{padding-bottom: 6rem;}
-.tab>.line_banner>img{display: block; width: 100%; height: auto;}
+.best_item_more{ padding: 0 2rem 6rem 2rem;}
+.best_item_more>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; color: #222; padding: 1.2rem 0; border: 1px solid #e2e2e2; border-radius: 4px; text-align: center;}
+.line_banner{padding-bottom: 6rem;}
+.line_banner>img{display: block; width: 100%; height: auto;}
 
 #home_section_rec_brand{padding: 2.5rem 0 0 0;}
 #home_section_rec_brand>h3{padding-bottom: 1.2rem; padding-left: 2rem;}
@@ -123,7 +123,7 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 #footer>.footer_ask>li>a{display: block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; padding: 1.4rem 0; line-height: 2rem;}
 #footer>.footer_ask>li>a>span{display: block;}
 #footer>.footer_ask>li:not(:last-child)>a>span{border-right: 1px solid #e2e2e2;}
-#footer>.footer_info{padding: 2.8rem 2rem;}
+#footer>.footer_info{padding: 2.8rem 2rem; background: #f5f5f5;}
 #footer>.footer_info>.info_title{display: flex; justify-content: space-between; padding-right: 0.9rem; padding-bottom: 1.2rem;}
 #footer>.footer_info>.info_title>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem;}
 #footer>.footer_info>.info_sub{display: flex; padding-bottom: 1.6rem;}
