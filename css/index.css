@@ -112,7 +112,7 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 
 #home_section_brand{padding: 0 2rem;}
 #home_section_brand>ul{display: flex; box-sizing: border-box;   flex-wrap: wrap;  justify-content: space-between; padding-top: 2.4rem; padding-bottom: 3.7rem; gap: 0.8rem;}
-#home_section_brand>ul>li{width: 31.8%}
+#home_section_brand>ul>li{width: 31.6%}
 #home_section_brand>ul>li>a{display: block; width: 100%;}
 #home_section_brand>ul>li>a>img{width: 100%;}
 
