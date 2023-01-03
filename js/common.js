@@ -38,15 +38,24 @@ $(function () {
     prevScrollTop = tp;
 
   });//하단 gnb 스크롤에 따른 히든처리
+  
+  $('.best_category_tab>ul>li>a').click(function () {
+    $('.category_tab').hide().filter(this.hash).fadeIn();
+    $('.best_category_tab>ul>li>a').removeClass('active');
+    $(this).addClass('active');
+    return false;
+  }).filter(':eq(0)').click();//best_tab처리
 
-  $('.category_tabcontent > div').hide();
-  $('.category_tabnav a').click(function () {
+  /* $('.category_tabcontent > div').hide(); */
+  $('.category_tabnav>ul>li>a').click(function () {
     $('.category_tabcontent > div').hide().filter(this.hash).fadeIn();
-    $('.category_tabnav a').removeClass('on');
+    $('.category_tabnav>ul>li>a').removeClass('on');
     $(this).addClass('on');
     return false;
-  }).filter(':eq(0)').click();//tabcontent 처리
+  }).filter(':eq(0)').click();//best_tab안에 tab처리
 
+  
+  
   var num = 0;
 	$(".img_change").click(function () {
     console.log(num)

@@ -1,34 +1,5 @@
 @charset "utf-8";
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 700;
-	font-display: swap;
-	src: url('/font/Pretendard-Bold.woff2') format('woff2'), url('/font/Pretendard-Bold.woff') format('woff') ,url('/font/Pretendard-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 600;
-	font-display: swap;
-	src: url('/font/Pretendard-SemiBold.woff2') format('woff2'), url('/font/Pretendard-SemiBold.woff') format('woff') ,url('/font/Pretendard-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 500;
-	font-display: swap;
-	src: url('/font/Pretendard-Medium.woff2') format('woff2'), url('/font/Pretendard-Medium.woff') format('woff') ,url('/font/Pretendard-Medium.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 400;
-	font-display: swap;
-	/* src: url('/font/Pretendard-Regular.woff2') format('woff2'), url('/font/Pretendard-Regular.woff') format('woff') ,url('/font/Pretendard-Regular.ttf') format('truetype'); */
-	src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-}
-
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 /* Reset */
 html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,nav,section,article,header,footer,main,aside,dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0;padding:0;}
@@ -61,4 +32,4 @@ textarea { -webkit-appearance:none; -moz-appearance:none; appearance:none; -webk
 textarea { resize: none;}
 
 /* 공통 */
-h3{font-family: 'Pretendard'; font-weight: 400; font-size: 2.4rem; color: #222;}
+h3{font-family: 'Pretendard'; font-weight: 700; font-size: 2.4rem; color: #222;}
