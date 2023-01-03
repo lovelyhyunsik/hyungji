@@ -10,3 +10,15 @@
 @media (min-width:500px){
     .tab>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
 }
+@media (min-width:500px){
+    .tab>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
+}
+@media (min-width:580px){
+    .tab>ul>li>a>.item_img{height: 44rem; line-height: 44rem;}
+}
+@media (min-width:700px){
+    .tab>ul>li>a>.item_img{height: 50rem; line-height: 50rem;}
+}
+@media (min-width:800px){
+    .tab>ul>li>a>.item_img{height: 55rem; line-height: 55rem;}
+}

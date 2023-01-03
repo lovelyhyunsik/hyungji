@@ -1,9 +1,9 @@
 $(function () {
   var swiper = new Swiper(".auto-slide", {
     loop: true,
-    /* autoplay:{
+    autoplay:{
       delay:5000
-    }, */
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
