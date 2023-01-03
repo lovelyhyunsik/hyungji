@@ -51,7 +51,7 @@ body {
 .rec_brand_item>.swiper-wrapper{padding-left: 2rem;}
 
 .slide_text_wrap>a{position: relative; display: block; width: 100%;}
-.slide_text_wrap>a>.slide_text{width: 100%; position: absolute; bottom: 0; background: linear-gradient(360deg, rgba(0,0,0,0.6) -5.96%, rgba(0,0,0,0) 99.99%, rgba(0,0,0,0) 100%); padding: 1.7rem 2rem 6rem 2rem; color: #fff; font-family: 'Pretendard';}
+.slide_text_wrap>a>.slide_text{width: 100%; position: absolute; bottom: 0; background: linear-gradient(360deg, rgba(0,0,0,0.6) -5.96%, rgba(0,0,0,0) 99.99%, rgba(0,0,0,0) 100%); padding: 1.7rem 2rem 6rem 2rem; color: #fff; font-family: 'Pretendard'; height: 13.6rem;}
 .slide_text_wrap>a>.slide_text>.slide_text_top>p{display: inline-block; padding: 0.4rem 0.8rem; line-height: 2rem; border: 1px solid #fff;   font-weight: 400; font-size: 1.4rem; border-radius: 0.2rem;}
 .slide_text_wrap>a>.slide_text>.slide_text_middle{padding-top: 1.2rem;  font-weight: 700; font-size: 2.4rem;}
 .slide_text_wrap>a>.slide_text>.slide_text_middle>p{}

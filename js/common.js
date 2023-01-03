@@ -63,6 +63,7 @@ $(function () {
     loop: true,
     slidesPerView:1.15
   });
+  
 });
 
 
