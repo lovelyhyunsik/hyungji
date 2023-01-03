@@ -71,7 +71,7 @@ header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag.png)
 .tab>ul>li>a>.coupon>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; padding: 0.4rem 0.8rem; background: #f5f5f5; display: inline-block; color: #222;}
 .tab>ul>li>a>.review_wrap{height: 2rem; display: flex; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696; padding-left: 1.2rem; padding-top: 1.6rem; padding-bottom: 3.8rem;}
 .tab>ul>li>a>.review_wrap>.star_review{display: flex;}
-.tab>ul>li>a>.review_wrap>.star_review>img{width: 100%;}
+.tab>ul>li>a>.review_wrap>.star_review>img{width: 100%; height: auto;}
 .tab>ul>li>a>.review_wrap>.star_review>span{margin-left: 0.5rem;}
 .tab>ul>li>a>.review_wrap>.review_count{margin-left: 1rem;}
 .tab>ul>li>a>.review_wrap>.review_count>.review_text{}
