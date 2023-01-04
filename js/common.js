@@ -71,10 +71,10 @@ $(function () {
   var num = 0;
 	$(".img_change").click(function () {
 		if(num == 0) {
-			$(this).attr("src", "./img/ic-like.png");
+			$(this).attr("src", "./img/ic-like-active.png");
 			num = 1;
 		}else {
-			$(this).attr("src", "./img/ic-like-active.png");
+			$(this).attr("src", "./img/ic-like.png");
 			num = 0;
 		}
 	});
