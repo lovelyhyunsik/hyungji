@@ -1,9 +1,9 @@
 $(function () {
   var swiper = new Swiper(".auto-slide", {
     loop: true,
-    autoplay:{
+    /* autoplay:{
       delay:5000
-    },
+    }, */
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -20,6 +20,18 @@ $(function () {
       $(".header_gnb").removeClass("fixed");
     }
   });//gnb 스크롤 이동시 상단 고정
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 300){
+      $('.btn_gotop').show();
+    } else{
+      $('.btn_gotop').hide();
+    }
+  });
+  $('.btn_gotop').click(function(){
+    $('html, body').animate({scrollTop:0},400);
+    return false;
+  });
 
   var FirstScroll = 0;
   var prevScrollTop = $(window).scrollTop(),
@@ -58,7 +70,6 @@ $(function () {
   
   var num = 0;
 	$(".img_change").click(function () {
-    console.log(num)
 		if(num == 0) {
 			$(this).attr("src", "./img/ic-like.png");
 			num = 1;
