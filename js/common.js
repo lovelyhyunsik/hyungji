@@ -1,9 +1,9 @@
 $(function () {
   var swiper = new Swiper(".auto-slide", {
     loop: true,
-    /* autoplay:{
+    autoplay:{
       delay:5000
-    }, */
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -41,10 +41,8 @@ $(function () {
     tp = $(this).scrollTop();
 
     if (tp > prevScrollTop) {
-      /* $('#bottom_gnb').stop().animate({ bottom: "-6rem" }, 300) */
       $('#bottom_gnb').addClass('active')
     } else if (tp < prevScrollTop) {
-      /* $('#bottom_gnb').stop().animate({ bottom: "0" }, 300) */
       $('#bottom_gnb').removeClass('active')
     }
     prevScrollTop = tp;
@@ -52,19 +50,33 @@ $(function () {
   });//하단 gnb 스크롤에 따른 히든처리
   
   $('.best_category_tab>ul>li>a').click(function () {
-    $('.category_tab').hide().filter(this.hash).fadeIn();
+    $('.best_category_tab').hide().filter(this.hash).fadeIn();
     $('.best_category_tab>ul>li>a').removeClass('active');
     $(this).addClass('active');
     return false;
   }).filter(':eq(0)').click();//best_tab처리
 
   /* $('.category_tabcontent > div').hide(); */
-  $('.category_tabnav>ul>li>a').click(function () {
-    $('.category_tabcontent > div').hide().filter(this.hash).fadeIn();
-    $('.category_tabnav>ul>li>a').removeClass('on');
+  $('.home_category_tabnav>ul>li>a').click(function () {
+    $('.home_category_tabcontent > div').hide().filter(this.hash).fadeIn();
+    $('.home_category_tabnav>ul>li>a').removeClass('on');
     $(this).addClass('on');
     return false;
-  }).filter(':eq(0)').click();//best_tab안에 tab처리
+  }).filter(':eq(0)').click();//home섹션 안에 tab처리
+
+  $('.exhibition_category_tabnav>ul>li>a').click(function () {
+    $('.exhibition_category_tabcontent > div').hide().filter(this.hash).fadeIn();
+    $('.exhibition_category_tabnav>ul>li>a').removeClass('on');
+    $(this).addClass('on');
+    return false;
+  }).filter(':eq(0)').click();//exhibition섹션 안에 tab처리
+
+  $('.magazine_category_tabnav>ul>li>a').click(function () {
+    $('.magazine_category_tabcontent > div').hide().filter(this.hash).fadeIn();
+    $('.magazine_category_tabnav>ul>li>a').removeClass('on');
+    $(this).addClass('on');
+    return false;
+  }).filter(':eq(0)').click();//magazine섹션 안에 tab처리
 
   
   
