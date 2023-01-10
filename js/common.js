@@ -84,7 +84,7 @@ $(function () {
 	$(".img_change").click(function () {
     console.log("ddddd")
 		if(num == 0) {
-			$(this).attr("src", "./img/ic-like-active.png");
+			$(this).attr("src", "./img/ic-like_pk.png");
 			num = 1;
 		}else {
 			$(this).attr("src", "./img/ic-like.png");
