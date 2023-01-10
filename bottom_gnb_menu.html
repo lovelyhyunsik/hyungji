@@ -19,194 +19,222 @@
     <scrip src="js/common.js"></script>
 </head>
 <body>
-    <header id="header">
-        <div class="header_top">
-            <h1 class="logo_bk"><a href="./index.html"><span class="hide"> 바우하우스</span></a></h1>
-            <div>
-                <a href="" class="ico_search_bk"><span class="hide">검색아이콘</span></a>
-                <a href="" class="ico_shoppingbag_bk"><span class="hide">쇼핑백아이콘</span></a>
+    <div id="search_page">
+        <div class="search_page_header">
+            <div class="arrow_left_img">
+                <img src="./img/ic-arrow-left.png" alt="">
             </div>
+            <input type="text" class="search-area" placeholder="브랜드,상품명 등 입력해주세요">
         </div>
-        <h2 class="hide">메인메뉴</h2>
-    </header>
-    <nav id="bottom_gnb">
-        <ul>
-            <li>
-                <a href="./bottom_gnb_menu.html" class="ico_menu">
-                    <img src="./img/ic-menu-active.png" alt="하단메뉴아이콘">
-                    <p>MENU</p>
-                </a>
-            </li>
-            <li>
-                <a href="./index.html" class="ico_home">
-                    <img src="./img/ic-home.png" alt="하단홈아이콘">
-                    <p>HOME</p>
-                </a>
-            </li>
-            <li>
-                <a href="./recent.html" class="ico_recent">
-                    <img src="./img/ic-recent.png" alt="하단최근아이콘">
-                    <p>RECENT</p>
-                </a>
-            </li>
-            <li>
-                <a href="" class="ico_like">
-                    <img src="./img/ic-blike.png" alt="하단'좋아요'아이콘">
-                    <p>LIKE</p>
-                </a>
-            </li>
-            <li>
-                <a href="" class="ico_mypage">
-                    <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
-                    <p>MY</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <div class="menu_tab_wrap">
-        <div class="menu_tab_nav">
+    </div>
+    <div id="main_page">
+        <header id="header">
+            <div class="header_top">
+                <h1 class="logo_bk"><a href="./index.html"><span class="hide"> 바우하우스</span></a></h1>
+                <div>
+                    <a href="#" class="ico_search"><span class="hide">검색아이콘</span></a>
+                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백아이콘</span></a>
+                </div>
+            </div>
+            <h2 class="hide">메인메뉴</h2>
+        </header>
+        <nav id="bottom_gnb">
             <ul>
-                <li><a href="#menu_tab1" class="on">카테고리</a></li>
-                <li><a href="#menu_tab2">브랜드</a></li>
+                <li>
+                    <a href="./bottom_gnb_menu.html" class="ico_menu">
+                        <img src="./img/ic-menu-active.png" alt="하단메뉴아이콘">
+                        <p>메뉴</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html" class="ico_home">
+                        <img src="./img/ic-home.png" alt="하단홈아이콘">
+                        <p>홈</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./recent.html" class="ico_recent">
+                        <img src="./img/ic-recent.png" alt="하단최근아이콘">
+                        <p>최근 본</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="ico_like">
+                        <img src="./img/ic-blike.png" alt="하단'좋아요'아이콘">
+                        <p>찜</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="ico_mypage">
+                        <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
+                        <p>마이</p>
+                    </a>
+                </li>
             </ul>
+        </nav>
+        <div class="btn_gotop">
+            <img src="./img/up_arrow.png" alt="">
         </div>
-        <div class="menu_tab_content">
-             <div id="menu_tab1" class="tab">
-                <section id="home_section_quick_menu">
-                    <ul class="quick_menu_five">
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/outer.png" alt="아우터아이콘">
-                                </span>
-                                <p>아우터</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/top.png" alt="상의아이콘">
-                                </span>
-                                <p>상의</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/bottom.png" alt="하의아이콘">
-                                </span>
-                                <p>하의</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/dress.png" alt="원피스아이콘">
-                                </span>
-                                <p>원피스</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/skirt.png" alt="스커트아이콘">
-                                </span>
-                                <p>스커트</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/golf wear.png" alt="골프웨어아이콘">
-                                </span>
-                                <p>골프웨어</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/bag.png" alt="가방아이콘">
-                                </span>
-                                <p>가방</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/hat.png" alt="모자아이콘">
-                                </span>
-                                <p>모자</p>
-                            </a>
-                        </li>
-                        <li class="quick_menu_item">
-                            <a href="">
-                                <span>
-                                    <img src="./img/shoes.png" alt="신발아이콘">
-                                </span>
-                                <p>신발</p>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section id="menu_exhibition">
-                    <ul>
-                        <li><h3>기획전</h3></li>
-                        <li><a href="">전체보기</a></li>
-                    </ul>
-                    <div class="exhibition_content">
-                        <ul>
-                            <li>
+        <div class="menu_tab_wrap">
+            <div class="menu_tab_nav">
+                <ul>
+                    <li><a href="#menu_tab1" class="on">카테고리</a></li>
+                    <li><a href="#menu_tab2">브랜드</a></li>
+                </ul>
+            </div>
+            <div class="menu_tab_content">
+                 <div id="menu_tab1" class="tab">
+                    <section id="home_section_quick_menu">
+                        <ul class="quick_menu_five">
+                            <li class="quick_menu_item">
                                 <a href="">
-                                    <div class="img_area"><img src="./img/menu_ex_img1.png" alt=""></div>
-                                    <div class="text_area">
-                                        <div class="text_top">
-                                            <p>22SS 겨울 신상 컬렉션!!!!!!!!!!!!!!!</p>
-                                        </div>
-                                        <div class="text_bottom">
-                                            <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
-                                        </div>
-                                    </div>
+                                    <span>
+                                        <img src="./img/outer.png" alt="아우터아이콘">
+                                    </span>
+                                    <p>아우터</p>
                                 </a>
                             </li>
-                            <li>
+                            <li class="quick_menu_item">
                                 <a href="">
-                                    <div class="img_area"><img src="./img//menu_ex_img2.png" alt=""></div>
-                                    <div class="text_area">
-                                        <div class="text_top">
-                                            <p>22SS 겨울 신상 컬렉션!</p>
-                                        </div>
-                                        <div class="text_bottom">
-                                            <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
-                                        </div>
-                                    </div>
+                                    <span>
+                                        <img src="./img/top.png" alt="상의아이콘">
+                                    </span>
+                                    <p>상의</p>
                                 </a>
                             </li>
-                            <li>
+                            <li class="quick_menu_item">
                                 <a href="">
-                                    <div class="img_area"><img src="./img/menu_ex_img1.png" alt=""></div>
-                                    <div class="text_area">
-                                        <div class="text_top">
-                                            <p>22SS 겨울 신상 컬렉션!</p>
-                                        </div>
-                                        <div class="text_bottom">
-                                            <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
-                                        </div>
-                                    </div>
+                                    <span>
+                                        <img src="./img/bottom.png" alt="하의아이콘">
+                                    </span>
+                                    <p>하의</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/dress.png" alt="원피스아이콘">
+                                    </span>
+                                    <p>원피스</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/skirt.png" alt="스커트아이콘">
+                                    </span>
+                                    <p>스커트</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/golf wear.png" alt="골프웨어아이콘">
+                                    </span>
+                                    <p>골프웨어</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/bag.png" alt="가방아이콘">
+                                    </span>
+                                    <p>가방</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/hat.png" alt="모자아이콘">
+                                    </span>
+                                    <p>모자</p>
+                                </a>
+                            </li>
+                            <li class="quick_menu_item">
+                                <a href="">
+                                    <span>
+                                        <img src="./img/shoes.png" alt="신발아이콘">
+                                    </span>
+                                    <p>신발</p>
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                </section>
-                <section id="menu_magazine">
-                    <ul>
-                        <li><h3>매거진</h3></li>
-                        <li><a href="">전체보기</a></li>
-                    </ul>
-                    <div class="magazine_content">
-                        <a href="">
-                            <div class="magazine_list">
-                                <img src="./img/manu_magazine_img1.png" alt="">
-                                <div class="magazine_text">
+                    </section>
+                    <section id="menu_exhibition">
+                        <ul>
+                            <li><h3>기획전</h3></li>
+                            <li><a href="">전체보기</a></li>
+                        </ul>
+                        <div class="exhibition_content">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div class="img_area"><img src="./img/menu_ex_img1.png" alt=""></div>
+                                        <div class="text_area">
+                                            <div class="text_top">
+                                                <p>22SS 겨울 신상 컬렉션!!!!!!!!!!!!!!!</p>
+                                            </div>
+                                            <div class="text_bottom">
+                                                <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="img_area"><img src="./img//menu_ex_img2.png" alt=""></div>
+                                        <div class="text_area">
+                                            <div class="text_top">
+                                                <p>22SS 겨울 신상 컬렉션!</p>
+                                            </div>
+                                            <div class="text_bottom">
+                                                <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="img_area"><img src="./img/menu_ex_img1.png" alt=""></div>
+                                        <div class="text_area">
+                                            <div class="text_top">
+                                                <p>22SS 겨울 신상 컬렉션!</p>
+                                            </div>
+                                            <div class="text_bottom">
+                                                <P>그들의 장바구니를 살펴보 그들의 장바구니를 살펴보기</P>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="menu_magazine">
+                        <ul>
+                            <li><h3>매거진</h3></li>
+                            <li><a href="">전체보기</a></li>
+                        </ul>
+                        <div class="magazine_content">
+                            <a href="">
+                                <div class="magazine_list">
+                                    <img src="./img/manu_magazine_img1.png" alt="">
+                                    <div class="magazine_text">
+                                            <div class="text_top">
+                                                <p>라떼센스</p>
+                                            </div>
+                                            <div class="text_middle">
+                                                <p>에디터들의 왓츠 인 마이쇼쇼쇼쇼쇼쇼</p>
+                                            </div>
+                                            <div class="text_bottom">
+                                                <p>그들의 장바구니를 살펴보자아 그들의 장바구니를 살펴보자자자자자</p>
+                                            </div>
+                                    </div>
+                               </div>
+                            </a>
+                            <a href="">
+                                <div class="magazine_list">
+                                    <img src="./img/manu_magazine_img2.png" alt="">
+                                    <div class="magazine_text">
                                         <div class="text_top">
                                             <p>라떼센스</p>
                                         </div>
@@ -217,11 +245,10 @@
                                             <p>그들의 장바구니를 살펴보자아 그들의 장바구니를 살펴보자자자자자</p>
                                         </div>
                                 </div>
-                           </div>
-                        </a>
-                        <a href="">
-                            <div class="magazine_list">
-                                <img src="./img/manu_magazine_img2.png" alt="">
+                                </div>
+                            </a>
+                            <a href=""><div class="magazine_list">
+                                <img src="./img/manu_magazine_img3.png" alt="">
                                 <div class="magazine_text">
                                     <div class="text_top">
                                         <p>라떼센스</p>
@@ -233,68 +260,25 @@
                                         <p>그들의 장바구니를 살펴보자아 그들의 장바구니를 살펴보자자자자자</p>
                                     </div>
                             </div>
-                            </div>
-                        </a>
-                        <a href=""><div class="magazine_list">
-                            <img src="./img/manu_magazine_img3.png" alt="">
-                            <div class="magazine_text">
-                                <div class="text_top">
-                                    <p>라떼센스</p>
-                                </div>
-                                <div class="text_middle">
-                                    <p>에디터들의 왓츠 인 마이쇼쇼쇼쇼쇼쇼</p>
-                                </div>
-                                <div class="text_bottom">
-                                    <p>그들의 장바구니를 살펴보자아 그들의 장바구니를 살펴보자자자자자</p>
-                                </div>
+                            </div></a>
                         </div>
-                        </div></a>
-                    </div>
-                </section>
-             </div>
-             <div id="menu_tab2" class="tab">
-                <section id="home_section_brand">
-                    <ul>
-                        <li><a href=""><img src="./img/brand_1.png" alt=""></a></li>
-                        <li><a href=""><img src="./img/brand_2.png" alt=""></a></li>
-                        <li><a href=""><img src="./img/brand_3.png" alt=""></a></li>
-                        <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
-                        <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
-                        <li><a href=""><img src="./img/brand_5.png" alt=""></a></li>
-                    </ul>
-                </section>
-             </div>
+                    </section>
+                 </div>
+                 <div id="menu_tab2" class="tab">
+                    <section id="home_section_brand">
+                        <ul>
+                            <li><a href=""><img src="./img/brand_1.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/brand_2.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/brand_3.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/brand_4.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/brand_5.png" alt=""></a></li>
+                        </ul>
+                    </section>
+                 </div>
+            </div>
         </div>
     </div>
-    <section id="footer">
-        <ul class="footer_ask">
-           <li><a href=""><span>고객센터</span></a></li>
-           <li><a href=""><span>1:1 문의</span></a></li>
-           <li><a href=""><span>ID/PW 찾기</span></a></li>
-        </ul>
-        <div class="footer_info">
-           <div class="info_title">
-               <p>패션형지그룹(주) 사업자정보</p>
-               <div class="info_d_arrow">
-                   <a href=""><img src="./img/down_arrow.png" alt=""></a>
-               </div>
-           </div>
-           <div class="info_sub">
-               <li>개인정보처리방침</li>
-               <li>이용약관</li>
-               <li>사업자정보확인</li>
-           </div>
-           <div class="info_ico">
-               <ul>
-                   <li><a href=""><img src="./img/fb_ico.png" alt=""></a></li>
-                   <li><a href=""><img src="./img/yt_ico.png" alt=""></a></li>
-               </ul>
-           </div>
-           <div class="info_copy">
-               <p>FASHION GROUP HYUNGJI. ALL RIGHTS RESERVED</p>
-           </div>
-        </div>
-   </section>
 </body>
 <script>
     $('.menu_tab_nav>ul>li>a').click(function () {
@@ -319,5 +303,27 @@
     prevScrollTop = tp;
 
   });
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 300){
+      $('.btn_gotop').show();
+    } else{
+      $('.btn_gotop').hide();
+    }
+  });
+  $('.btn_gotop').click(function(){
+    $('html, body').animate({scrollTop:0},400);
+    return false;
+  });
+
+  $('.ico_search').click(function(){
+        $("#main_page").css("display","none")
+        $("#search_page").css("display","block")
+    })
+
+    $(".arrow_left_img").click(function(){
+        $("#main_page").css("display","block")
+        $("#search_page").css("display","none")
+    })
 </script>
 </html>

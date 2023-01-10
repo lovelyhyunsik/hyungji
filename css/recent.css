@@ -1,4 +1,6 @@
-body{height: 100vh; position: relative;}
+body{position: relative;}
+
+
 
 #header_type2{position: relative; height: 5.6rem; width: 100%; }
 #header_type2>div{height: 5.6rem; width: 100%;}
@@ -26,10 +28,10 @@ body{height: 100vh; position: relative;}
 .item_list_wrap>ul>li:first-child{margin-top: 1.2rem;}
 .item_list_wrap>ul>li:not(:first-child){margin-top: 2rem;}
 .item_list_wrap>ul>li>.item_list{display: flex; width: 100%;}
-.item_list_wrap>ul>li>.item_list>.item_img{width: 28.125%; position: relative;}
+.item_list_wrap>ul>li>.item_list>.item_img{width: 28.125%; position: relative; background: #e2e2e2;}
 .item_list_wrap>ul>li>.item_list>.item_img>a{display: block; width: 100%;}
-.item_list_wrap>ul>li>.item_list>.item_img>a>img{width: 100%;}
-.item_list_wrap>ul>li>.item_list>.item_img>.item_like{position: absolute; top: 0; right: 0;}
+.item_list_wrap>ul>li>.item_list>.item_img>a>img{width: 100%; position: absolute; top: 50%; transform: translateY(-50%);}
+.item_list_wrap>ul>li>.item_list>.item_img>.item_like{position: absolute; top: 8px; right: 7px;}
 .item_list_wrap>ul>li>.item_list>.item_img>.item_like>button{background: none;}
 .item_list_wrap>ul>li>.item_list>.item_img>.item_like>button>img{display: block; width: 100%; }
 .item_list_wrap>ul>li>.item_list>.item_list_text{width: 71.875%; position: relative;}

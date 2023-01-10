@@ -1,6 +1,8 @@
+#home_section_brand{height: 70vh;}
+
 #header{background: none; position: relative;}
-#header .header_top div a.ico_search_bk{background: url(../img/search_bk.png) no-repeat center;}
-#header .header_top div a.ico_shoppingbag_bk{background: url(../img/shoppingbag_bk.png) no-repeat center;}
+#header .header_top div a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header .header_top div a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center;}
 #header .header_top>.logo_bk>a {display: block; width: 12.5rem; height: 2.6rem; background: url(../img/logo_bk.png) no-repeat 0 0 / 100% auto;}
 
 .menu_tab_wrap{}

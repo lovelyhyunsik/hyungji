@@ -21,370 +21,490 @@
 </head>
 
 <body>
-    <header id="header_type2">
-        <div>
-            <p>최근 본 상품</p>
-            <div class="header_ico_wrap">
-                <a href="./index.html" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
-                <div class="header_ico">
-                    <a href="" class="ico_search"><span class="hide">검색</span></a>
-                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
-                </div>
+    <div id="search_page">
+        <div class="search_page_header">
+            <div class="arrow_left_img">
+                <img src="./img/ic-arrow-left.png" alt="">
+            </div>
+            <input type="text" class="search-area" placeholder="브랜드,상품명 등 입력해주세요">
+        </div>
+        <div class="recent_search">
+            <div class="recent_search_header">
+                <h3></h3>
+                <button>검색기록 모두 삭제</button>
+            </div>
+            <div class="recent_search_content">
+                <p>최근 검색어가 없습니다.</p>
             </div>
         </div>
-    </header>
-    <section id="no_item" style="display: none;">
-        <p>최근 본 상품이 없습니다.</p>
-        <p>오늘의 베스트 상품에서 추가해 보세요.</p>
-        <a href="">베스트 상품 보러가기</a>
-    </section>
-    <section id="item_group">
-        <button class="all_remove">
-            <p>전체삭제</p>
-        </button>
-        <section id="item">
-            <div class="item_list_wrap">
-                <p>2022.12.09</p>
-                <ul>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
-                                            </div>
-                                            <div class="price">
-                                                <p>215,000</p>
-                                            </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
-                                            </div>
-                                            <div class="price">
-                                                <p>215,000</p>
-                                            </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
-                                            </div>
-                                            <div class="price">
-                                                <p>215,000</p>
-                                            </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+    </div>
+    <div id="main_page">
+        <header id="header_type2">
+            <div>
+                <p>최근 본 상품</p>
+                <div class="header_ico_wrap">
+                    <a href="./index.html" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
+                    <div class="header_ico">
+                        <a href="#" class="ico_search"><span class="hide">검색</span></a>
+                        <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+                    </div>
+                </div>
             </div>
+        </header>
+        <div class="btn_gotop">
+            <img src="./img/up_arrow.png" alt="">
+        </div>
+        <section id="no_item" style="display: none;">
+            <p>최근 본 상품이 없습니다.</p>
+            <p>오늘의 베스트 상품에서 추가해 보세요.</p>
+            <a href="">베스트 상품 보러가기</a>
         </section>
-        <section id="item">
-            <div class="item_list_wrap">
-                <p>2022.12.09</p>
-                <ul>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
-                                            </div>
-                                            <div class="price">
-                                                <p>215,000</p>
-                                            </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
+        <section id="item_group">
+            <button class="all_remove">
+                <p>전체삭제</p>
+            </button>
+            <section id="item">
+                <div class="item_list_wrap">
+                    <p>2022.12.09</p>
+                    <ul>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
                                     </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
                                 </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
                                             </div>
-                                            <div class="price">
-                                                <p>215,000</p>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
                                             </div>
                                         </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
                                     </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item_list">
-                            <div class="item_img">
-                                <a href="">
-                                    <img src="./img/rec-item-img1.png" alt="">
-                                </a>
-                                <div class="item_like">
-                                    <button>
-                                        <img src="./img/ic-like.png" alt="" class="img_change">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item_list_text">
-                                <a href="">
-                                    <div class="item_list_text_container">
-                                        <div class="text_name">
-                                            <p>CHATELAINE</p>
-                                        </div>
-                                        <div class="text_sub">
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
-                                                praesentium a
-                                                quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
-                                                autem
-                                                quo. Dolores atque repellat recusandae minima!</p>
-                                        </div>
-                                        <div class="text_percentPrice">
-                                            <div class="percent">
-                                                <p>20<span>%</span></p>
-                                            </div>
-                                            <div class="price">
-                                                <p>215,000</p>
-                                            </div>
-                                            <div class="discount_price">
-                                                <p>215,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="coupon">
-                                            <p>쿠폰</p>
-                                        </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
                                     </div>
-                                </a>
-                                <div class="item_close">
-                                    <button>
-                                        <img src="./img/ic-close_grey.png" alt="">
-                                    </button>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="item">
+                <div class="item_list_wrap">
+                    <p>2022.12.09</p>
+                    <ul>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item_list">
+                                <div class="item_img">
+                                    <a href="">
+                                        <img src="./img/item_1.png" alt="">
+                                    </a>
+                                    <div class="item_like">
+                                        <button>
+                                            <img src="./img/ic-like.png" alt="" class="img_change">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="item_list_text">
+                                    <a href="">
+                                        <div class="item_list_text_container">
+                                            <div class="text_name">
+                                                <p>CHATELAINE</p>
+                                            </div>
+                                            <div class="text_sub">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius
+                                                    praesentium a
+                                                    quas, rem facilis maxime delectus ducimus nobis, similique neque expedita in
+                                                    autem
+                                                    quo. Dolores atque repellat recusandae minima!</p>
+                                            </div>
+                                            <div class="text_percentPrice">
+                                                <div class="percent">
+                                                    <p>20<span>%</span></p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>215,000</p>
+                                                </div>
+                                                <div class="discount_price">
+                                                    <p>215,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="item_close">
+                                        <button>
+                                            <img src="./img/ic-close_grey.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </section>
-    </section>
-    <nav id="bottom_gnb">
-        <ul>
-            <li>
-                <a href="./bottom_gnb_menu.html" class="ico_menu">
-                    <img src="./img/ic-menu.png" alt="하단메뉴아이콘">
-                    <p>MENU</p>
-                </a>
-            </li>
-            <li>
-                <a href="./index.html" class="ico_home">
-                    <img src="./img/ic-home.png" alt="하단홈아이콘">
-                    <p>HOME</p>
-                </a>
-            </li>
-            <li>
-                <a href="./recent.html" class="ico_recent">
-                    <img src="./img/ic-recent-active.png" alt="하단최근아이콘">
-                    <p>RECENT</p>
-                </a>
-            </li>
-            <li>
-                <a href="" class="ico_like">
-                    <img src="./img/ic-blike.png" alt="하단'좋아요'아이콘">
-                    <p>LIKE</p>
-                </a>
-            </li>
-            <li>
-                <a href="" class="ico_mypage">
-                    <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
-                    <p>MY</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <nav id="bottom_gnb">
+            <ul>
+                <li>
+                    <a href="./bottom_gnb_menu.html" class="ico_menu">
+                        <img src="./img/ic-menu.png" alt="하단메뉴아이콘">
+                        <p>메뉴</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html" class="ico_home">
+                        <img src="./img/ic-home.png" alt="하단홈아이콘">
+                        <p>홈</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./recent.html" class="ico_recent">
+                        <img src="./img/ic-recent-active.png" alt="하단최근아이콘">
+                        <p>최근 본</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="ico_like">
+                        <img src="./img/ic-blike.png" alt="하단'좋아요'아이콘">
+                        <p>찜</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="ico_mypage">
+                        <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
+                        <p>마이</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </body>
 <script>
     var num = 0;
@@ -422,6 +542,28 @@
     prevScrollTop = tp;
 
   });//하단 gnb 스크롤에 따른 히든처리
+
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 300){
+      $('.btn_gotop').show();
+    } else{
+      $('.btn_gotop').hide();
+    }
+  });
+  $('.btn_gotop').click(function(){
+    $('html, body').animate({scrollTop:0},400);
+    return false;
+  });
+
+  $('.ico_search').click(function(){
+        $("#main_page").css("display","none")
+        $("#search_page").css("display","block")
+    })
+
+    $(".arrow_left_img").click(function(){
+        $("#main_page").css("display","block")
+        $("#search_page").css("display","none")
+    })
 </script>
 
 </html>

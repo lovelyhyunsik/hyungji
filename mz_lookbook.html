@@ -29,6 +29,9 @@
             <button class="ico_share"><span class="hide">공유</span></button>
         </div>
     </header>
+    <div class="btn_gotop">
+        <img src="./img/up_arrow.png" alt="">
+    </div>
     <div class="lb_title">
         <p>[CHATELAINE] 2022 S/S NO.1</p>
     </div>
@@ -180,4 +183,17 @@
         </div>
     </section>
 </body>
+<script>
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 300){
+      $('.btn_gotop').show();
+    } else{
+      $('.btn_gotop').hide();
+    }
+  });
+  $('.btn_gotop').click(function(){
+    $('html, body').animate({scrollTop:0},400);
+    return false;
+  });
+</script>
 </html>
