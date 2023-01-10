@@ -1,30 +1,41 @@
+@media (min-width:360px){
+    .tab>ul>li>a>.item_img{height: 23.8rem; line-height: 23.8rem;}
+    .tab2>ul>li>a>.item_img{height: 23.8rem; line-height: 23.8rem;}
+}
+
 @media (min-width:390px){
     .tab>ul>li>a>.item_img{height: 25rem; line-height: 25rem;}
+    .tab2>ul>li>a>.item_img{height: 25rem; line-height: 25rem;}
 }
 @media (min-width:420px){
     .tab>ul>li>a>.item_img{height: 28rem; line-height: 28rem;}
+    .tab2>ul>li>a>.item_img{height: 28rem; line-height: 28rem;}
 }
 @media (min-width:450px){
     .tab>ul>li>a>.item_img{height: 31rem; line-height: 31rem;}
+    .tab2>ul>li>a>.item_img{height: 31rem; line-height: 31rem;}
 }
 @media (min-width:500px){
     .tab>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
-}
-@media (min-width:500px){
-    .tab>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
+    .tab2>ul>li>a>.item_img{height: 36rem; line-height: 36rem;}
 }
 @media (min-width:580px){
     .tab>ul>li>a>.item_img{height: 44rem; line-height: 44rem;}
+    .tab2>ul>li>a>.item_img{height: 44rem; line-height: 44rem;}
 }
 @media (min-width:700px){
     .tab>ul>li>a>.item_img{height: 50rem; line-height: 50rem;}
+    .tab2>ul>li>a>.item_img{height: 50rem; line-height: 50rem;}
 }
 @media (min-width:800px){
     .tab>ul>li>a>.item_img{height: 55rem; line-height: 55rem;}
+    .tab2>ul>li>a>.item_img{height: 55rem; line-height: 55rem;}
 }
 @media (min-width:850px){
     .tab>ul>li>a>.item_img{height: 60rem; line-height: 60rem;}
+    .tab2>ul>li>a>.item_img{height: 60rem; line-height: 60rem;}
 }
 @media (min-width:950px){
     .tab>ul>li>a>.item_img{height: 70rem; line-height: 70rem;}
+    .tab2>ul>li>a>.item_img{height: 70rem; line-height: 70rem;}
 }

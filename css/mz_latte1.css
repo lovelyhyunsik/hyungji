@@ -17,4 +17,17 @@
 .latte_content2_img{padding: 1.7rem 1.4rem 10.4rem 1.4rem;}
 .latte_content2_img>img{width: 100%;}
 
-.brand_pick{border-top: 1px solid #F5F5F5; padding: 4rem 1.6rem 0 1.6rem;}
+.brand_pick{/* display: flex; justify-content: space-between; */ border-top: 1px solid #F5F5F5; padding: 4rem 1.6rem 0 1.6rem; align-items: baseline;}
+.brand_pick>h3{display: inline-block;}
+.brand_pick>a{display: block; padding-top: 1.3rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem;  color: #696969; float: right;}
+
+.mz_latte_row_wrap{display: flex;  gap: 0.8rem; padding-top: 2rem; padding-bottom: 7.5rem; justify-content: space-between; flex-wrap: wrap;}
+.mz_latte_row_wrap>li{width: 31.5%;}
+.mz_latte_row_wrap>li:nth-child()
+.mz_latte_row_wrap>li>a{display: block;}
+.mz_latte_row_wrap>li>a>.mz_latte_row{}
+.mz_latte_row_wrap>li>a>.mz_latte_row>.mz_latte_row_img{}
+.mz_latte_row_wrap>li>a>.mz_latte_row>.mz_latte_row_img>img{width: 100%;}
+.mz_latte_row_wrap>li>a>.mz_latte_row>.mz_latte_row_text{padding: 0.8rem 0 2rem 0;}
+.mz_latte_row_wrap>li>a>.mz_latte_row>.mz_latte_row_text>.text_title>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap; overflow: hidden; text-overflow: ellipsis; padding-bottom: 0.8rem;}
+.mz_latte_row_wrap>li>a>.mz_latte_row>.mz_latte_row_text>.text_price>p{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap}

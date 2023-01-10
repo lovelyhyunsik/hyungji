@@ -1,6 +1,0 @@
-.exh_content_box:not(:last-child){margin-bottom: 2.4rem;}
-.exh_content_box>a>img{display: block; width: 100%;}
-.exh_content_box>a>.text_box{padding: 1.2rem 2rem; font-family: 'Pretendard';}
-.exh_content_box>a>.text_box>.text_top{font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222; padding-bottom: 0.4rem;}
-.exh_content_box>a>.text_box>.text_middle{font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222; padding-bottom: 0.8rem;}
-.exh_content_box>a>.text_box>.text_bottom{font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #9e9e9e;}

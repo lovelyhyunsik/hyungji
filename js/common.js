@@ -82,6 +82,7 @@ $(function () {
   
   var num = 0;
 	$(".img_change").click(function () {
+    console.log("ddddd")
 		if(num == 0) {
 			$(this).attr("src", "./img/ic-like-active.png");
 			num = 1;
@@ -93,7 +94,8 @@ $(function () {
 
   var swiper = new Swiper(".rec_brand_item", {
     loop: true,
-    slidesPerView:1.15
+    slidesPerView:1.12,
+    spaceBetween: 20
   });
   
 });
