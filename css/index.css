@@ -138,8 +138,12 @@ body{background: #fff;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>a>.rec_brand_item_banner>.banner_text>.banner_text_container{background: linear-gradient(360deg, rgba(0, 0, 0, 0.6) -48.77%, rgba(0, 0, 0, 0) 99.99%, rgba(0, 0, 0, 0) 100%);padding: 3.2rem 0 3.2rem 2rem;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>a>.rec_brand_item_banner>.banner_text>.banner_text_container>.banner_title{font-family: 'Montserrat'; font-weight: 700; font-size: 1.8rem; line-height: 2.2rem; color: #fff; padding-bottom: 0.8rem;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>a>.rec_brand_item_banner>.banner_text>.banner_text_container>.banner_sub{width: 19.9rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #fff;}
-#home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap{margin-top: 1.6rem;}
+#home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap{margin-top: 1.6rem; }
+#home_section_rec_brand>button{width: 94.12%; background: #fff; border: 1px solid #e2e2e2; border-radius: 4px; position: relative; padding: 1.1rem 0; margin-top: 3.3rem;}
+#home_section_rec_brand>button>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; display: inline;}
+#home_section_rec_brand>button>img{display: inline; width: 24px; height: auto; position: absolute; top: 50%; transform: translateY(-50%); margin-left: 0.6rem;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap>a:not(:first-child){display: block; margin-top: 1.2rem;}
+#home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap>a:nth-child(n+3){display: none;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap>a>.rec_brand_item_list{display: flex; height: 13.9rem;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap>a>.rec_brand_item_list>.rec_brand_item_list_img{width: 34.5%; background: #e2e2e2;}
 #home_section_rec_brand>.rec_brand_item>.swiper-wrapper>.swiper-slide>.rec_brand_item_list_wrap>a>.rec_brand_item_list>.rec_brand_item_list_img>img{}
@@ -199,7 +203,7 @@ body{background: #fff;}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab{}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap{}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2{padding: 0 2rem;}
-.best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2>ul{display: flex; overflow-x: scroll; padding: 1.2rem 0;}
+.best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2>ul{display: flex; overflow-x: scroll; padding: 1.2rem 0 1.6rem 0;}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2>ul::-webkit-scrollbar{display: none;}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2>ul>li:not(:first-child){margin-left: 1rem;}
 .best_category_tab>.best_category_tab_wrap>.best_category_tabcontent>.tab>.best_category_tab2_wrap>.best_category_tabnav2>ul>li>a{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 0.8rem 1.2rem; background: #f5f5f5; border-radius: 2rem;}
@@ -243,6 +247,7 @@ body{background: #fff;}
 
 /* exhibition_section */
 .exhibition_category_tab>.exhibition_category_tab_wrap{padding: 2.4rem 2rem;}
+.exhibition_category_tab>.exhibition_category_tabcontent{padding-bottom: 10.2rem;}
 .exhibition_category_tab>.exhibition_category_tab_wrap>.exhibition_category_tabnav{ overflow-x: scroll; padding: 1.2rem 0 1.2rem 0;}
 .exhibition_category_tab>.exhibition_category_tab_wrap>.exhibition_category_tabnav::-webkit-scrollbar{display: none;}
 .exhibition_category_tab>.exhibition_category_tab_wrap>.exhibition_category_tabnav>ul{display: flex;}
