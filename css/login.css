@@ -1,0 +1,80 @@
+#header_type2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div >.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.loginBanner{margin-top: 6.4rem; padding: 0 2.4rem;}
+.loginBanner>.loginBanner_container{display: flex; background: #f5f5f5; padding: 1rem 1.6rem;}
+.loginBanner>.loginBanner_container>.couponImg{position: relative; width: 81px; height: 44px; background: url(../img/login_coupon.png) no-repeat center center; background-size: 100% 100%;}
+.loginBanner>.loginBanner_container>.couponImg>.downIc{position: absolute; display: flex; align-items: center; justify-content: center; bottom: -4px; right: 5px; width: 1.6rem; height: 1.6rem; background: #9e9e9e; border-radius: 50%;}
+.loginBanner>.loginBanner_container>.couponImg>.downIc>img{width: 9.6px; height: 9.6px;}
+.loginBanner>.loginBanner_container>.loginBanner_text{margin-left: 2rem;}
+.loginBanner>.loginBanner_container>.loginBanner_text>.loginBanner_text_t{font-family: 'Pretendard'; font-weight: 700; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.loginBanner>.loginBanner_container>.loginBanner_text>.loginBanner_text_b{font-family: 'Pretendard'; font-weight: 400; font-size: 1.1rem; line-height: 1.6rem; color: #969696;}
+
+.login{padding: 2.4rem 2.4rem;}
+.login>input{width: 100%; padding: 1.3rem 1.6rem; box-sizing: border-box; font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; color: #222; border: 1px solid #e2e2e2; border-radius: 4px;}
+.login>input:first-child{margin-bottom: 1.2rem;}
+.login>input::placeholder{font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; color: #bdbdbd;}
+.login>p{margin: 1.6rem 0; display: flex;}
+.login>p>label{display: flex; padding: 3px 0 3px 0; font-family: 'Pretendard';font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.login>p>label:last-child{margin-left: 3.2rem;}
+.login>p>label>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.login>button{margin-bottom: 1.2rem; width: 100%; background: #222; color: #fff; padding: 1.4rem 0; border-radius: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem;}
+.login>a{display: block; width: 100%; background: #fff; padding: 1.3rem 0; text-align: center; border: 1px solid #e2e2e2; border-radius: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; box-sizing: border-box;}
+.login>.joinFind{display: flex; justify-content: space-between; margin-top: 1.6rem;}
+.login>.joinFind>.join>a{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.login>.joinFind>.find>a{position: relative; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.login>.joinFind>.find>a.idFind::after{content: ""; position: absolute; top: 50%; right: -8px; transform: translateY(-50%); width: 1px; height: 1.2rem; background: #e2e2e2;}
+.login>.joinFind>.find>a.pwFind{margin-left: 12px;}
+.snsLogin{margin-top: 3.6rem;}
+.snsLogin>p{position: relative; text-align: center; font-family: 'Pretendard'; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.snsLogin>p::before{content: ''; position: absolute; top: 50%; left: 0; transform: translateY(-50%); width: calc(50% - 56px); height: 1px; background: #e2e2e2;}
+.snsLogin>p::after{content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: calc(50% - 56px); height: 1px; background: #e2e2e2;}
+.snsLogin>ul{margin-top: 1.6rem; display: flex; justify-content: center;}
+.snsLogin>ul>li{position: relative; width: 4.4rem; height: 4.4rem; border-radius: 50%; }
+.snsLogin>ul>li:not(:first-child){margin-left: 1.6rem;}
+.snsLogin>ul>li.kakao{background: #fee500;}
+.snsLogin>ul>li.naver{background: #03cf5d;}
+.snsLogin>ul>li>a{display: block; height: 100%;}
+.snsLogin>ul>li>a>img{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.snsLogin>ul>li.naver>a>img{width: 1.8rem; height: auto;}
+
+
+input#check_btn{
+    display:none;
+    }
+  
+  input#check_btn  > span{
+    vertical-align: middle;
+   }
+  
+  /* label:before에 체크하기 전 상태 CSS */
+  input#check_btn + span:before{
+    content:"";
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border:1px solid #e2e2e2;
+    border-radius: 2px;
+    vertical-align:middle;
+    margin-right: 8px;
+    }
+    
+  /* label:before에 체크 된 상태 CSS */  
+  input#check_btn:checked + span:before{
+    content:"";
+    background-color:#222;
+    border-color:#222;
+    background-image: url(../img/check_btn.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    }
+
+

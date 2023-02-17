@@ -1,0 +1,131 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.itemErrorTitle{padding: 2.4rem 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.itemErrorTitle>h3{font-family: 'Pretendard'; font-weight: 500; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.itemErrorTitle>p{display: inline-block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-top: 1.2rem;}
+
+
+.itemWrap{padding:  0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.itemWrap>.itemThum{display: flex; gap: 1.6rem; padding: 2rem 0 2.8rem 0;}
+.itemWrap>.itemThum>a{}
+.itemWrap>.itemThum>a>img{width: 8rem; height: 10.7rem;}
+.itemWrap>.itemThum>.itemText{width: calc(100% - 12rem);}
+.itemWrap>.itemThum>.itemText>.state{display: inline-block; font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem;}
+.itemWrap>.itemThum>.itemText>span{position: relative; margin-left: 1.5rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.itemWrap>.itemThum>.itemText>span::before{content: ""; position: absolute; top: 50%; left: -10px; transform: translateY(-50%); width: 4px; height: 4px; border-radius: 50%; background: #e2e2e2;}
+.itemWrap>.itemThum>.itemText>.brandItemName{margin-top: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.itemWrap>.itemThum>.itemText>.brandItemName>.brandName{display: inline-block; margin-right: 3px;}
+.itemWrap>.itemThum>.itemText>.itemOpt{margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.itemWrap>.itemThum>.itemText>.itemPrice{margin-top: 8px; font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt{margin-top: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #2e82ff; height: 2rem; display: flex;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt>.lineArrow{position: relative; width: 2rem; height: 2rem; display: inline-block;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt>.lineArrow>span{position: absolute; top: 3px; left: 6px; width: 7px; height: 7px; border-left: 1.2px solid #2e82ff; border-bottom: 1.2px solid #2e82ff;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt>span.changeColor{display: inline-block; margin-right: 3px;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt>span.changeSize{display: inline-block; margin-right: 3px; margin-left: 3px;}
+.itemWrap>.itemThum>.itemText>.changeitemOpt>span.changeCount{display: inline-block; margin-left: 3px;}
+.itemWrap>button{width: 100%; background: #fff; padding: 0.7rem 0; border: 1px solid #E2E2E2; border-radius: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; text-align: center; color: #222; margin-bottom: 2rem;}
+.itemWrap>.cancelReason{padding: 1.2rem 0 2.4rem 0;  border-top: 1px solid #f5f5f5;}
+.itemWrap>.cancelReason>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 1.2rem;}
+.itemWrap>.cancelReason>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+.changeInfo{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.changeInfo>.changeInfoTitle{padding: 2rem 0; display: flex; justify-content: space-between; align-items: center;}
+.changeInfo>.changeInfoTitle>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.changeInfo>.changeInfoContent{display: flex; flex-direction: column; gap: 1.2rem; padding: 2rem 0 2.8rem 0;}
+.changeInfo>.changeInfoContent>.pickMethod{display: flex; justify-content: space-between;}
+.changeInfo>.changeInfoContent>.pickMethod>.pickMethod_l{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.changeInfo>.changeInfoContent>.pickMethod>.pickMethod_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.changeInfo>.changeInfoContent>.pickNum{display: flex; justify-content: space-between;}
+.changeInfo>.changeInfoContent>.pickNum>.pickNum_l{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.changeInfo>.changeInfoContent>.pickNum>.pickNum_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.changeInfo>.changeInfoContent>.shippingPay{display: flex; justify-content: space-between;}
+.changeInfo>.changeInfoContent>.shippingPay>.shippingPay_l{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.changeInfo>.changeInfoContent>.shippingPay>.shippingPay_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+.userInfo{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.userInfo>.userInfoTitle{padding: 2rem 0; display: flex; justify-content: space-between; align-items: center;}
+.userInfo>.userInfoTitle>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.userInfo>.userInfoContent{display: flex; flex-direction: column; gap: 1.2rem; padding: 2rem 0 2.8rem 0;}
+.userInfo>.userInfoContent>.userName{display: flex; gap: 5.2rem;}
+.userInfo>.userInfoContent>.userName>.userName_l{display: inline-block; width: 5rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.userInfo>.userInfoContent>.userName>.userName_r{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.userInfo>.userInfoContent>.userEmail{display: flex; gap: 5.2rem;}
+.userInfo>.userInfoContent>.userEmail>.userEmail_l{display: inline-block; width: 5rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.userInfo>.userInfoContent>.userEmail>.userEmail_r{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.userInfo>.userInfoContent>.userNum{display: flex; gap: 5.2rem;}
+.userInfo>.userInfoContent>.userNum>.userNum_l{display: inline-block; width: 5rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.userInfo>.userInfoContent>.userNum>.userNum_r{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+
+.payInfo{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.payInfo>.payInfoTitle{display: flex; justify-content: space-between; align-items: center; padding: 2rem 0;}
+.payInfo>.payInfoTitle>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.payInfoContent{}
+.payInfoContent.on{display: none;}
+.payInfoContent>.payInfoContentTop{border-bottom: 1px solid #e2e2e2;}
+.payInfoContent>.payInfoContentTop>.payMethod{display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px;}
+.payInfoContent>.payInfoContentTop>.payMethod>.payMethod_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.payInfoContent>.payInfoContentTop>.payMethod>.payMethod_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.payInfoContent>.payInfoContentTop>.itemPrice{display: flex; justify-content: space-between; align-items: center;  padding-bottom: 8px;}
+.payInfoContent>.payInfoContentTop>.itemPrice>.itemPrice_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.payInfoContent>.payInfoContentTop>.itemPrice>.itemPrice_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.payInfoContent>.payInfoContentTop>.couponSale{display: flex; justify-content: space-between; align-items: center;  padding-bottom: 8px;}
+.payInfoContent>.payInfoContentTop>.couponSale>.couponSale_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.payInfoContent>.payInfoContentTop>.couponSale>.couponSale_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.payInfoContent>.payInfoContentTop>.savingPoint{display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px;}
+.payInfoContent>.payInfoContentTop>.savingPoint>.savingPoint_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.payInfoContent>.payInfoContentTop>.savingPoint>.savingPoint_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.payInfoContent>.payInfoContentTop>.shippingPay{display: flex; justify-content: space-between; align-items: center; padding-bottom: 1.6rem;}
+.payInfoContent>.payInfoContentTop>.shippingPay>.shippingPay_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.payInfoContent>.payInfoContentTop>.shippingPay>.shippingPay_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+.payInfoContent>.payInfoContentBottom{padding: 2rem 0 2.8rem 0;}
+.payInfoContent>.payInfoContentBottom>.finalPrice{display: flex; justify-content: space-between;/*  align-items: center; */}
+.payInfoContent>.payInfoContentBottom>.finalPrice>.finalPrice_l{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.payInfoContent>.payInfoContentBottom>.finalPrice>.finalPrice_r{}
+.payInfoContent>.payInfoContentBottom>.finalPrice>.finalPrice_r>span{display: block; text-align: right;}
+.payInfoContent>.payInfoContentBottom>.finalPrice>.finalPrice_r>.finalPriceNum{font-family: 'Pretendard'; font-weight: 700; font-size: 1.8rem; line-height: 2.4rem; color: #e31616;}
+.payInfoContent>.payInfoContentBottom>.finalPrice>.finalPrice_r>.finalSavingPoint{margin-top: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd;}
+
+.shippingInfo{padding: 2rem 2rem 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.shippingInfo>.shippingInfoTop{display: flex; justify-content: space-between;}
+.shippingInfo>.shippingInfoTop>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.shippingInfo>.shippingInfoText{padding: 2rem 0 3.2rem 0;}
+.shippingInfo>.shippingInfoText>.recipientName{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; display: flex; gap: 5.2rem; margin-bottom: 1.2rem;}
+.shippingInfo>.shippingInfoText>.recipientName>.recipientName_l{display: block; color: #969696; width: 5rem;}
+.shippingInfo>.shippingInfoText>.recipientName>.recipientName_r{color: #696969;}
+.shippingInfo>.shippingInfoText>.recipientPhone{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; display: flex; gap: 5.2rem; margin-bottom: 1.2rem;}
+.shippingInfo>.shippingInfoText>.recipientPhone>.recipientPhone_l{display: block; color: #969696; width: 5rem;}
+.shippingInfo>.shippingInfoText>.recipientPhone>.recipientPhone_r{color: #696969;}
+.shippingInfo>.shippingInfoText>.recipientAddress{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; display: flex; gap: 5.2rem;}
+.shippingInfo>.shippingInfoText>.recipientAddress>.recipientAddress_l{display: block; color: #969696; width: 5rem;}
+.shippingInfo>.shippingInfoText>.recipientAddress>.recipientAddress_r{color: #696969; width: calc(100% - 10.2rem);}
+
+.notice{}
+.notice>.noticeTitle{padding: 1.4rem 2rem; display: flex; justify-content: space-between; align-items: center;}
+.notice>.noticeTitle>.noticeTitle_l{display: flex; gap: 8px; align-items: center;}
+.notice>.noticeTitle>.noticeTitle_l>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.notice>.noticeGreyBox{width: 100%; box-sizing: border-box; padding: 2rem 2rem 2.8rem 2rem; background: #f5f5f5;}
+.notice>.noticeGreyBox.on{display: none; width: 100%; box-sizing: border-box; padding: 2rem 2rem 2.8rem 2rem; background: #f5f5f5;}
+.notice>.noticeGreyBox>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.notice>.noticeGreyBox>p:last-child{margin-top: 1.6rem;}
+
+.greyBtn{margin-bottom: 1.2rem;}
+.greyBtn>a{position: relative; display: block; width: 100%; padding: 0.8rem 0; text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222; background: #f5f5f5; border-radius: 4px;}
+.greyBtn>a::after{content: ""; position: absolute; top: 50%; right: 8px; transform: translateY(-50%); background: url(../img/ic-arrow-right.png) no-repeat center; width: 2.4rem; height: 2.4rem;}
+
+span.ic_arrow{display: block; background: url(../img/ic-arrow-up-24.png) no-repeat center center; width: 2.4rem; height: 2.4rem;}
+span.ic_arrow.on{display: block; background: url(../img/ic-arrow-down-24.png) no-repeat center center; width: 2.4rem; height: 2.4rem;}
+
+.changeReceipt .state{color: #2e82ff;}
+.changeConfirm .state{color: #2e82ff;}
+.changeHold .state{color: #969696;}

@@ -1,0 +1,89 @@
+#one_on_one_write {background: #fff; width: 100%;}
+
+h4{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+
+#header_type2{position: relative; height: 5.6rem; width: 100%;}
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+
+#one_on_one_type{padding: 2rem 2rem 1rem 2rem;}
+#one_on_one_type>h4{margin-bottom: 8px; border-radius: 4px; }
+
+.selectBox_type{ box-sizing: border-box;width: 100%;}
+.selectBox_type.on{}
+.selectBox_type>button{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.1rem 1.6rem; border-radius: 4px; border: 1px solid #bdbdbd; background: url(../img/ic-arrow-down-24.png) no-repeat 98% center; line-height: 2.4rem;}
+.selectBox_type>button.on{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.2rem 1.6rem; border-radius: 4px; border: 1px solid #bdbdbd; background: url(../img/ic-arrow-up-24.png) no-repeat 98% center;}
+
+.selectBox_type>.optionItem_wrap{width: 100%; padding: 8px 0; background: #fff; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); border-radius: 4px; display: none; margin-top: 4px;}
+.selectBox_type>.optionItem_wrap.on{display: block;}
+.selectBox_type>.optionItem_wrap>li{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 1.4rem 1.6rem;}
+
+.selectBox_type_detail{margin-top: 1.6rem; box-sizing: border-box; width: 100%; display: none;}
+.selectBox_type_detail>button{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.2rem 1.6rem; border-radius: 4px; border: 1px solid #bdbdbd; background: url(../img/ic-arrow-down-24.png) no-repeat 98% center;}
+.selectBox_type_detail>button.on{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.2rem 1.6rem; border-radius: 4px; border: 1px solid #bdbdbd; background: url(../img/ic-arrow-up-24.png) no-repeat 98% center;}
+.selectBox_type_detail>.optionList{ width: 100%; padding: 8px 0; background: #fff; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); border-radius: 4px; display: none;}
+.selectBox_type_detail>.optionList.on{display: block;}
+.selectBox_type_detail>.optionList>li{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 1.4rem 1.6rem;}
+
+#one_on_one_write_title{padding: 0 2rem;}
+#one_on_one_write_title>h3{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 8px;}
+#one_on_one_write_title>input{display: block;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+#one_on_one_write_title>input::placeholder{font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd;}
+
+#one_on_one_write_content{padding: 0 2rem; margin-top: 1.6rem;}
+#one_on_one_write_content>textarea{height: 17.2rem; display: block;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+#one_on_one_write_content>textarea::placeholder{ font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd;}
+#one_on_one_write_content>span{display: block; text-align: right; margin-top: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #969696;}
+
+#imgAttach{padding:  3rem 2rem 0 2rem; display: flex;}
+#imgAttach>label{}
+#imgAttach>label>.btn_attach{display: flex; align-items: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; color: #fff; width: 8.1rem; height: 3.6rem; background: #222; border-radius: 4px; justify-content: center;}
+#imgAttach>input{display: none;}
+#imgAttach>span{margin-left: 1.2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 3.6rem; color: #969696;}
+
+#contact{padding: 4rem 2rem 5.3rem 2rem; margin-bottom: 8rem;}
+#contact>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+#contact>.contact_device{display: flex; margin-top: 1.2rem;}
+#contact>.contact_device>.phone{display: flex; }
+#contact>.contact_device>.e-mail{display: flex; margin-left: 2rem;}
+
+#bottom{position: fixed; bottom: 0; width: 100%; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.04)); background: #fff; padding: 1.2rem 2rem 1.6rem 2rem; box-sizing: border-box;}
+#bottom>.enroll{width: 100%; height: 5.2rem;  box-sizing: border-box; border-radius: 4px;}
+#bottom>.enroll>a{display: block; font-family: 'Pretendard'; background: #F5F5F5; font-weight: 500; line-height: 5.2rem; font-size: 1.6rem; text-align: center; color: #696969; border-radius: 4px;}
+#bottom>.enroll>a.on{background: #222; font-weight: 700; color: #fff;}
+
+input#check_btn{
+    display:none;
+    }
+  
+  input#check_btn  > span{
+    vertical-align: middle;
+   }
+  
+  /* label:before에 체크하기 전 상태 CSS */
+  input#check_btn + span:before{
+    content:"";
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border:1px solid #e2e2e2;
+    border-radius: 2px;
+    vertical-align:middle;
+    margin-right: 1rem;
+    }
+    
+  /* label:before에 체크 된 상태 CSS */  
+  input#check_btn:checked + span:before{
+    content:"";
+    background-color:#222;
+    border-color:#222;
+    background-image: url(../img/check_btn.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    }
+
+
+#contact span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}

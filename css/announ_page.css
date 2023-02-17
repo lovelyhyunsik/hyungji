@@ -1,0 +1,20 @@
+#question_page{background: #fff; width: 100%;}
+
+
+
+#header_type2{position: relative; height: 5.6rem; width: 100%;}
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+
+#announ{}
+#announ>ul{padding: 2rem 2rem 6rem 2rem;}
+#announ>ul>li{width: 100%;}
+#announ>ul>li:not(:first-child){margin-top: 2rem;}
+#announ>ul>li{background: none; text-align: left; overflow: hidden;}
+.announ_date{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd;}
+.announ_title{width: 100% ; display: block; margin-top: 6px; display: flex; overflow: hidden; }
+.announ_title>p{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+

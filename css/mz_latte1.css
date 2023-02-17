@@ -1,8 +1,11 @@
+#mz_latte1{background: #fff;  width: 100%; height: 100%;}
+#mz_latte1>div{}
+
+
 #header_type2{height: 5.6rem; width: 100%;}
-#header_type2>div{display: flex; height: 100%; justify-content: space-between; padding: 0 1.6rem; font-size: 0; align-items: center;}
-#header_type2>div>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center;}
-#header_type2>div>button.ico_share{width: 2.4rem; height: 2.4rem; background: url(../img/ic_share.png) no-repeat center;}
+#header_type2>div{display: flex; height: 100%; justify-content: space-between;  font-size: 0; align-items: center;}
+#header_type2>div>a.ico_left_arrow{display: inline-block; width: 2.4rem; height: 2.4rem; background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 1.6rem;}
+#header_type2>div>a.ico_share{width: 2.4rem; height: 2.4rem; background: url(../img/ic_share.png) no-repeat center; margin-right: 1.6rem;}
 #header_type2>div img{width: 50%;}
 
 .page_title{padding: 1.2rem 1.6rem 2rem 1.6rem;}
@@ -18,10 +21,11 @@
 .latte_content2_img>img{width: 100%;}
 
 .brand_pick{/* display: flex; justify-content: space-between; */ border-top: 1px solid #F5F5F5; padding: 4rem 1.6rem 0 1.6rem; align-items: baseline;}
-.brand_pick>h3{display: inline-block;}
-.brand_pick>a{display: block; padding-top: 1.3rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem;  color: #696969; float: right;}
+.brand_pick>.brand_pick_title{display: flex; justify-content: space-between;}
+.brand_pick>.brand_pick_title>h3{display: inline-block; font-family: 'Pretendard'; font-weight: 700; font-size: 1.8rem; line-height: 2.9rem; color: #222;}
+.brand_pick>.brand_pick_title>a{display: block; padding-top: 1.3rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem;  color: #696969; float: right;}
 
-.mz_latte_row_wrap{display: flex;  gap: 0.8rem; padding-top: 2rem; padding-bottom: 7.5rem; justify-content: space-between; flex-wrap: wrap;}
+.mz_latte_row_wrap{width: 100%; display: flex;  gap: 0.8rem; padding-top: 2rem; padding-bottom: 7.5rem; justify-content: space-between; flex-wrap: wrap;}
 .mz_latte_row_wrap>li{width: 31.5%;}
 .mz_latte_row_wrap>li:nth-child()
 .mz_latte_row_wrap>li>a{display: block;}

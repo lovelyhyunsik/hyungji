@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/change_return_method.css">
+    <link rel="stylesheet" href="css/response.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header id="header_type2">
+        <div>
+            <p>교환/반품</p>
+            <div class="header_ico_wrap">
+                <a href="./bottom_gnb_mypage_member.php" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
+                <div class="header_ico">
+                    <a href="./search.php" class="ico_search"><span class="hide">검색아이콘</span></a>
+                    <a href="./shoppingbag.php" class="ico_shoppingbag"><span class="hide">쇼핑백아이콘</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="changeReturnMethodWrap">
+        <div class="tab_wrap">
+            <span>교환 발송방법</span>
+            <div class="tab_nav">
+                <ul>
+                    <li>
+                        <!-- <a href="#tab1" class="on"> -->
+                        <label>
+                            <input type="radio" name="method" checked="">
+                            <div class="label_r">
+                                <p>자동회수</p>
+                                <span>택배업체에서 방문수령 수거해갈게요</span>
+                            </div>
+                        </label>
+                        <!-- </a> -->
+                    </li>
+                    <li>
+                        <!-- <a href="#tab2"> -->
+                        <label>
+                            <input type="radio" name="method">
+                            <div class="label_r">
+                                <p>직접회수</p>
+                                <span>직접 상품을 발송할게요</span>
+                            </div>
+                        </label>
+                        <!-- </a> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="tab_content">
+                <div id="tab1" class="tab active">
+                    <div class="pickAddress">
+                        <div class="pickAddressTitle">
+                            <h3>상품수거지</h3>
+                            <button>수거지 변경</button>
+                        </div>
+                        <div class="userInfo">
+                            <p class="userNameNum"><span class="userName">홍길동</span>/<span
+                                    class="userNum">010-8646-2460</span></p>
+                            <p class="userZipNumAddress"><span class="zipNum">[14046]</span><span
+                                    class="userAddress">서울특별시 강남구 역삼동 역삼로 156 태광빌딩 5층</span></p>
+                        </div>
+                        <div class="selectBox_type">
+                            <button class="label">배송시 요청사항을 선택해 주세요</button>
+                            <ul class="optionItem_wrap" id="crops1">
+                                <li class="optionItem">단순변심</li>
+                                <li class="optionItem">상품불량</li>
+                                <li class="optionItem">배송지연</li>
+                                <li class="optionItem">배송사고</li>
+                                <li class="optionItem">기타</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="changeAddress"><!-- 반품선택시 안보이게 부탁드립니다. -->
+                        <div class="pickAddressTitle">
+                            <h3>교환상품 배송주소</h3>
+                            <button>배송지 변경</button>
+                        </div>
+                        <div class="userInfo">
+                            <p class="userNameNum"><span class="userName">홍길동</span>/<span
+                                    class="userNum">010-8646-2460</span></p>
+                            <p class="userZipNumAddress"><span class="zipNum">[14046]</span><span
+                                    class="userAddress">서울특별시 강남구 역삼동 역삼로 156 태광빌딩 5층</span></p>
+                        </div>
+                        <div class="selectBox_type">
+                            <button class="label">배송시 요청사항을 선택해 주세요</button>
+                            <ul class="optionItem_wrap" id="crops1">
+                                <li class="optionItem">단순변심</li>
+                                <li class="optionItem">상품불량</li>
+                                <li class="optionItem">배송지연</li>
+                                <li class="optionItem">배송사고</li>
+                                <li class="optionItem">기타</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" class="tab">
+                    <div class="pickInfo">
+                        <div class="pickInfoTitle">
+                            <h3>직접회수 정보</h3>
+                        </div>
+                        <div class="pickNum">
+                            <span>반송장 번호</span>
+                            <input type="number" placeholder="반송장 번호를 입력해주세요">
+                            <button>조회</button>
+                        </div>
+                        
+                    </div>
+                    <div class="changeAddress"><!-- 반품선택시 안보이게 부탁드립니다. -->
+                        <div class="pickAddressTitle">
+                            <h3>교환상품 배송주소</h3>
+                            <button>배송지 변경</button>
+                        </div>
+                        <div class="userInfo">
+                            <p class="userNameNum"><span class="userName">홍길동</span>/<span
+                                    class="userNum">010-8646-2460</span></p>
+                            <p class="userZipNumAddress"><span class="zipNum">[14046]</span><span
+                                    class="userAddress">서울특별시 강남구 역삼동 역삼로 156 태광빌딩 5층</span></p>
+                        </div>
+                        <div class="selectBox_type">
+                            <button class="label">배송시 요청사항을 선택해 주세요</button>
+                            <ul class="optionItem_wrap" id="crops1">
+                                <li class="optionItem">단순변심</li>
+                                <li class="optionItem">상품불량</li>
+                                <li class="optionItem">배송지연</li>
+                                <li class="optionItem">배송사고</li>
+                                <li class="optionItem">기타</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shippingCompany">
+            <h3>회수 예정 택배사</h3>
+            <div class="shippingCompanyText">
+                <div class="shippingCompanyName">
+                    <span class="shippingCompanyName_l">택배사</span>
+                    <span class="shippingCompanyName_r">CJ대한통운 택배</span>
+                </div>
+                <div class="changeReturnPay">
+                    <span class="changeReturnPay_l">교환 배송비</span>
+                    <span class="changeReturnPay_r">5,000원</span>
+                </div>
+            </div>
+            <div class="finalchangeReturnPay">
+                <div class="finalchangeReturnPay_l">
+                    교환 배송비
+                </div>
+                <div class="finalchangeReturnPay_r">
+                    <span class="finalchangeReturnPay_r_t">5,000원</span>
+                    <span class="finalchangeReturnPay_r_b">왕복 배송비</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="./change_return_pay.html">교환 / 반품 접수</a><!-- 위에 항목 다 선택되면 class:on 추가 -->
+        </div>
+    </div>
+</body>
+<script>
+    $('.tab_nav ul li').click(function () {
+        var selectedIndex = $(this).index();
+
+        $('.tab_content .tab').removeClass('active');
+        $('.tab_content .tab').eq(selectedIndex).addClass('active');
+    });
+
+    $('.pickAddress .selectBox_type>.label').click(function () {
+        $(this).toggleClass('on');
+        $('.pickAddress .selectBox_type>.optionItem_wrap').toggleClass('on')
+        $('.pickAddress .selectBox_type>.optionItem_wrap>.optionItem').click(function () {
+            var text_change = $(this).text()
+            $('.pickAddress .selectBox_type>.label').text(text_change).css("color", "#222")
+            $('.pickAddress .selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+            $(this).css("background", "#f5f5f5")
+            $('.pickAddress .selectBox_type>.optionItem_wrap').removeClass('on')
+            $('.pickAddress .selectBox_type>.label').removeClass('on')
+            $('.pickAddress .selectBox_type_detail').css("display", "block")
+        })
+    })
+
+
+
+    $('.pickAddress .selectBox_type>.optionItem_wrap>.optionItem').click(function (e) {
+        var text_change = $(this).text()
+        $('.pickAddress .selectBox_type>.label').text(text_change).css("color", "#222")
+        $('.pickAddress .selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+        $(this).css("background", "#f5f5f5")
+        $('.pickAddress .selectBox_type>.optionItem_wrap').removeClass('on')
+        $('.pickAddress .selectBox_type>.label').removeClass('on')
+        $('.pickAddress .selectBox_type_detail').css("display", "block")
+
+        var optionType = e.target.dataset.id;
+        $('.optionList').css("display", "none")
+        $(`.optionList.${optionType}`).css('display', 'block');
+
+        $('.pickAddress .selectBox_type>.optionItem_wrap').removeClass('on');
+    })
+
+    $('.changeAddress .selectBox_type>.label').click(function () {
+        $(this).toggleClass('on');
+        $('.changeAddress .selectBox_type>.optionItem_wrap').toggleClass('on')
+        $('.changeAddress .selectBox_type>.optionItem_wrap>.optionItem').click(function () {
+            var text_change = $(this).text()
+            $('.changeAddress .selectBox_type>.label').text(text_change).css("color", "#222")
+            $('.changeAddress .selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+            $(this).css("background", "#f5f5f5")
+            $('.changeAddress .selectBox_type>.optionItem_wrap').removeClass('on')
+            $('.changeAddress .selectBox_type>.label').removeClass('on')
+            $('.changeAddress .selectBox_type_detail').css("display", "block")
+        })
+    })
+
+
+
+    $('.changeAddress .selectBox_type>.optionItem_wrap>.optionItem').click(function (e) {
+        var text_change = $(this).text()
+        $('.changeAddress .selectBox_type>.label').text(text_change).css("color", "#222")
+        $('.changeAddress .selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+        $(this).css("background", "#f5f5f5")
+        $('.changeAddress .selectBox_type>.optionItem_wrap').removeClass('on')
+        $('.changeAddress .selectBox_type>.label').removeClass('on')
+        $('.changeAddress .selectBox_type_detail').css("display", "block")
+
+        var optionType = e.target.dataset.id;
+        $('.optionList').css("display", "none")
+        $(`.optionList.${optionType}`).css('display', 'block');
+
+        $('.changeAddress .selectBox_type>.optionItem_wrap').removeClass('on');
+    })
+</script>
+
+</html>

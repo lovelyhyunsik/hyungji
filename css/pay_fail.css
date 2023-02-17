@@ -1,0 +1,20 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.failMain{text-align: center; padding: 4.8rem 0 0 0;}
+.failMain>img{display: inline-block; width: 4rem; height: 4rem; margin-bottom: 1rem;}
+.failMain>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.8rem; line-height: 2.4rem; color: #222; margin-bottom: 8px;}
+.failMain>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+.bottom{position: fixed; bottom: 0; left: 0; width: 100%; padding: 1.2rem 2rem; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.08)); display: flex; gap: 1.2rem; background: #fff; box-sizing: border-box;}
+.bottom>a.basket{display: block; width: 50%; padding: 1.1rem 0; border: 1px solid #E2E2E2; background: #fff; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #222; border-radius: 4px;}
+.bottom>a.home{display: block; width: 50%; padding: 1.2rem; background: #222; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #fff; border-radius: 4px;}

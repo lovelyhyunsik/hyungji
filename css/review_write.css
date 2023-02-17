@@ -1,0 +1,65 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.itemThum{border-bottom: 1.2rem solid #f5f5f5;}
+.itemThum>a{display: flex; gap: 1.6rem; padding: 2rem 4.8rem 2rem 2rem; overflow: hidden; box-sizing: border-box;}
+.itemThum>a>img{width: 6.4rem; height: 6.4rem; border-radius: 4px;}
+.itemThum>a>.itemText{width: calc(100% - 12rem);}
+.itemThum>a>.itemText>.brandItemName{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222;}
+.itemThum>a>.itemText>.itemName{width: 100%; margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.itemThum>a>.itemText>.itemOpt{margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #e2e2e2;}
+.itemThum>a>.itemText>.itemOpt>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+.starReview{padding: 1.6rem 2rem 4.8rem 2rem; text-align: center;}
+.starReview>h3{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; text-align: left;}
+
+.textReview{padding: 0 2rem 6.4rem 2rem;}
+.textReview>h3{padding: 2rem 0 1.6rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; border-top: 1px solid #f5f5f5;}
+.textReview>.textareaWrap{position: relative; box-sizing: border-box; height: 13.2rem; background: #f5f5f5;}
+.textReview>.textareaWrap>textarea{box-sizing: border-box; width: 100%; height: 9.2rem; background: #f5f5f5; padding: 1.2rem 1.2rem 0 1.2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.textReview>.textareaWrap>textarea::placeholder{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.textReview>.textareaWrap>span{position: absolute; bottom: 1.2rem; right: 1.2rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+input#inputImg{display: none;}
+.inputImgBtn{margin-top: 1.6rem; width: 100%; display: flex; justify-content: center; gap: 6px; border: 1px solid #E2E2E2; border-radius: 4px; background: #fff; padding: 1.1rem 0;}
+.inputImgBtn>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+
+.textReview>span{display: block; margin-top: 1.2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #969696;}
+
+.bottom{padding: 0 2rem 4rem 2rem; width: 100%; box-sizing: border-box;}
+.bottom>button{width: 100%; padding: 1.4rem 0; background: #f5f5f5; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #696969; border-radius: 4px;}
+.bottom>button.on{background: #222; color: #fff;}
+
+.starpoint_wrap{display:inline-block; padding: 3.2rem 0 2.4rem 0; width: 24.8rem;}
+.starpoint_box{position:relative; background:url(../img/ic-review\ point-grey.png) 0 0 no-repeat;font-size:0;}
+.starpoint_box .starpoint_bg{display:block;position:absolute;top:0;left:0;height:4rem;background:url(../img/ic-review\ point-rd.png) 0 0  no-repeat;pointer-events:none;}
+.starpoint_box .label_star{display:inline-block;width:2rem;height:4rem;box-sizing:border-box;}
+.starpoint_box .label_star:nth-child(3){margin-left: 1.2rem;}
+.starpoint_box .label_star:nth-child(5){margin-left: 1.2rem;}
+.starpoint_box .label_star:nth-child(7){margin-left: 1.2rem;}
+.starpoint_box .label_star:nth-child(9){margin-left: 1.2rem;}
+.starpoint_box .star_radio{opacity:0;width:0;height:0;position:absolute;}
+.starpoint_box .star_radio:nth-of-type(1):checked ~ .starpoint_bg{width:8%;}
+.starpoint_box .star_radio:nth-of-type(2):checked ~ .starpoint_bg{width:20%;}
+.starpoint_box .star_radio:nth-of-type(3):checked ~ .starpoint_bg{width:29%;}
+.starpoint_box .star_radio:nth-of-type(4):checked ~ .starpoint_bg{width:40%;}
+.starpoint_box .star_radio:nth-of-type(5):checked ~ .starpoint_bg{width:50%;}
+.starpoint_box .star_radio:nth-of-type(6):checked ~ .starpoint_bg{width:60%;}
+.starpoint_box .star_radio:nth-of-type(7):checked ~ .starpoint_bg{width:71%;}
+.starpoint_box .star_radio:nth-of-type(8):checked ~ .starpoint_bg{width:80%;}
+.starpoint_box .star_radio:nth-of-type(9):checked ~ .starpoint_bg{width:92%;}
+.starpoint_box .star_radio:nth-of-type(10):checked ~ .starpoint_bg{width:100%;}
+
+.blind{position:absolute;clip:rect(0 0 0 0);margin:-1px;width:1px;height: 1px;overflow:hidden;}
+
+.starText{display: block; text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd;}

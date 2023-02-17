@@ -1,0 +1,17 @@
+body{background:rgba(0, 0, 0, 0.5); position: relative; height: 100vh; }
+
+#header_type2{/* background: #fff; */ position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div >.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#header_type2>div >.header_ico_wrap>.header_ico>a.ico_close{background: url(../img/ic-close.png) no-repeat center; margin-left: 1.2rem;} 
+
+.popContainer{width: calc(100% - 4rem); position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #fff; padding: 3.6rem 2rem 2rem 2rem; box-sizing: border-box; border-radius: 8px;}
+.popContainer>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #696969; margin-bottom: 4rem;}
+.popContainer>a{display: block; width: 100%; background: #222; color: #fff; text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; padding: 1.2rem 0; border-radius: 4px;}

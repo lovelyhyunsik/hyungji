@@ -1,0 +1,38 @@
+html,body{position: relative; height: 100%;}
+
+
+
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.tabnav{}
+.tabnav>ul{display: flex;}
+.tabnav>ul>li{width: 50%; text-align: center; }
+.tabnav>ul>li>a{display: block;  padding: 0.9rem 0; border-bottom: 3px solid #f5f5f5;}
+.tabnav>ul>li>a.on{ border-bottom: 3px solid #222;}
+.tabnav>ul>li>a>span{position: relative; display: inline-block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #969696;}
+.tabnav>ul>li>a.on>span{color: #222;}
+.tabnav>ul>li>a>span.redDot::after{content: ""; position: absolute; top: -5px; right: -4px; width: 5px; height: 5px; background: #e31616; border-radius: 50%;}
+
+.tab{}
+.tab>ul{padding-top: 1rem; padding-bottom: 6rem;}
+.tab>ul>li{}
+.tab>ul>li>a{display: block; padding: 1.6rem 2rem 2.5rem 2rem; border-bottom: 1px solid #F5F5F5;}
+.tab>ul>li>a>.alarmTitle{}
+.tab>ul>li>a>.alarmTitle>img{}
+.tab>ul>li>a>.alarmTitle>span{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #969696; margin-left: 8px;}
+.tab>ul>li>a>.alarmContent{display: flex; align-items: center; justify-content: space-between;}
+.tab>ul>li>a>.alarmContent>.alarmText{padding-left: 3.6rem; padding-right: 2rem;}
+.tab>ul>li>a>.alarmContent>.alarmText>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.2rem; line-height: 1.6rem; color: #222; margin-bottom: 4px;}
+.tab>ul>li>a>.alarmContent>.alarmText>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #696969;}
+.tab>ul>li>a>.alarmContent>.alarmContentImg{}
+.tab>ul>li>a>.alarmContent>.alarmContentImg>img{}
+.tab>ul>li>a>.alarmDate{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #bdbdbd; padding: 8px 0 0 3.6rem;}

@@ -1,0 +1,91 @@
+html,body{position: relative; height: 100%;}
+
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.tabnav{}
+.tabnav>ul{display: flex;}
+.tabnav>ul>li{width: 50%; text-align: center; }
+.tabnav>ul>li>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #969696; padding: 0.9rem 0; border-bottom: 3px solid #f5f5f5;}
+.tabnav>ul>li>a.on{color: #222; border-bottom: 3px solid #222;}
+.tabnav>ul>li>a>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; margin-left: 0.4rem;} 
+.tab>#no_item{width: 100%;  display: none;}
+.tab>#no_item{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center;}
+.tab>#no_item>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; white-space: nowrap;}
+.tab>#no_item>a{width: 15rem; display: inline-block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 0.8rem 0; background: #fff; border: 1px solid #e2e2e2; border-radius: 0.4rem; margin-top: 2.4rem;}
+
+.tab>#item{}
+.tab>#item>.notice{padding: 2rem 2rem 1.2rem 2rem;}
+.tab>#item>.notice>.noticeContainer{box-sizing: border-box; width: 100%; background: #f5f5f5; padding: 1.6rem 0; border-radius: 2px; }
+.tab>#item>.notice>.noticeContainer>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #696969; text-align: center;}
+.tab>#item>ul{padding: 0 2rem;}
+.tab>#item>ul>li{padding-bottom: 4px;}
+.tab>#item>ul>li>.itemInfo{display: flex; align-items: center; padding: 2rem 0;}
+.tab>#item>ul>li>.itemInfo>img{width: 6.4rem; height: 6.4rem; border-radius: 4px;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText{margin-left: 1.6rem;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.brandName{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.itemName{margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.itemOpt{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #e2e2e2; margin-top: 4px;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.itemOpt>span{color: #969696;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.itemOpt>span.color{margin-right: 2px;}
+.tab>#item>ul>li>.itemInfo>.itemInfoText>.itemOpt>span.size{margin-left: 2px;}
+.tab>#item>ul>li>a{display: block; width: 100%; background: #222; border-radius: 4px; color: #fff; padding: 8px 0; text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem;}
+
+.tab>#no_review{width: 100%; display: none;}
+.tab>#no_review{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center;}
+.tab>#no_review>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; white-space: nowrap;}
+.tab>#no_review>a{width: 15rem; display: inline-block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 0.8rem 0; background: #fff; border: 1px solid #e2e2e2; border-radius: 0.4rem; margin-top: 2.4rem;}
+
+.tab>#reviewWrap{}
+.tab>#reviewWrap>ul{padding-top: 1.6rem;}
+.tab>#reviewWrap>ul>li{ position: relative;}
+.tab>#reviewWrap>ul>li>.itemInfo{display: flex; align-items: center; padding: 2rem 2rem;}
+.tab>#reviewWrap>ul>li>.itemInfo>img{width: 6.4rem; height: 6.4rem; border-radius: 4px;}
+.tab>#reviewWrap>ul>li>.itemInfo>.itemInfoText{margin-left: 1.6rem;}
+.tab>#reviewWrap>ul>li>.itemInfo>.itemInfoText>.brandName{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222;}
+.tab>#reviewWrap>ul>li>.itemInfo>.itemInfoText>.itemName{margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.tab>#reviewWrap>ul>li>.itemInfo>.itemInfoText>.date{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #e2e2e2; margin-top: 4px;}
+.tab>#reviewWrap>ul>li>.itemInfo>button{position: absolute; top: 1.2rem; right: 2rem; background: none; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+.review{padding: 0.8rem 2rem 2.4rem 2rem; border-bottom: 1px solid #f5f5f5;}
+.review>.user_container{ display: flex; justify-content: space-between;}
+.review>.user_container>.review_star{display: flex; align-items: center;}
+.review>.user_container>.review_star>.best_tag{width: 4.8rem; height: 2rem; text-align: center; font-family: 'Montserrat'; font-weight: 500; font-size: 1.2rem; line-height: 1.8rem; color: #222; border: 1px solid #222; border-radius: 2px; display: inline-block; box-sizing: border-box; margin-right: 8px;}
+.review>.user_container>.review_star>img{display: block; width: 2rem; height: 2rem;}
+.review>.user_container>.user_container_right{display: flex; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.review>.user_container>.user_container_right>.userId{padding-right: 8px; position: relative;}
+.review>.user_container>.user_container_right>.userId::after{content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 1px; height: 1.2rem; background: #e2e2e2;}
+.review>.user_container>.user_container_right>.date{padding-left: 8px;}
+
+.review>.purchase_opt{margin-top: 2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; color: #969696;}
+.review>.purchase_opt>.color{margin-right: 3px;}
+.review>.purchase_opt>.opt_right{margin-left: 3px;}
+
+.review>.review_content{margin-top: 1rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+.review>.review_img_wrap{margin-top: 2rem; white-space: nowrap; overflow-x: scroll; display: flex;}
+.review>.review_img_wrap::-webkit-scrollbar{display: none;}
+.review>.review_img_wrap>img{ width: 7.2rem; height: 7.2rem;}
+.review>.review_img_wrap>img:not(:first-child){margin-left: 6px;}
+
+.review>.good_btn{margin-top: 1.6rem; display: flex; align-items: center;}
+.review>.good_btn>button{background: none;}
+.review>.good_btn>button>img{width: 2.4rem; height: 2.4rem;}
+.review>.good_btn>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem; color: #222; margin-left: 6px;}
+.review>.good_btn>p>span{margin-left: 4px;}
+
+.deletePop{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);  box-sizing: border-box; display: none;}
+.deletePop>.deletePopContainer{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);  width: calc(100% - 4rem);  background: #fff; border-radius: 8px; box-sizing: border-box; padding: 3.6rem 2rem 2rem 2rem;}
+.deletePop>.deletePopContainer>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #696969;}
+.deletePop>.deletePopContainer>.btn{display: flex; gap: 1.2rem; margin-top: 4rem;}
+.deletePop>.deletePopContainer>.btn>button{width: 50%;}
+.deletePop>.deletePopContainer>.btn>button.cancel{background: #fff; border: 1px solid #e2e2e2; padding: 1.1rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #222; border-radius: 4px;}
+.deletePop>.deletePopContainer>.btn>button.popDelete{background: #222; padding: 1.2rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #fff; border-radius: 4px;}

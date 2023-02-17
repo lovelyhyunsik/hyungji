@@ -1,0 +1,54 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+#main{padding-top: 8px;}
+#main>.userMembership{text-align: center;}
+#main>.userMembership>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.membership{margin-top: 2.4rem; margin-bottom: 3.2rem; text-align: center;}
+.membership>div{width: 80px; display: inline-flex; flex-direction: column; justify-content: center;}
+.membership>div>.membershipLogo{display: inline-block; width: 8rem; height: 8rem; margin: 0 auto;}
+.membership.new>div>.membershipLogo{background: url(../img/membership-new.png) no-repeat center / 100%;}
+.membership.bronze>div>.membershipLogo{position: relative; background: url(../img/membership-bronze.png) no-repeat center / 100%;}
+.membership.silver>div>.membershipLogo{background: url(../img/membership-silver.png) no-repeat center / 100%;}
+.membership.gold>div>.membershipLogo{background: url(../img/membership-gold.png) no-repeat center / 100%;}
+.membership.vip>div>.membershipLogo{background: url(../img/membership-vip.png) no-repeat center / 100%;}
+.membership.family>div>.membershipLogo{background: url(../img/membership-family.png) no-repeat center / 100%;}
+.membership>div>.membershipLogo_s{display: inline-block; width: 100px; height: 2.4rem; margin-top: 2rem;}
+.membership.new>div>.membershipLogo_s{background: url(../img/membership+text-new.png) no-repeat left center/auto 2.4rem}
+.membership.bronze>div>.membershipLogo_s{background: url(../img/membership+text-bronze.png) no-repeat left center/auto 2.4rem}
+.membership.silver>div>.membershipLogo_s{background: url(../img/membership+text-silver.png) no-repeat left center/auto 2.4rem}
+.membership.gold>div>.membershipLogo_s{background: url(../img/membership+text-gold.png) no-repeat left center/auto 2.4rem}
+.membership.vip>div>.membershipLogo_s{background: url(../img/membership+text-vip.png) no-repeat left center/auto 2.4rem}
+.membership.family>div>.membershipLogo_s{background: url(../img/membership+text-family.png) no-repeat left center/auto 2.4rem}
+
+.greyBoxWrap{padding: 0 2rem 4rem 2rem; border-bottom: 1px solid #f5f5f5;}
+.greyBoxWrap>.greyBoxContainer{width: 100%; background: #f5f5f5; padding: 2rem; box-sizing: border-box; text-align: center; border-radius: 2px;}
+.greyBoxWrap>.greyBoxContainer>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.greyBoxWrap>.greyBoxContainer>p>.price{font-weight: 700; color: #E31616;}
+.greyBoxContainer>.accumulate{margin-top: 1.2rem; display: flex; justify-content: center; gap: 1.6rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #696969;}
+.greyBoxContainer>.accumulate>p{}
+
+.benefitDetail{padding: 2.4rem 0;}
+.benefitDetail>.newTag{padding: 0 2rem; font-family: 'Montserrat'; font-weight: 700; font-size: 1.2rem; line-height: 2.4rem; color: #696969;}
+.benefitDetail>h3{padding: 0 2rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; margin-bottom: 1.2rem;}
+.benefitDetail>img{margin-top: 1.2rem; width: 100%;}
+
+.membershipBenefitDetail{padding: 0 2rem 10.8rem 2rem;}
+.membershipBenefitDetail>h3{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; padding: 2.4rem 0;}
+.membershipBenefitDetail>ul{}
+.membershipBenefitDetail>ul>li{padding: 2.4rem 0 2.5rem 0; border-bottom: 1px solid #f5f5f5;}
+.membershipBenefitDetail>ul>li>img{margin-bottom: 2rem; height: 2rem;}
+.membershipBenefitDetail>ul>li>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.membershipBenefitDetail>ul>li>p:last-child{margin-top: 8px;}
+
+.membership_footer{padding: 2rem 2rem 8.7rem 2rem; background: #f5f5f5;}
+.membership_footer>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.membership_footer>span{display: block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-top: 1.6rem;}

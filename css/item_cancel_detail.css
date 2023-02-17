@@ -1,0 +1,89 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.itemErrorTitle{padding: 2.4rem 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.itemErrorTitle>h3{font-family: 'Pretendard'; font-weight: 500; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.itemErrorTitle>p{display: inline-block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-top: 1.2rem;}
+.itemErrorTitle>span{display: inline-block; margin-left: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+.itemWrap{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.itemWrap>.itemThum{display: flex; gap: 1.6rem; padding: 2rem 0;}
+.itemWrap>.itemThum>a{}
+.itemWrap>.itemThum>a>img{width: 8rem; height: 10.7rem;}
+.itemWrap>.itemThum>.itemText{width: calc(100% - 12rem);}
+.itemWrap>.itemThum>.itemText>.state{font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem;}
+.itemWrap>.itemThum>.itemText>.brandItemName{margin-top: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.itemWrap>.itemThum>.itemText>.brandItemName>.brandName{display: inline-block; margin-right: 3px;}
+.itemWrap>.itemThum>.itemText>.itemOpt{margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.itemWrap>.itemThum>.itemText>.itemPrice{margin-top: 8px; font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.itemWrap>button{width: 100%; background: #fff; padding: 0.7rem 0; border: 1px solid #E2E2E2; border-radius: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; text-align: center; color: #222;}
+.itemWrap>.cancelReason{padding: 1.2rem 0 2.4rem 0;  border-top: 1px solid #f5f5f5;}
+.itemWrap>.cancelReason>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 1.2rem;}
+.itemWrap>.cancelReason>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+
+.refundPrice{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.refundPrice>.refundTitle{display: flex; justify-content: space-between; align-items: center; padding: 2rem 0;}
+.refundPrice>.refundTitle>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.refundContent{}
+.refundContent.on{display: none;}
+.refundContent>.refundContentTop{border-bottom: 1px solid #e2e2e2;}
+.refundContent>.refundContentTop>.allItemPrice{display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px;}
+.refundContent>.refundContentTop>.allItemPrice>.allItemPrice_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.refundContent>.refundContentTop>.allItemPrice>.allItemPrice_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.refundContent>.refundContentTop>.shippingPay{display: flex; justify-content: space-between; align-items: center;  padding-bottom: 8px;}
+.refundContent>.refundContentTop>.shippingPay>.shippingPay_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.refundContent>.refundContentTop>.shippingPay>.shippingPay_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.refundContent>.refundContentTop>.couponSale{display: flex; justify-content: space-between; align-items: center;  padding-bottom: 8px;}
+.refundContent>.refundContentTop>.couponSale>.couponSale_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.refundContent>.refundContentTop>.couponSale>.couponSale_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.refundContent>.refundContentTop>.savingPoint{display: flex; justify-content: space-between; align-items: center; padding-bottom: 2rem;}
+.refundContent>.refundContentTop>.savingPoint>.savingPoint_l{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.refundContent>.refundContentTop>.savingPoint>.savingPoint_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+.refundContent>.refundContentBottom{padding: 2rem 0 2.8rem 0;}
+.refundContent>.refundContentBottom>.finalPrice{display: flex; justify-content: space-between;/*  align-items: center; */}
+.refundContent>.refundContentBottom>.finalPrice>.finalPrice_l{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.refundContent>.refundContentBottom>.finalPrice>.finalPrice_r{}
+.refundContent>.refundContentBottom>.finalPrice>.finalPrice_r>span{display: block; text-align: right;}
+.refundContent>.refundContentBottom>.finalPrice>.finalPrice_r>.finalPriceNum{font-family: 'Pretendard'; font-weight: 700; font-size: 1.8rem; line-height: 2.4rem; color: #e31616;}
+.refundContent>.refundContentBottom>.finalPrice>.finalPrice_r>.finalSavingPoint{margin-top: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd;}
+
+.refundMethod{padding: 0 2rem; border-bottom: 1.2rem solid #f5f5f5;}
+.refundMethod>.refundMethodTitle{display: flex; justify-content: space-between; align-items: center; padding: 2rem 0;}
+.refundMethod>.refundMethodTitle>h3{font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.refundMethod>.refundMethodContent{display: flex; justify-content: space-between; padding: 2rem 0 2.8rem 0;}
+.refundMethod>.refundMethodContent.on{display: flex; justify-content: space-between; padding: 2rem 0 2.8rem 0; display: none;}
+.refundMethod>.refundMethodContent>.refundMethodContent_l{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.refundMethod>.refundMethodContent>.refundMethodContent_r{}
+.refundMethod>.refundMethodContent>.refundMethodContent_r>span{display: block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; text-align: right;}
+.refundMethod>.refundMethodContent>.refundMethodContent_r>.refundMethodContent_r_t{color: #696969;}
+.refundMethod>.refundMethodContent>.refundMethodContent_r>.refundMethodContent_r_b{color: #969696;}
+
+.notice{}
+.notice>.noticeTitle{padding: 1.4rem 2rem; display: flex; justify-content: space-between; align-items: center;}
+.notice>.noticeTitle>.noticeTitle_l{display: flex; gap: 8px; align-items: center;}
+.notice>.noticeTitle>.noticeTitle_l>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.notice>.noticeGreyBox{width: 100%; box-sizing: border-box; padding: 2rem 2rem 2.8rem 2rem; background: #f5f5f5;}
+.notice>.noticeGreyBox.on{display: none; width: 100%; box-sizing: border-box; padding: 2rem 2rem 2.8rem 2rem; background: #f5f5f5;}
+.notice>.noticeGreyBox>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.notice>.noticeGreyBox>p:last-child{margin-top: 1.6rem;}
+
+span.ic_arrow{display: block; background: url(../img/ic-arrow-up-24.png) no-repeat center center; width: 2.4rem; height: 2.4rem;}
+span.ic_arrow.on{display: block; background: url(../img/ic-arrow-down-24.png) no-repeat center center; width: 2.4rem; height: 2.4rem;}
+
+.cancelComplete .state{color: #969696;}
+.returnReceipt .state{color: #2e82ff;}
+.returnComplete .state{color: #969696;}
+.returnHold .state{color: #969696;}
+.changeConfirm .state{color: #2e82ff;}
+.changeHold .state{color: #969696;}

@@ -21,18 +21,6 @@ $(function () {
     }
   });//gnb 스크롤 이동시 상단 고정
 
-  $(window).scroll(function(){
-    if ($(this).scrollTop() > 300){
-      $('.btn_gotop').show();
-    } else{
-      $('.btn_gotop').hide();
-    }
-  });
-  $('.btn_gotop').click(function(){
-    $('html, body').animate({scrollTop:0},400);
-    return false;
-  });
-
   var FirstScroll = 0;
   var prevScrollTop = $(window).scrollTop(),
     tp = $(window).scrollTop();
@@ -49,12 +37,7 @@ $(function () {
 
   });//하단 gnb 스크롤에 따른 히든처리
   
-  $('.best_category_tab>ul>li>a').click(function () {
-    $('.best_category_tab').hide().filter(this.hash).fadeIn();
-    $('.best_category_tab>ul>li>a').removeClass('active');
-    $(this).addClass('active');
-    return false;
-  }).filter(':eq(0)').click();//best_tab처리
+  
 
   /* $('.category_tabcontent > div').hide(); */
   $('.home_category_tabnav>ul>li>a').click(function () {
@@ -64,25 +47,13 @@ $(function () {
     return false;
   }).filter(':eq(0)').click();//home섹션 안에 tab처리
 
-  $('.exhibition_category_tabnav>ul>li>a').click(function () {
-    $('.exhibition_category_tabcontent > div').hide().filter(this.hash).fadeIn();
-    $('.exhibition_category_tabnav>ul>li>a').removeClass('on');
-    $(this).addClass('on');
-    return false;
-  }).filter(':eq(0)').click();//exhibition섹션 안에 tab처리
-
-  $('.magazine_category_tabnav>ul>li>a').click(function () {
-    $('.magazine_category_tabcontent > div').hide().filter(this.hash).fadeIn();
-    $('.magazine_category_tabnav>ul>li>a').removeClass('on');
-    $(this).addClass('on');
-    return false;
-  }).filter(':eq(0)').click();//magazine섹션 안에 tab처리
+  
+  
 
   
   
   var num = 0;
 	$(".img_change").click(function () {
-    console.log("ddddd")
 		if(num == 0) {
 			$(this).attr("src", "./img/ic-like_pk.png");
 			num = 1;

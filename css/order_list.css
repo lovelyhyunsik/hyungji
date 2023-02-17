@@ -1,0 +1,49 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.orderListTopWrap{border-bottom: 1.2rem solid #f5f5f5;}
+.orderListTop{display: flex;}
+.orderListTop>li{width: 33.333%;}
+.orderListTop>li>a{display: block; text-align: center; padding: 1.6rem 0 2.4rem 0;}
+.orderListTop>li>a>.text{font-family: 'Pretendard'; font-weight: 500; font-size: 1.2rem; line-height: 1.6rem; color: #969696;}
+.orderListTop>li>a>.number{font-family: 'Pretendard'; font-weight: 500; font-size: 1.8rem; line-height: 2.4rem; color: #222; margin-top: 8px;}
+
+.dateBtn{padding: 8px 2rem 2rem 2rem;}
+.dateBtn>.dateBtnContainer{width: 100%; box-sizing: border-box; font-size: 0;}
+.dateBtn>.dateBtnContainer>button{padding: 7px 0; display: inline-block; width: 33.3333%; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
+.dateBtn>.dateBtnContainer>button.fifteenDay{background: #fff; border-top: 1px solid #e2e2e2; border-left: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; border-radius: 4px 0 0 4px;}
+.dateBtn>.dateBtnContainer>button.oneMonth{background: #fff; border: 1px solid #e2e2e2;}
+.dateBtn>.dateBtnContainer>button.threeMonth{background: #fff; border-top: 1px solid #e2e2e2; border-right: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; border-radius: 0 4px 4px 0;}
+.dateBtn>.dateBtnContainer>button.on{background: #f5f5f5; border-color: #bdbdbd;}
+
+#orderItemWrap{}
+#orderItemWrap>ul{}
+#orderItemWrap>ul>a.dateDetail{display: flex; justify-content: space-between; padding: 1.2rem 2rem; align-items: center;}
+#orderItemWrap>ul>a.dateDetail>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+#orderItemWrap>ul>a.dateDetail>img{width: 2.4rem; height: 2.4rem;}
+#orderItemWrap>ul>li{}
+#orderItemWrap>ul>li>a{padding: 2rem 2rem; display: flex; box-sizing: border-box;}
+#orderItemWrap>ul>li>a>img{width: 8rem; height: 10.7rem;}
+#orderItemWrap>ul>li>a>.itemText{margin-left: 1.6rem;  overflow: hidden;}
+#orderItemWrap>ul>li>a>.itemText>.state{ font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem; color: #222; margin-bottom: 8px;}
+#orderItemWrap>ul>li.shipping>a>.itemText>.state{font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem; color: #2e82ff; margin-bottom: 8px;}
+#orderItemWrap>ul>li.confirm>a>.itemText>.state{font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-bottom: 8px;}
+#orderItemWrap>ul>li>a>.itemText>.state>span{position: relative; margin-left: 1.6rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#orderItemWrap>ul>li.confirm>a>.itemText>.state>span{position: relative; margin-left: 1.6rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+#orderItemWrap>ul>li>a>.itemText>.state>span::before{content: ""; position: absolute; top: 50%; left: -10px; transform: translateY(-50%); width: 4px; height: 4px; border-radius: 50%; background: #e2e2e2;}
+#orderItemWrap>ul>li>a>.itemText>.brandItemName{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; white-space: nowrap; overflow: hidden; box-sizing: border-box;  text-overflow: ellipsis; margin-bottom: 4px;}
+#orderItemWrap>ul>li>a>.itemText>.brandItemName>.brandName{margin-right: 5px;}
+#orderItemWrap>ul>li>a>.itemText>.itemOpt{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-bottom: 8px;}
+#orderItemWrap>ul>li>a>.itemText>.itemOpt>.color{margin-right: 3px;}
+#orderItemWrap>ul>li>a>.itemText>.itemOpt>.size{margin-left: 3px; margin-right: 3px;}
+#orderItemWrap>ul>li>a>.itemText>.itemOpt>.count{margin-left: 3px;}
+#orderItemWrap>ul>li>a>.itemText>.itemPrice{font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #222;}

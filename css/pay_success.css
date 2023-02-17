@@ -1,0 +1,36 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.successMain{text-align: center; padding: 2.4rem 0 3.6rem 0; border-bottom: 1.2rem solid #f5f5f5;}
+.successMain>img{display: inline-block; width: 4rem; height: 4rem; margin-bottom: 1rem;}
+.successMain>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.8rem; line-height: 2.4rem; color: #222; margin-bottom: 8px;}
+.successMain>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+.shippingCompany{padding: 0 2rem;}
+.shippingCompany>h3{padding: 2rem 0 1.2rem 0; font-family: 'Pretendard'; font-weight: 600; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.shippingCompany>.shippingCompanyText{padding-bottom: 1rem; border-bottom: 1px solid #e2e2e2;}
+.shippingCompany>.shippingCompanyText>.shippingCompanyName{display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;}
+.shippingCompany>.shippingCompanyText>.shippingCompanyName>.shippingCompanyName_l{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.shippingCompany>.shippingCompanyText>.shippingCompanyName>.shippingCompanyName_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.shippingCompany>.shippingCompanyText>.changeShippingPay{display: flex; justify-content: space-between; align-items: center;}
+.shippingCompany>.shippingCompanyText>.changeShippingPay>.changeShippingPay_l{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.shippingCompany>.shippingCompanyText>.changeShippingPay>.changeShippingPay_r{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+.changeShippingPayFinal{display: flex; justify-content: space-between; padding: 2.1rem 0 0 0;}
+.changeShippingPayFinal>.changeShippingPayFinal_l{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.changeShippingPayFinal>.changeShippingPayFinal_r{display: flex; flex-direction: column; gap: 8px; text-align: right;}
+.changeShippingPayFinal>.changeShippingPayFinal_r>.changeShippingPayFinal_r_t{font-family: 'Pretendard'; font-weight: 700; font-size: 1.8rem; line-height: 2.4rem; color: #e31616;}
+.changeShippingPayFinal>.changeShippingPayFinal_r>.changeShippingPayFinal_r_b{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd;}
+
+.bottom{position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.08)); box-sizing: border-box; display: flex; gap: 1.2rem; padding: 1.2rem 2rem;}
+.bottom>a.requestDetail{display: block; width: 50%; padding: 1.1rem 0; background: #fff; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #222; border: 1px solid #E2E2E2; border-radius: 4px;}
+.bottom>a.home{display: block; width: 50%; padding: 1.2rem 0; background: #222; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #fff; border-radius: 4px;}

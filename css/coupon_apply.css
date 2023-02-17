@@ -1,0 +1,81 @@
+#coupon_apply{background: #fff; width: 100%;}
+
+#header_type2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div >.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.bigSale{display: flex; padding: 1.8rem 0 2.3rem 1.8rem; margin-top: 5.6rem; align-items: center;}
+.bigSale>label>span {margin-left: 8px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+
+#order_item_wrap>.order_item_container{padding: 2.4rem 2rem 2.4rem 2rem; border-bottom: 1px solid #f5f5f5;}
+#order_item_wrap>.order_item_container:last-child{margin-bottom: 8rem;}
+#order_item_wrap>.order_item_container>.brand_name{font-family: 'Pretendard'; font-weight: 600; font-size: 1.2rem; line-height: 1.4rem; color: #222;}
+#order_item_wrap>.order_item_container>.order_item_container_b{display: flex; margin-top: 1.6rem;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_img{width: 8rem; height: 10.7rem; background: #e2e2e2; display: flex; align-items: center; justify-content: center;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_img>img{width: 8rem;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl{padding: 0.6rem 1.6rem 0.5rem 1.6rem;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_name{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_orderNumber{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option{display: flex; margin-top: 4px; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option>.item_color{position: relative; margin-right: 12px;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option>.item_color::after{content: "/"; position: absolute; top: 0; right: -8px;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option>.item_size{position: relative; margin-right: 12px;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option>.item_size::after{content: "/"; position: absolute; top: 0; right: -8px;}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_option>.item_count{}
+#order_item_wrap>.order_item_container>.order_item_container_b>.order_item_container_bl>.item_price{margin-top: 1.2rem; font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+.discountPrice{display: none; margin-top: 1.6rem; padding: 0.8rem 1.6rem; border-radius: 4px; background: #f5f5f5;  font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+.discountPrice>.discountPrice_l{display: inline-block;}
+.discountPrice>.discountPrice_r{color: #e31616; float: right;}
+
+.selectBoxType>button{display: flex; align-items: center;  width: 100%; height: 4.8rem;  font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.1rem 1.6rem; border: 1px solid #e2e2e2; border-radius: 4px;  background: url(../img/ic-arrow-down-24.png) no-repeat 98% center; line-height: 2.4rem;}
+.selectBoxType>button.on{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem;  padding: 1.2rem 1.6rem; border-radius: 4px;  background: url(../img/ic-arrow-up-24.png) no-repeat 98% center;}
+
+.selectBoxType{margin-top: 1.2rem; box-sizing: border-box; width: 100%; }
+.selectBoxType>.optionItemWrap{width: 100%; padding: 8px 0; background: #fff; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); border-radius: 4px; display: none; margin-top: 4px;}
+.selectBoxType>.optionItemWrap.on{display: block;}
+.selectBoxType>.optionItemWrap>li{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 1.4rem 1.6rem;}
+.selectBoxType>input{margin-top: 1.6rem; display: none;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+
+#bottom{position: fixed; bottom: 0; left: 0; width: 100%; padding: 1.2rem 2rem 1.6rem 2rem; background: #fff; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.04)); display: flex;  box-sizing: border-box;}
+
+#bottom>button{width: 100%; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.2rem; text-align: center; height: 5.2rem; border-radius: 4px; background: #222; color: #fff;}
+
+
+input#check_btn{
+    display:none;
+    }
+  
+  input#check_btn  > span{
+    vertical-align: middle;
+   }
+  
+  /* label:before에 체크하기 전 상태 CSS */
+  input#check_btn + span:before{
+    content:"";
+    display:inline-block;
+    width:16px;
+    height:16px;
+    border:1px solid #e2e2e2;
+    border-radius: 2px;
+    vertical-align:middle;
+    margin-right: 1rem;
+    }
+    
+  /* label:before에 체크 된 상태 CSS */  
+  input#check_btn:checked + span:before{
+    content:"";
+    background-color:#222;
+    border-color:#222;
+    background-image: url(../img/check_btn.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    }
