@@ -1,0 +1,33 @@
+#headerType2{position: relative; height: 5.6rem; width: 100%; }
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#headerType2>div>.headerIcoWrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoAlarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.plusCard{padding: 2rem 2rem; border-bottom: 8px solid #f5f5f5;}
+.plusCard>.plusCardContainer{width: 100%; border: 1px solid #E2E2E2; border-radius: 4px; background: #fff; padding: 1.1rem 0;}
+.plusCard>.plusCardContainer>a{display: flex; justify-content: center; align-items: center; gap: 6px;}
+.plusCard>.plusCardContainer>a>img{width: 2.4rem; height: auto;}
+.plusCard>.plusCardContainer>a>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+#main>.noCard{display: none; position: relative; height: calc(100vh - 15.2rem);}
+#main>.noCard>p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+#main>.yesCard{}
+#main>.yesCard>p{padding: 2rem 1.7rem 0.8rem 1.7rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#main>.yesCard>p>span{display: inline-block; color: #969696; margin-left: 2px;}
+#main>.yesCard>ul{padding: 0 2rem;}
+#main>.yesCard>ul>li{padding: 2.4rem 0;}
+#main>.yesCard>ul>li>.cardThum{display: flex; justify-content: space-between;}
+#main>.yesCard>ul>li>.cardThum>.cardThum_l{display: flex; gap: 1.6rem;}
+#main>.yesCard>ul>li>.cardThum>.cardThum_l>img{width: 7.5rem; height: 4.2rem; border-radius: 4px;}
+#main>.yesCard>ul>li>.cardThum>.cardThum_l>.cardName{display: flex; flex-direction: column; gap: 4px;}
+#main>.yesCard>ul>li>.cardThum>.cardThum_l>.cardName>.cardName_t{font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#main>.yesCard>ul>li>.cardThum>.cardThum_l>.cardName>.cardName_b{ font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #696969;}
+#main>.yesCard>ul>li>.cardThum>button{width: 5.6rem; background: #f5f5f5; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; text-align: center; color: #222; border-radius: 4px;}

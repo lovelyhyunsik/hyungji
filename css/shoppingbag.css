@@ -30,7 +30,9 @@ html,body{position: relative; height: 100%;}
 #item>ul>li>.itemCheckDelete>label>span{display: block;  font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 #item>ul>li>.itemCheckDelete>button{background: none;}
 #item>ul>li>.itemInfoWrap{display: flex; gap: 1.6rem; margin-top: 1.6rem;}
-#item>ul>li>.itemInfoWrap>a{display: block;}
+#item>ul>li>.itemInfoWrap>.itemImg{position: relative;}
+#item>ul>li>.itemInfoWrap>.itemImg>a{display: block;}
+
 #item>ul>li>.itemInfoWrap>.itemInfo{width: 100%; padding-top: 4px;}
 #item>ul>li>.itemInfoWrap>.itemInfo>.itemName{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; margin-bottom: 4px;}
 #item>ul>li>.itemInfoWrap>.itemInfo>.itemName>.color{margin-right: 3px;}

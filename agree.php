@@ -7,21 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/agree.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/agree.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>회원가입</p>
-            <div class="header_ico_wrap">
-                <a href="./join_banner.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="./login.php" class="ico_close"><span class="hide">클로즈</span></a>
+            <div class="headerIcoWrap">
+                <a href="./join_banner.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./login.php" class="icoClose"><span class="hide">클로즈</span></a>
                 </div>
             </div>
         </div>
@@ -71,38 +71,7 @@
     </section>
     <div class="twoBtn">
         <a href="./join_banner.php" class="beforeBtn">이전</a>
-        <a href="./phone_certifi.php" class="certifiBtn">인증하기</a>
+        <a href="./essential_info.php" class="certifiBtn">인증하기</a>
     </div>
 </body>
-<script>
-    // 체크박스 전체 선택
-    $(".allAgreeBtn").on("click", "#check_btn", function () {
-      var checked = $(this).is(":checked");
-
-      if(checked){
-      	$(this).parents(".allAgreeBtn").siblings('.checkBtnList').find('input').prop("checked", true);
-      } else {
-      	$(this).parents(".allAgreeBtn").siblings('.checkBtnList').find('input').prop("checked", false);
-      }
-    });
-
-    $(".checkBtnList").on("click", ".normal", function() {
-        var checked = $(this).is(":checked");
-
-        if (!checked) {
-        	$(".allAgreeBtn>label>#check_btn").prop("checked", false);
-        }
-    });
-
-    // 체크박스 개별 선택
-    $(".checkBtnList").on("click", ".normal", function() {
-        var is_checked = true;
-
-        $(".checkBtnList .normal").each(function(){
-            is_checked = is_checked && $(this).is(":checked");
-        });
-
-        $(".allAgreeBtn>label>#check_btn").prop("checked", is_checked);
-    });
-</script>
 </html>

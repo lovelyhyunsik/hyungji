@@ -12,28 +12,38 @@
     <link rel="stylesheet" href="css/non_member_check.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>비회원 주문조회</p>
-            <div class="header_ico_wrap">
-                <a href="./login.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+            <div class="headerIcoWrap">
+                <a href="./login.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="" class="icoShoppingbag"><span class="hide">쇼핑백</span></a>
                 </div>
             </div>
         </div>
     </header>
     <section id="main">
-        <div class="orderUser_name input">
+        <div class="orderUserName input">
             <span>주문자 명</span>
-            <input type="text" placeholder="주문자 명">
+            <label>
+                <input class="textInput" type="text" placeholder="주문자 명">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
-        <div class="order_num input">
-            <span>주문자 명</span>
-            <input type="number" placeholder="주문번호">
+        <div class="orderNum input">
+            <span>주문번호</span>
+            <label>
+                <input class="textInput" type="number" placeholder="주문번호">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
         <button>주문 조회하기</button>
         <div class="forgetNum">

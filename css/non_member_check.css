@@ -1,18 +1,21 @@
-#header_type2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
-#header_type2>div{height: 5.6rem; width: 100%;}
-#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
-#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
-#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
-#header_type2>div >.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#headerType2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#headerType2>div>.headerIcoWrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{ background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
 
 #main{margin-top: 9.6rem; padding: 0 2rem;}
 #main>.input:not(:first-child){margin-top: 2.4rem;}
 #main>div>span{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 8px;}
-#main>div>input{width: 100%; padding: 1.3rem 1.6rem; box-sizing: border-box; font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; color: #222; border: 1px solid #e2e2e2; border-radius: 4px;}
+#main>div>label{position: relative; display: block;}
+#main>div>label>input{width: 100%; padding: 1.3rem 4.5rem 1.3rem 1.6rem; box-sizing: border-box; font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; color: #222; border: 1px solid #e2e2e2; border-radius: 4px;}
+#main>div>label>input:focus{border-color: #bdbdbd;}
+#main>div>label>.inputTextDelete{display: none; background: none; position: absolute; top: 50%; right: 1.6rem; transform: translateY(-50%);}
 #main>input::placeholder{font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; color: #bdbdbd;}
 #main>button{margin-top: 4rem; width: 100%; background: #222; border-radius: 4px; color: #fff; padding: 1.4rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem;}
 #main>.forgetNum{margin-top: 5.6rem;}

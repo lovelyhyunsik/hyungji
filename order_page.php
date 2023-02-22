@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
+
 <body>
     <div id="oreder_page">
         <div>
@@ -66,7 +68,9 @@
             <section id="order_user_wrap">
                 <div class="order_user_t">
                     <h3>주문자</h3>
-                    <a href="./info_change.php"><p>정보 변경</p></a>
+                    <a href="./info_change.php">
+                        <p>정보 변경</p>
+                    </a>
                 </div>
                 <div class="order_user_b">
                     <div class="user_name"><span>이름</span>홍길동</div>
@@ -76,15 +80,21 @@
             </section>
             <section id="shippingInfo">
                 <h3>배송정보</h3>
-                <button class="spotInput"><p>배송지 입력</p></button>
+                <button class="spotInput">
+                    <p>배송지 입력</p>
+                </button>
                 <div class="spotInputAfter" style="display: none;"><!-- 배송지 입력 후에 나타나는 화면 display:none 처리 해놨습니다 -->
-                    <button class="spotChange"><p>배송지 변경</p></button>
+                    <button class="spotChange">
+                        <p>배송지 변경</p>
+                    </button>
                     <div class="shippingInfo_container">
                         <div class="reciveUser">
-                            <div class="reciveUser_r"><span class="reciveUserName">홍길동</span>/<span class="reciveUserNum">010-8646-2460</span></div>
+                            <div class="reciveUser_r"><span class="reciveUserName">홍길동</span>/<span
+                                    class="reciveUserNum">010-8646-2460</span></div>
                         </div>
                         <div class="reciveSpot">
-                            <div class="reciveSpot_r">[<span class="reciveSpotNum">14046</span>]<span class="reciveSpotAddress">서울특별시 강남구 역삼동 역삼로 156 태광빌딩 5층</span></div>
+                            <div class="reciveSpot_r">[<span class="reciveSpotNum">14046</span>]<span
+                                    class="reciveSpotAddress">서울특별시 강남구 역삼동 역삼로 156 태광빌딩 5층</span></div>
                         </div>
                         <div class="selectBoxType">
                             <button class="label">배송시 요청사항을 선택해 주세요</button>
@@ -116,13 +126,13 @@
                         </div>
                         <a href="./coupon_apply_page.php">적용하기</a>
                     </div><!-- 쿠폰이 있는데 적용하기 전 화면 display:none 처리 해놨습니다.-->
-                    <div class="applyCoupon_wrap">
+                    <div class="applyCoupon_wrap" style="display: none;">
                         <div class="applyCoupon_l">
                             <h4>쿠폰 <span class="applyCouponNum">1</span>장 적용</h4>
                             <p class="applyPrice">-<span class="applyPriceNum">25400</span>원</p>
                         </div>
                         <a href="./coupon_apply_page.php">적용하기</a>
-                    </div>
+                    </div><!-- 쿠폰적용 화면 display:none 처리 해놨습니다.-->
                 </div>
                 <div class="saving">
                     <h4>적립금</h4>
@@ -135,8 +145,95 @@
                     </div>
                 </div>
             </section>
-            <section id="payMathod">
+            <section class="payMethodWrap">
                 <h3>결제 수단</h3>
+                <div class="payMethod">
+                    <div class="hPay on">
+                        <label>
+                            <input type="radio" name="method" checked="">
+                            <span>H 페이결제</span>
+                        </label>
+                        <div class="payContent">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/84card.png" alt="">
+                                        <div class="cardName">
+                                            <span>카드의 정석 POINT 주거래</span>
+                                            <button>체크</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/84card2.png" alt="">
+                                        <div class="cardName">
+                                            <span>카드의 정석 POINT 주거래</span>
+                                            <button>체크</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="creditCheckCard">
+                        <label>
+                            <input type="radio" name="method">
+                            <span>신용/체크카드</span>
+                        </label>
+                        <div class="payContent">
+                            <div class="selectBox_type">
+                                <button class="label">카드사를 선택해주세요</button>
+                                <ul class="optionItem_wrap" id="crops1">
+                                    <li class="optionItem">국민카드</li>
+                                    <li class="optionItem">신협카드</li>
+                                    <li class="optionItem">농협카드</li>
+                                    <li class="optionItem">우리카드</li>
+                                    <li class="optionItem">기타</li>
+                                </ul>
+                            </div>
+                            <div class="greyBox">
+                                <ul>
+                                    <li class="benefit">
+                                        <div class="benefit_l">혜택</div>
+                                        <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                                    </li>
+                                    <li class="benefit">
+                                        <div class="benefit_l">혜택</div>
+                                        <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                                    </li>
+                                    <li class="benefit">
+                                        <div class="benefit_l">혜택</div>
+                                        <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                                    </li>
+                                    <li class="benefit">
+                                        <div class="benefit_l">혜택</div>
+                                        <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simple">
+                        <label>
+                            <input type="radio" name="method">
+                            <span>간편결제</span>
+                        </label>
+                        <div class="payContent">
+                            <ul>
+                                <li><img src="./img/naverPay.png" alt=""></li>
+                                <li><img src="./img/kakaoPay.png" alt=""></li>
+                                <li><img src="./img/samsungPay.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cash">
+                        <label>
+                            <input type="radio" name="method">
+                            <span>현금결제</span>
+                        </label>
+                    </div>
+                </div>
             </section>
             <section id="finalPrice_wrap">
                 <h3>최종 결제 금액</h3>
@@ -178,24 +275,24 @@
 </body>
 <script>
     var savingNumText = $('.savingUseNum').text()
-    $('.allUse').click(function(){
-        $('.saving_t>input').val( $('.saving_t>input').val() + savingNumText);
+    $('.allUse').click(function () {
+        $('.saving_t>input').val($('.saving_t>input').val() + savingNumText);
         $('.savingUse>span>.num').text("-" + savingNumText)
-        $('.saving_b>p>span').css("color","#222")
+        $('.saving_b>p>span').css("color", "#222")
     })//모두 사용 버튼 클릭시 적용
 
-    if(savingNumText === "0"){
+    if (savingNumText === "0") {
         $('.allUse').removeClass('on')
-    }else{
+    } else {
         $('.allUse').addClass('on')
     }//모두 사용 버튼 적립금에 따라 color값 변동
 
-    $('.selectBoxType>button').click(function(){
+    $('.selectBoxType>button').click(function () {
         $(this).toggleClass('on')
         $(this).siblings('.optionItemWrap').toggleClass('on')
-    })
+    })//셀렉트 박스
 
-    $('.optionItem').click(function(){
+    $('.optionItem').click(function () {
         var textChange = $(this).text();
         var targetLabel = $(this).closest('.selectBoxType').children('.label');
         var targetDiscount = $(this).closest('.selectBoxType').siblings('.discountPrice')
@@ -203,12 +300,40 @@
 
         $(this).parent('.optionItemWrap').toggleClass('on')
         $(targetLabel).removeClass('on')
-        $(targetLabel).css("color","#222")
-        $('.selectBoxType>.optionItemWrap>.optionItem').css("background","none")
-        $(this).css("background","#f5f5f5") 
-    })
-    $('.optionItem:last-child').click(function(){
-        $('.direct').css("display","block")
-    })
+        $(targetLabel).css("color", "#222")
+        $('.selectBoxType>.optionItemWrap>.optionItem').css("background", "none")
+        $(this).css("background", "#f5f5f5")
+    });//셀렉트 박스
+
+    $('.optionItem:last-child').click(function () {
+        $('.direct').css("display", "block")
+    });//셀렉트 박스
+
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      }
+    });//개별페이지 스와이퍼슬라이드기능
+
+    $('.payMethod').children('div').click(function(){
+        $('.payMethod>div').removeClass('on')
+        $(this).addClass('on')
+    })//결제수단 기능
+
+    $('.selectBox_type>.label').click(function () {
+        $(this).toggleClass('on');
+        $('.selectBox_type>.optionItem_wrap').toggleClass('on')
+        $('.selectBox_type>.optionItem_wrap>.optionItem').click(function () {
+            var text_change = $(this).text()
+            $('.selectBox_type>.label').text(text_change).css("color", "#222")
+            $('.selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+            $(this).css("background", "#f5f5f5")
+            $('.selectBox_type>.optionItem_wrap').removeClass('on')
+            $('.selectBox_type>.label').removeClass('on')
+            $('.selectBox_type_detail').css("display", "block")
+        })
+    })//셀렉트 박스
 </script>
+
 </html>

@@ -67,6 +67,10 @@
                 </ul>
             </div>
         </section>
+        <section id="itemSlect"><!-- 첫번째 셀렉트박스에서 취소/반품/교환 , 상품 선택시 나타나는 영역 능력부족으로 해결하지못함-->
+            <p>문의상품<span>*</span></p>
+            <a href="./item_choice.php">문의 상품선택</a>
+        </section>
         <section id="one_on_one_write_title">
             <h3>문의내용</h3>
             <input type="text" placeholder="제목을 입력해주세요">
@@ -158,6 +162,6 @@
                 $('#reCount').html("100/100");
             }
         })
-    })
+    })//textarea 글자수 세기
 </script>
 </html>

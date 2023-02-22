@@ -111,21 +111,22 @@
 .relation_item ul>li{width: 15rem;}
 .relation_item ul>li:not(:first-child){margin-left: 1.6rem;}
 .relation_item ul>li:last-child{margin-right: 2rem;}
-.relation_item ul>li>button{background: none; width: 100%;}
-.relation_item ul>li>button>.item_img{position: relative; height: 19.9rem; background: #e2e2e2;}
-.relation_item ul>li>button>.item_img>img{width: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
-.relation_item ul>li>button>.tab_item{padding: 1.2rem 1.2rem 0 1.2rem;}
-.relation_item ul>li>button>.tab_item>.title{font-family: 'Montserrat'; font-weight: 600; font-size: 1.2rem; color: #222; text-align: left;}
-.relation_item ul>li>button>.tab_item>.caption{text-align: left; margin-top: 1.2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; overflow: hidden; text-overflow: ellipsis;}
-.relation_item ul>li>button>.item_price{margin-top: 4px;padding: 0 1.2rem;}
-.relation_item ul>li>button>.item_price>.no_sale_price{display: flex; align-items: center;}
-.relation_item ul>li>button>.item_price>.no_sale_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #e31616;}
-.relation_item ul>li>button>.item_price>.no_sale_price>.percent>span{font-weight: 400; font-size: 1.4rem;}
-.relation_item ul>li>button>.item_price>.no_sale_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; margin-left: 4px;}
-.relation_item ul>li>button>.coupon{padding: 1.2rem 1.2rem 2rem 1.2rem; text-align: left;}
-.relation_item ul>li>button>.coupon>p{display: inline-block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.2rem; color: #222; padding: 4px 8px; background: #f5f5f5;  border-radius: 2px;}
-.relation_item ul>li>button>.soldOut{padding: 1.2rem 1.2rem 2rem 1.2rem; text-align: left;}
-.relation_item ul>li>button>.soldOut >p{display: inline-block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.2rem; color: #fff; padding: 4px 8px; background: #222; border-radius: 2px;}
+.relation_item ul>li>a{position: relative; background: none; width: 100%;}
+.relation_item ul>li>a>.item_img{position: relative; height: 19.9rem; background: #e2e2e2;}
+.relation_item ul>li>a>.item_img>img{width: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.relation_item ul>li>a>.tab_item{padding: 1.2rem 1.2rem 0 1.2rem;}
+.relation_item ul>li>a>.tab_item>.title{font-family: 'Montserrat'; font-weight: 600; font-size: 1.2rem; color: #222; text-align: left;}
+.relation_item ul>li>a>.tab_item>.caption{text-align: left; margin-top: 1.2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; overflow: hidden; text-overflow: ellipsis;}
+.relation_item ul>li>a>.item_price{margin-top: 4px;padding: 0 1.2rem;}
+.relation_item ul>li>a>.item_price>.no_sale_price{display: flex; align-items: center;}
+.relation_item ul>li>a>.item_price>.no_sale_price>.percent{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #e31616;}
+.relation_item ul>li>a>.item_price>.no_sale_price>.percent>span{font-weight: 400; font-size: 1.4rem;}
+.relation_item ul>li>a>.item_price>.no_sale_price>.price{font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; color: #222; margin-left: 4px;}
+.relation_item ul>li>a>.coupon{padding: 1.2rem 1.2rem 2rem 1.2rem; text-align: left;}
+.relation_item ul>li>a>.coupon>p{display: inline-block; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.2rem; color: #222; padding: 4px 8px; background: #f5f5f5;  border-radius: 2px;}
+.relation_item ul>li>a>.item_img>.itemLike{position: absolute; z-index: 112; top: 0.8rem; right: 0.8rem;}
+.relation_item ul>li>a>.item_img>.itemLike>button{background: none;}
+.relation_item ul>li>a>.item_img>.itemLike>button>img{display: block; padding: 1.2rem 1.1rem;}
 
   
 .relation_item>.together_item{margin-top: 4.8rem; padding-bottom: 8rem;}

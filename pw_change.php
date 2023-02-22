@@ -19,7 +19,7 @@
         <div>
             <p>비밀번호 변경</p>
             <div class="header_ico_wrap">
-                <a href="./index.php" class="ico_left_arrow"></a>
+                <a href="./login.php" class="ico_left_arrow"></a>
                 <div class="header_ico">
                 </div>
             </div>
@@ -33,16 +33,20 @@
         <div class="currentPw">
             <span>현재 비밀번호</span>
             <label>
-                <input type="password" placeholder="현재 비밀번호를 입력해주세요">
-                <img src="./img/ic-close-fill-24px.png" alt="">
+                <input type="password" placeholder="현재 비밀번호를 입력해주세요" class="textInput"><!-- 현재 비밀번호가 맞지 않으면 addClass:error -->
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
             </label>
-            <p class="error">현재 비밀번호가 맞는지 다시 확인해주세요.</p>
+            <p class="errorText">현재 비밀번호가 맞는지 다시 확인해주세요.</p>
         </div>
         <div class="newPw">
             <span>새 비밀번호</span>
             <label>
-                <input type="password" placeholder="새 비밀번호를 입력해주세요" maxlength="16">
-                <img src="./img/ic-close-fill-24px.png" alt="">
+                <input type="password" placeholder="새 비밀번호를 입력해주세요" maxlength="16" class="textInput">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
             </label>
             <div class="inputText">
                 <div class="inputText_t">
@@ -58,8 +62,10 @@
         <div class="newPwCheck">
             <span>새 비밀번호 확인</span>
             <label>
-                <input type="password" placeholder="새 비밀번호를 입력해주세요" maxlength="16">
-                <img src="./img/ic-close-fill-24px.png" alt="">
+                <input type="password" placeholder="새 비밀번호를 입력해주세요" maxlength="16" class="textInput">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
             </label>
             <div class="inputText">
                 <div class="inputText_t">
@@ -80,6 +86,12 @@
     </div>
 </body>
 <script>
+    if($('input').hasClass('error')){
+       $('.errorText').css("display","block")
+    }else{
+        $('.errorText').css("display","none")
+    };//input에 error떠서 border-color가 빨간색이 되면 input하단 텍스트 생성
+
     $('.newPw>label>input').click(function(){
         $('.newPw>.inputText').css("display","block")
     })//새 비밀번호 input클릭하면 하단 글씨 뜨게
@@ -92,7 +104,7 @@
             $('.newPw>.inputText>.inputText_t>p').css("color", "#969696")
             $('.newPw>.inputText>.inputText_t>img').attr("src" , "./img/ic-check-s-grey.png")
         }
-    });//새 비밀번호 첫번째거 10자이상이면 색깔 바뀌게
+    });//새 비밀번호 첫번째거 10자이상이면 색깔 바뀌게 능력부족으로 영어 대소문자/숫자/특수문자 그부분은 처리하지 못함
 
     $('.newPwCheck>label>input').click(function(){
         $('.newPwCheck>.inputText').css("display","block")
@@ -114,10 +126,10 @@
         } else {
             $('.bottom>button').addClass('on')
         }
-    });//새 비밀번호 확인창 입력시 비밀번호 변경 버튼 addclass on
+    });//모든input태그 입력되어야 bottom색깔 변해야하는데 능력부족으로 새 비밀번호 확인창 입력시 비밀번호 변경 버튼 addclass on 임시처리
 
     $('.bottom>button').click(function(){
         $('.popLayer').css("display","block")
-    })
+    })//bottom 버튼 클릭시 뜨는 팝업 처리
 </script>
 </html>

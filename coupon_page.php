@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>쿠폰</p>
-            <div class="header_ico_wrap">
-                <a href="./item_detail.php" class="ico_left_arrow"></a>
+            <div class="headerIcoWrap">
+                <a href="./item_detail.php" class="icoLeftArrow"></a>
             </div>
         </div>
     </header>

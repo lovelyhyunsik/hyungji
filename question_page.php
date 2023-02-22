@@ -38,6 +38,9 @@
                         </ul>
                     </div>
                 </div>
+                <div class="searchResult"><!-- 검색했을떄 텍스트 -->
+                    <p><span>'환불'</span>검색결과 총 <span class="counting">66</span>개</p>
+                </div>
                 <div class="question_tab_content">
                     <div id="question_tab1" class="tab">
                         <section id="question_list_wrap">
@@ -257,6 +260,6 @@
     $('.unfold_content').click(function () {
         $(this).children('.toggle_img').toggleClass('on')
         $(this).siblings('.fold_content').toggleClass('on')
-    });
+    });//클릭시 펼쳐짐
 </script>
 </html>

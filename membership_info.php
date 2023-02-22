@@ -7,24 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/membership_info.css">
-    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/membership_info.css">
+    <link rel="stylesheet" href="./css/response.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
-            <div class="header_ico_wrap">
-            <a href="./index.php" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
-                <div class="header_ico">
-                    <a href="./alarm.php" class="ico_alarm"><span class="hide">알림</span></a>
-                    <a href="./shoppingbag.php" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+            <div class="headerIcoWrap">
+            <a href="./bottom_gnb_mypage_member.php" class="icoLeftArrow"><span class="hide">뒤로가기</span></a>
+                <div class="headerIco">
+                    <a href="./alarm.php" class="icoAlarm"><span class="hide">알림</span></a>
+                    <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백</span></a>
                 </div>
             </div>
         </div>

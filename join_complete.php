@@ -7,22 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/join_complete.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join_complete.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>회원가입</p>
-            <div class="header_ico_wrap">
-                <a href="./choice_info.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="./search.php" class="ico_search"><span class="hide">검색</span></a>
-                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백 </span></a>
+            <div class="headerIcoWrap">
+                <a href="./choice_info.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./search.php" class="icoSearch"><span class="hide">검색</span></a>
+                    <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백 </span></a>
                 </div>
             </div>
         </div>

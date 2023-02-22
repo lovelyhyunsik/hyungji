@@ -1,0 +1,30 @@
+#header_type2{position: relative; height: 5.6rem; width: 100%; }
+#header_type2>div{height: 5.6rem; width: 100%;}
+#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.plusReturn{padding: 2rem 2rem;}
+.plusReturn>.plusReturnContainer{width: 100%; border: 1px solid #E2E2E2; border-radius: 4px; background: #fff; padding: 1.1rem 0;}
+.plusReturn>.plusReturnContainer>a{display: flex; justify-content: center; align-items: center; gap: 6px;}
+.plusReturn>.plusReturnContainer>a>img{width: 2.4rem; height: auto;}
+.plusReturn>.plusReturnContainer>a>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+
+.main{}
+.main>.noReturn{display: none; height: calc(100vh - 14.4rem);}
+.main>.noReturn>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.main>.yesReturn{display: block; padding: 2rem 2rem;}
+.main>.yesReturn>.returnAccount{padding: 2rem 2rem; border: 1px solid #E2E2E2; border-radius: 4px; display: flex; align-items: center;}
+.main>.yesReturn>.returnAccount>.bankName{width: 3.7rem; padding: 4px 0; background: #f5f5f5; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #969696; text-align: center; border-radius: 2px; margin-right: 1.2rem;}
+.main>.yesReturn>.returnAccount>.accountNum{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-right: 8px;}
+.main>.yesReturn>.returnAccount>.accountUserName{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969; }
+.main>.yesReturn>.btnWrap{margin-top: 1.6rem; display: flex; justify-content: right; gap: 8px;}
+.main>.yesReturn>.btnWrap>a{display: block; background: #FFFFFF; border: 1px solid #E2E2E2; border-radius: 4px; padding: 7px 1.5rem; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222; text-align: center; box-sizing: border-box;}
+.main>.yesReturn>.btnWrap>button{background: #F5F5F5; border-radius: 4px; padding: 8px 1.6rem; text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222;}
+

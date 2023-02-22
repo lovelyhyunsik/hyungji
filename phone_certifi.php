@@ -17,13 +17,13 @@
 </head>
 
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>회원가입</p>
-            <div class="header_ico_wrap">
-                <a href="./agree.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="./login.php" class="ico_close"><span class="hide">클로즈</span></a>
+            <div class="headerIcoWrap">
+                <a href="./agree.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./login.php" class="icoClose"><span class="hide">클로즈</span></a>
                 </div>
             </div>
         </div>

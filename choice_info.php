@@ -7,22 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/choice_info.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/choice_info.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>회원가입</p>
-            <div class="header_ico_wrap">
-                <a href="./essential_info.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="./search.php" class="ico_search"><span class="hide">검색</span></a>
-                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백 </span></a>
+            <div class="headerIcoWrap">
+                <a href="./essential_info.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./search.php" class="icoSearch"><span class="hide">검색</span></a>
+                    <a href="" class="icoShoppingbag"><span class="hide">쇼핑백 </span></a>
                 </div>
             </div>
         </div>
@@ -32,9 +32,23 @@
         <div class="emailInputWrap">
             <span>이메일</span>
             <div class="emailInput">
-                <input type="text">
+                <div class="firstInput">
+                    <label>
+                        <input class="textInput" type="text">
+                        <button class="inputTextDelete">
+                            <img src="./img/ic-close-fill-24px.png" alt="">
+                        </button>
+                    </label>
+                </div>
                 <span>@</span>
-                <input type="text" class="domain">
+                <div class="secondInput">
+                    <label>
+                        <input type="text" class="domain textInput">
+                        <button class="inputTextDelete">
+                            <img src="./img/ic-close-fill-24px.png" alt="">
+                        </button>
+                    </label>
+                </div>
             </div>
             <div class="selectBoxType">
                 <button class="label">직접입력</button>
@@ -59,7 +73,12 @@
                     </ul>
                 </div>
             </div>
-            <input type="num">
+            <label>
+                <input type="num" class="textInput">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
     </section>
     <section id="reception">
@@ -124,35 +143,5 @@
         $('.accountInput>.selectBoxType>.optionItemWrap>.optionItem').css("background","none")
         $(this).css("background","#f5f5f5")
     })//은행 드롭박스
-
-     // 체크박스 전체 선택
-     $(".allAgreeBtn").on("click", "#check_btn", function () {
-      var checked = $(this).is(":checked");
-
-      if(checked){
-      	$(this).parents(".allAgreeBtn").siblings('.checkBtnList').find('input').prop("checked", true);
-      } else {
-      	$(this).parents(".allAgreeBtn").siblings('.checkBtnList').find('input').prop("checked", false);
-      }
-    });
-
-    $(".checkBtnList").on("click", ".normal", function() {
-        var checked = $(this).is(":checked");
-
-        if (!checked) {
-        	$(".allAgreeBtn>label>#check_btn").prop("checked", false);
-        }
-    });
-
-    // 체크박스 개별 선택
-    $(".checkBtnList").on("click", ".normal", function() {
-        var is_checked = true;
-
-        $(".checkBtnList .normal").each(function(){
-            is_checked = is_checked && $(this).is(":checked");
-        });
-
-        $(".allAgreeBtn>label>#check_btn").prop("checked", is_checked);
-    });
 </script>
 </html>

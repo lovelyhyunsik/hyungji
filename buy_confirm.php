@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/buy_confirm.css">
+    <link rel="stylesheet" href="./css/response.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header id="headerType2"> 
+        <div>
+            <p>구매후기</p>
+            <div class="headerIcoWrap">
+            <a href="./bottom_gnb_mypage_member.php" class="icoLeftArrow"><span class="hide">뒤로가기</span></a>
+                <div class="header_ico">
+                    <a href="./search.php" class="ico_search"><span class="hide">검색아이콘</span></a>
+                    <a href="./shoppingbag.php" class="ico_shoppingbag"><span class="hide">쇼핑백아이콘</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="buyConnfirmTop">
+        <p>상품을 수령하셨나요?</p>
+        <span>구매를 확정한 후에는 <br> 반품 밑 교환, 환불이 불가능 합니다.</span>
+    </div>
+    <div class="itemWrap">
+        <a href="">
+            <img src="./img/Frame 2642.png" alt="">
+            <div class="itemText">
+               <div class="itemBrand">
+                    CHATELAINE<span>12.01 (목) 도착</span>
+               </div>
+               <div class="ItemName">
+                   브러쉬 립조직 하이넥 티셔츠
+               </div>
+               <div class="itemOpt">
+                   <span class="color">네이비</span>/<span class="size">55</span>/<span class="count">1개</span>
+               </div>
+               <div class="itemPrice">147,000원</div>
+            </div>
+        </a>
+    </div>
+    <div class="pointWrap">
+        <div class="pointText">
+            <div class="buyConfirmPointText">
+                <span class="buyConfirmPointText_l">구매확정</span>
+                <span class="buyConfirmPointText_r">5,880원 적립</span>
+            </div>
+            <div class="reviewPointText">
+                <span class="reviewPointText_l">리뷰작성</span>
+                <span class="reviewPointText_r">최대 200원 적립</span>
+            </div>
+        </div>
+        <div class="pointNotice">
+            <div class="pointNoticeTitle">
+                <div class="pointNoticeTitle_l">
+                    <img src="./img/ic-notice.png" alt="">
+                    <p>포인트 적립 안내</p>
+                </div>
+                <span class="ic_arrow"></span>
+            </div>
+            <div class="pointNoticeGreyBox">
+                <p>- 결제 완료 이후 품절/결품이 발생한 경우, 고객님께 문자 서비스를 통해 품절/결품 안내를 드리고 있으며, '마이페이지 > 주문배송조회'에서도 품절/결품 여부를 확인하실 수 있습니다.</p>
+                <p>- 품절/결품된 주문상품은 품절/결품 문자 서비스 안내 후 자동취소해 드리며, 재결제가 필요한 경우 추가 안내 드립니다.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="btnWrap">
+            <a href="" class="cancel">취소</a>
+            <a href="./buy_confirm_complete.php" class="confirm">구매확정</a>
+        </div>
+    </div>
+</body>
+<script>
+    $('.pointNoticeTitle>.ic_arrow').click(function(){
+        $(this).toggleClass('on')
+        $('.pointNoticeGreyBox').toggleClass('on')
+    })
+</script>
+</html>

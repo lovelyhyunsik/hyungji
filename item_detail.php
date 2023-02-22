@@ -25,7 +25,7 @@
                         <a href="./index.php" class="ico_left_arrow"></a>
                         <div class="header_ico">
                             <a href="./search.php" class="ico_search"><span class="hide">검색</span></a>
-                            <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+                            <a href="./alarm.php" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                                 <h3>코디된 상품</h3>
                                 <ul>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -245,12 +245,20 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
+                                                <div class="soldOut">
+                                                    SOLD OUT
+                                                </div>
                                                 <img src="./img/item_2.png" alt="">
+                                                <div class="itemLike">
+                                                    <button>
+                                                        <img src="./img/ic-like.png" alt="" class="img_change">
+                                                    </button>
+                                                </div>
                                             </div>
                                             <div class="tab_item">
                                                 <P class="title">CHALI</P>
@@ -263,13 +271,37 @@
                                                     <div class="price">215,000</div>
                                                 </div>
                                             </div>
-                                            <div class="soldOut">
-                                                <p>SOLD OUT</p>
-                                            </div>
-                                        </button>
+                                            
+                                        </a>
                                     </li>
                                     <li>
-                                        <button>
+                                        <a>
+                                            <div class="item_img">
+                                                <img src="./img/item_2.png" alt="">
+                                                <div class="itemLike">
+                                                    <button>
+                                                        <img src="./img/ic-like.png" alt="" class="img_change">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="tab_item">
+                                                <P class="title">CHALI</P>
+                                                <P class="caption">Lorem ipsum dolor
+                                                    sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
+                                            </div>
+                                            <div class="item_price">
+                                                <div class="no_sale_price">
+                                                    <div class="percent">20<span>%</span></div>
+                                                    <div class="price">215,000</div>
+                                                </div>
+                                            </div>
+                                            <div class="coupon">
+                                                <p>쿠폰</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -287,28 +319,7 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button>
-                                            <div class="item_img">
-                                                <img src="./img/item_2.png" alt="">
-                                            </div>
-                                            <div class="tab_item">
-                                                <P class="title">CHALI</P>
-                                                <P class="caption">Lorem ipsum dolor
-                                                    sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
-                                            </div>
-                                            <div class="item_price">
-                                                <div class="no_sale_price">
-                                                    <div class="percent">20<span>%</span></div>
-                                                    <div class="price">215,000</div>
-                                                </div>
-                                            </div>
-                                            <div class="coupon">
-                                                <p>쿠폰</p>
-                                            </div>
-                                        </button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -316,7 +327,7 @@
                                 <h3>이 상품과 함께 본 상품</h3>
                                 <ul>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -334,10 +345,10 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -355,10 +366,10 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -376,10 +387,10 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button>
+                                        <a>
                                             <div class="item_img">
                                                 <img src="./img/item_2.png" alt="">
                                             </div>
@@ -397,7 +408,7 @@
                                             <div class="coupon">
                                                 <p>쿠폰</p>
                                             </div>
-                                        </button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -579,7 +590,7 @@
                     </div>
                     <div id="item_detail_tab3" class="tab">
                         <div class="item_question_btn">
-                            <a href="">상품 문의하기</a>
+                            <a href="./item_question.php">상품 문의하기</a>
                         </div>
                         <div class="qa_list_wrap">
                             <h3>Q&A<span class="qa_count">40</span></h3>
@@ -687,39 +698,28 @@
         }
     });
 
-    var num = 0;
-    $(".img_change").click(function () {
-        if (num == 0) {
-            $(this).attr("src", "./img/ic-like_pk.png");
-            num = 1;
-        } else {
-            $(this).attr("src", "./img/ic-like.png");
-            num = 0;
-        }
-    });//하트 이미지 변경
-
-    var num = 0;
+    var good = 0;
     $(".good_img_change").click(function () {
-        if (num == 0) {
+        if (good == 0) {
             $(this).attr("src", "./img/ic-good-active.png");
-            num = 1;
+            good = 1;
         } else {
             $(this).attr("src", "./img/ic-good.png");
-            num = 0;
+            good = 0;
         }
-    });//이미지 변경
+    });//따봉이미지 변경
 
     $('.item_detail_tabnav_container>ul>li>a').click(function () {
         $('.item_detail_tab_content > div').hide().filter(this.hash).fadeIn();
         $('.item_detail_tabnav_container>ul>li>a').removeClass('on');
         $(this).addClass('on');
         return false;
-    }).filter(':eq(0)').click();
+    }).filter(':eq(0)').click();//tab 기능
 
     $('.fold_btn').click(function () {
         $(this).css('display', 'none')
         $(this).siblings('.item_detail_tab1_img').css({ "height": "100%", "oveflow": "visible" })
-    })
+    })//상품정보 더보기 버튼
 
     var offset = $('.item_detail_tabnav').offset();
     $(window).scroll(function () {
@@ -728,7 +728,7 @@
         } else {
             $('.item_detail_tabnav').removeClass('on');
         }
-    });
+    });//headerGnb 특정스크롤에 도달하면 고정
 
     $('.selectBox_type>.label').click(function(){
         $(this).toggleClass('on')
@@ -742,7 +742,7 @@
             $('.selectBox_type>.label').removeClass('on')
             $('.selectBox_type_detail').css("display","block")
         })
-    })
+    })//구매하기 눌렀을때 뜨는 팝업에 셀렉트 박스 기능
 
     $('.selectBox_size>.label').click(function(){
         $(this).toggleClass('on')
@@ -756,7 +756,7 @@
             $('.selectBox_size>.label').removeClass('on')
             $('.selectBox_size_detail').css("display","block")
         })
-    })
+    })//구매하기 눌렀을때 뜨는 팝업에 셀렉트 박스 기능
 
     $(".purchase>button").click(function () {
         $('body').addClass('hidden')
@@ -809,17 +809,17 @@
         $('.item_detail_tabnav_container>ul>li:nth-child(2)>a').addClass('on')
         $('.tab').css('display','none')
         $('#item_detail_tab2').css("display","block")
-    })
+    })//후기 전체 보기 버튼
 
     $('.unfold_box .delete_btn').click(function(){
         $(this).parents('li').remove()
 
         lalal();
-    })
+    })//Q&A 삭제버튼기능
 
     $('.unfold_box').click(function(){
         $(this).siblings('.fold_box').toggleClass('on')
-    })
+    })//Q&A안에 질문들 선택하면 펼쳐지는 기능
 
     var reviewCount = $('.tab .best_review').length;
     $('.review_count').text(reviewCount)//후기카운트
@@ -827,7 +827,7 @@
     function lalal () {
         var qaCount = $('.qa_list_container>ul>li').length;
         $('.qa_count').text(qaCount)
-    }
+    }//Q&A카운트
 
     lalal();
 

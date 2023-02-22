@@ -1,0 +1,71 @@
+#headerType2{background: #fff; position: relative; height: 5.6rem; width: 100%;}
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#headerType2>div>.headerIcoWrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{ background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div >.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.item{padding: 1.2rem 2rem; background: #f5f5f5; display: flex; gap: 1.6rem; align-items: center;}
+.item>.itemImg{}
+.item>.itemImg>img{width: 6.4rem; height: 6.4rem;}
+.item>.itemName{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+.selectBox_type{ box-sizing: border-box;width: 100%;}
+.selectBox_type.on{}
+.selectBox_type>button{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.1rem 1.6rem; border-radius: 4px; border: 1px solid #e2e2e2; background: url(../img/ic-arrow-down-24.png) no-repeat 98% center; line-height: 2.4rem;}
+.selectBox_type>button.on{display: flex; align-items: center;  width: 100%; background: #fff; font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd; padding: 1.2rem 1.6rem; border-radius: 4px; border: 1px solid #e2e2e2; background: url(../img/ic-arrow-up-24.png) no-repeat 98% center;}
+
+.questionType{padding: 2.4rem 2rem 0 2rem;}
+.questionType>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; display: inline-block; padding-bottom: 8px;}
+
+.selectBox_type>.optionItem_wrap{width: 100%; padding: 8px 0; background: #fff; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); border-radius: 4px; display: none; margin-top: 4px;}
+.selectBox_type>.optionItem_wrap.on{display: block;}
+.selectBox_type>.optionItem_wrap>li{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 1.4rem 1.6rem;}
+
+.questionText{padding: 2rem 2rem 0 2rem;}
+.questionText>span{font-family: 'Pretendard'; font-size: 1.4rem; line-height: 2rem; color: #696969; display: inline-block; padding-bottom: 8px;}
+.questionText>textarea{border: 1px solid #E2E2E2; width: 100%; height: 14.4rem; border-radius: 4px; padding: 1.2rem 1.6rem; box-sizing: border-box; font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+.questionText>textarea::placeholder{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #bdbdbd;}
+
+.secret{padding: 2rem 2rem;}
+.secret>label>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+
+.notice{padding: 0 2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 2rem; color: #969696;}
+
+.bottom{position: fixed; bottom: 0; left: 0; width: 100%; padding: 1.2rem 2rem 1.6rem 2rem; background: #fff; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.04)); box-sizing: border-box;}
+.bottom>.bottomContainer{box-sizing: border-box; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center;  background: #222; border-radius: 4px;}
+.bottom>.bottomContainer>a{display: block; color: #fff; padding: 1.4rem 0; }
+
+input#check_btn{
+    display:none;
+    }
+  
+  input#check_btn  > span{
+    vertical-align: middle;
+   }
+  
+  /* label:before에 체크하기 전 상태 CSS */
+  input#check_btn + span:before{
+    content:"";
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border:1px solid #e2e2e2;
+    border-radius: 2px;
+    vertical-align:middle;
+    margin-right: 1rem;
+    }
+    
+  /* label:before에 체크 된 상태 CSS */  
+  input#check_btn:checked + span:before{
+    content:"";
+    background-color:#222;
+    border-color:#222;
+    background-image: url(../img/check_btn.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    }

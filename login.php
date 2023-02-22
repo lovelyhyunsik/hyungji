@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,22 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/common.js"></script>
 </head>
+
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>로그인</p>
-            <div class="header_ico_wrap">
-                <a href="./bottom_gnb_mypage_non-member.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+            <div class="headerIcoWrap">
+                <a href="./bottom_gnb_mypage_non-member.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백</span></a>
                 </div>
             </div>
         </div>
@@ -40,8 +42,20 @@
         </div>
     </div>
     <form class="login">
-        <input type="text" placeholder="아이디">
-        <input type="password" placeholder="비밀번호">
+        <div class="inputWrap">
+            <label>
+                <input class="textInput" type="text" placeholder="아이디">
+                <button class="inputTextDelete" type="button">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
+            <label>
+                <input class="textInput" type="password" placeholder="비밀번호">
+                <button class="inputTextDelete" type="button">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
+        </div>
         <p>
             <label>
                 <input type="checkbox" id="check_btn">

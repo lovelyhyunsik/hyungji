@@ -1,0 +1,57 @@
+#headerType2{position: relative; height: 5.6rem; width: 100%; }
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#headerType2>div>.headerIcoWrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoAlarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.alarmToggle{padding: 2rem 2rem 0 2rem;}
+.alarmToggle>label{display: flex; justify-content: space-between; align-items: center;}
+.alarmToggle>label>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.alarmToggle>label>input{}
+
+.alarmToggleNotice{padding-top: 2rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #969696;}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  [type="checkbox"] {
+    appearance: none;
+    position: relative;
+    background: #e2e2e2;
+    border-radius: 3rem;
+    width: 4rem;
+    height: 2rem;
+  }
+  
+  [type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 3rem;
+    /* transform: scale(0.8); */
+    background-color: #fff;
+    transition: left 250ms linear;
+  }
+  
+  [type="checkbox"]:checked {
+    background-color: #222;
+  }
+  
+  [type="checkbox"]:checked::before {
+    background-color: white;
+    left: 2.2rem;
+  }

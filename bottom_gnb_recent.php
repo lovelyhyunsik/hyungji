@@ -8,97 +8,101 @@
     <title>BAUHAUS</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/recent.css">
-    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/recent.css">
+    <link rel="stylesheet" href="./css/response.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/common.js"></script>
 </head>
 
 <body>
-    <div id="main_page">
+    <div id="mainPage">
         <?php include("./common.php/btn_gotop.php");?>
-        <nav id="bottom_gnb">
+        <nav id="bottomGnb">
             <ul>
                 <li>
-                    <a href="./bottom_gnb_menu.php" class="ico_menu">
+                    <a href="./bottom_gnb_menu.php" class="icoMenu">
                         <img src="./img/ic-menu.png" alt="하단메뉴아이콘">
                         <p>메뉴</p>
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php" class="ico_home">
+                    <a href="./index.php" class="icoHome">
                         <img src="./img/ic-home.png" alt="하단홈아이콘">
                         <p>홈</p>
                     </a>
                 </li>
                 <li>
-                    <a href="./bottom_gnb_recent.php" class="ico_recent">
+                    <a href="./bottom_gnb_recent.php" class="icoRecent">
                         <img src="./img/ic-recent-active.png" alt="하단최근아이콘">
                         <p>최근 본</p>
                     </a>
                 </li>
                 <li>
-                    <a href="./bottom_gnb_like.php" class="ico_like">
+                    <a href="./bottom_gnb_like.php" class="icoLike">
                         <img src="./img/ic-blike.png" alt="하단'좋아요'아이콘">
                         <p>찜</p>
                     </a>
                 </li>
                 <li>
-                    <a href="./bottom_gnb_mypage_member.php" class="ico_mypage">
+                    <a href="./bottom_gnb_mypage_member.php" class="icoMypage">
                         <img src="./img/ic-my.png" alt="하단마이페이지아이콘">
                         <p>마이</p>
                     </a>
                 </li>
             </ul>
         </nav>
-        <header id="header_type2">
+        <header id="headerType2">
             <div>
                 <p>최근 본 상품</p>
-                <div class="header_ico_wrap">
-                    <div class="header_ico">
-                        <a href="./search.php" class="ico_search"><span class="hide">검색</span></a>
-                        <a href="" class="ico_shoppingbag"><span class="hide">쇼핑백</span></a>
+                <div class="headerIcoWrap">
+                    <div class="headerIco">
+                        <a href="./search.php" class="icoSearch"><span class="hide">검색</span></a>
+                        <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백</span></a>
                     </div>
                 </div>
             </div>
         </header>
-        <section id="no_item" style="display: none;">
+        <section id="noItem" style="display: none;">
             <p>최근 본 상품이 없습니다.</p>
             <p>오늘의 베스트 상품에서 추가해 보세요.</p>
             <a href="">베스트 상품 보러가기</a>
         </section>
-        <section id="item_group">
-            <button class="all_remove">
+        <section id="itemGroup">
+            <button class="allRemove">
                 <p>전체삭제</p>
             </button>
             <section id="item">
-                <div class="item_list_wrap">
+                <div class="itemListWrap">
                     <p>2022.12.09</p>
                     <ul>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
+                                    <div class="soldOut">
+                                        SOLD OUT
+                                    </div>
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -107,14 +111,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -123,7 +129,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -131,25 +137,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -158,14 +164,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -174,7 +182,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -182,25 +190,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -209,14 +217,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -225,7 +235,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -237,28 +247,28 @@
                 </div>
             </section>
             <section id="item">
-                <div class="item_list_wrap">
+                <div class="itemListWrap">
                     <p>2022.12.09</p>
                     <ul>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -267,14 +277,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -283,7 +295,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -291,25 +303,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -318,14 +330,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -334,7 +348,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -342,25 +356,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -369,14 +383,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -385,7 +401,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -393,25 +409,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -420,14 +436,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -436,7 +454,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -444,25 +462,25 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="item_list">
-                                <div class="item_img">
+                        <li class="item">
+                            <div class="itemList">
+                                <div class="itemImg">
                                     <a href="">
                                         <img src="./img/item_1.png" alt="">
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </div>
-                                <div class="item_list_text">
+                                <div class="itemListText">
                                     <a href="">
-                                        <div class="item_list_text_container">
-                                            <div class="text_name">
+                                        <div class="itemListTextContainer">
+                                            <div class="itemBrand">
                                                 <p>CHATELAINE</p>
                                             </div>
-                                            <div class="text_sub">
+                                            <div class="itemName">
                                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                                     eius
                                                     praesentium a
@@ -471,14 +489,16 @@
                                                     autem
                                                     quo. Dolores atque repellat recusandae minima!</p>
                                             </div>
-                                            <div class="text_percentPrice">
-                                                <div class="percent">
-                                                    <p>20<span>%</span></p>
+                                            <div class="itemPrice">
+                                                <div class="salePrice">
+                                                    <div class="percent">
+                                                        <p>20<span>%</span></p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>215,000</p>
+                                                    </div>
                                                 </div>
-                                                <div class="price">
-                                                    <p>215,000</p>
-                                                </div>
-                                                <div class="discount_price">
+                                                <div class="noSalePrice">
                                                     <p>215,000</p>
                                                 </div>
                                             </div>
@@ -487,7 +507,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_close">
+                                    <div class="itemClose">
                                         <button>
                                             <img src="./img/ic-close_grey.png" alt="">
                                         </button>
@@ -502,63 +522,15 @@
     </div>
 </body>
 <script>
-    var num = 0;
-    $(".img_change").click(function () {
-        if (num == 0) {
-            $(this).attr("src", "./img/ic-like_pk.png");
-            num = 1;
-        } else {
-            $(this).attr("src", "./img/ic-like.png");
-            num = 0;
-        }
-    });
-
-    $(".all_remove").click(function () {
-        $("#item_group").css("display", "none");
-        $("#no_item").css("display", "block");
+    
+    $(".allRemove").click(function () {
+        $("#itemGroup").css("display", "none");
+        $("#noItem").css("display", "block");
     })
 
-    $(".item_close").click(function () {
+    $(".itemClose").click(function () {
         $(this).parents("li").remove();
     });
-
-    var FirstScroll = 0;
-    var prevScrollTop = $(window).scrollTop(),
-        tp = $(window).scrollTop();
-
-    $(window).scroll(function (e) {
-        tp = $(this).scrollTop();
-
-        if (tp > prevScrollTop) {
-            $('#bottom_gnb').addClass('active')
-        } else if (tp < prevScrollTop) {
-            $('#bottom_gnb').removeClass('active')
-        }
-        prevScrollTop = tp;
-
-    });//하단 gnb 스크롤에 따른 히든처리
-
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.btn_gotop').show();
-        } else {
-            $('.btn_gotop').hide();
-        }
-    });
-    $('.btn_gotop').click(function () {
-        $('html, body').animate({ scrollTop: 0 }, 400);
-        return false;
-    });
-
-    $('.ico_search').click(function () {
-        $("#main_page").css("display", "none")
-        $("#search_page").css("display", "block")
-    })
-
-    $(".arrow_left_img").click(function () {
-        $("#main_page").css("display", "block")
-        $("#search_page").css("display", "none")
-    })
 </script>
 
 </html>

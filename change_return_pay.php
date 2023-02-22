@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/change_return_pay.css">
+    <link rel="stylesheet" href="./css/response.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header id="headerType2">
+        <div>
+            <p>교환/반품</p>
+            <div class="headerIcoWrap">
+                <a href="./bottom_gnb_mypage_member.php" class="icoLeftArrow"><span class="hide">뒤로가기</span></a>
+                <div class="headerIco">
+                    <a href="./search.php" class="icoSearch"><span class="hide">검색아이콘</span></a>
+                    <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백아이콘</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="payMethodWrap">
+        <h3>결제 수단</h3>
+        <div class="payMethod">
+            <div class="hPay on">
+                <label>
+                    <input type="radio" name="method" checked="">
+                    <span>H 페이결제</span>
+                </label>
+                <div class="payContent">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/84card.png" alt="">
+                                <div class="cardName">
+                                    <span>카드의 정석 POINT 주거래</span>
+                                    <button>체크</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/84card2.png" alt="">
+                                <div class="cardName">
+                                    <span>카드의 정석 POINT 주거래</span>
+                                    <button>체크</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="creditCheckCard">
+                <label>
+                    <input type="radio" name="method">
+                    <span>신용/체크카드</span>
+                </label>
+                <div class="payContent">
+                    <div class="selectBox_type">
+                        <button class="label">카드사를 선택해주세요</button>
+                        <ul class="optionItem_wrap" id="crops1">
+                            <li class="optionItem">국민카드</li>
+                            <li class="optionItem">신협카드</li>
+                            <li class="optionItem">농협카드</li>
+                            <li class="optionItem">우리카드</li>
+                            <li class="optionItem">기타</li>
+                        </ul>
+                    </div>
+                    <div class="greyBox">
+                        <ul>
+                            <li class="benefit">
+                                <div class="benefit_l">혜택</div>
+                                <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                            </li>
+                            <li class="benefit">
+                                <div class="benefit_l">혜택</div>
+                                <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                            </li>
+                            <li class="benefit">
+                                <div class="benefit_l">혜택</div>
+                                <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                            </li>
+                            <li class="benefit">
+                                <div class="benefit_l">혜택</div>
+                                <div class="benefit_r">[현대카드] M포인트 5% 사용</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="simple">
+                <label>
+                    <input type="radio" name="method">
+                    <span>간편결제</span>
+                </label>
+                <div class="payContent">
+                    <ul>
+                        <li><img src="./img/naverPay.png" alt=""></li>
+                        <li><img src="./img/kakaoPay.png" alt=""></li>
+                        <li><img src="./img/samsungPay.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cash">
+                <label>
+                    <input type="radio" name="method">
+                    <span>현금결제</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="plusShippingPay">
+        <h3>추가 배송비 결제 금액</h3>
+        <div class="plusShippingPayText">
+            <div class="shippingPay">
+              <span class="shippingPay_l">왕복 배송비</span>
+              <span class="shippingPay_r">5000원</span>
+            </div>
+            <div class="couponSale">
+                <span class="couponSale_l">할인쿠폰 사용</span>
+                <span class="couponSale_r">0원</span>
+            </div>
+            <div class="savingPoint">
+                <span class="savingPoint_l">적립금 사용</span>
+                <span class="savingPoint_r">0원</span>
+            </div>
+        </div>
+        <div class="finalPrice">
+            <span class="finalPrice_l">총 결제 예정금액</span>
+            <div class="finalPrice_r">
+                <span class="finalPrice_r_t">5,000원</span>
+                <span class="finalPrice_r_b">왕복배송비</span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <a href="./pay_success.php">배송비 결제</a>
+    </div>
+</body>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      }
+    });
+
+    $('.payMethod').children('div').click(function(){
+        $('.payMethod>div').removeClass('on')
+        $(this).addClass('on')
+    })
+
+    $('.selectBox_type>.label').click(function () {
+        $(this).toggleClass('on');
+        $('.selectBox_type>.optionItem_wrap').toggleClass('on')
+        $('.selectBox_type>.optionItem_wrap>.optionItem').click(function () {
+            var text_change = $(this).text()
+            $('.selectBox_type>.label').text(text_change).css("color", "#222")
+            $('.selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+            $(this).css("background", "#f5f5f5")
+            $('.selectBox_type>.optionItem_wrap').removeClass('on')
+            $('.selectBox_type>.label').removeClass('on')
+            $('.selectBox_type_detail').css("display", "block")
+        })
+    })
+
+
+
+    $('.selectBox_type>.optionItem_wrap>.optionItem').click(function (e) {
+        var text_change = $(this).text()
+        $('.selectBox_type>.label').text(text_change).css("color", "#222")
+        $('.selectBox_type>.optionItem_wrap>.optionItem').css("background", "none")
+        $(this).css("background", "#f5f5f5")
+        $('.selectBox_type>.optionItem_wrap').removeClass('on')
+        $('.selectBox_type>.label').removeClass('on')
+        $('.selectBox_type_detail').css("display", "block")
+
+        var optionType = e.target.dataset.id;
+        $('.optionList').css("display", "none")
+        $(`.optionList.${optionType}`).css('display', 'block');
+
+        $('.selectBox_type>.optionItem_wrap').removeClass('on');
+    })
+  </script>
+</html>

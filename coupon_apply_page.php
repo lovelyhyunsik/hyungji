@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/coupon_apply.css">
     <link rel="stylesheet" href="./css/swiper.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <div id="coupon_apply">
+    <div id="couponApply">
         <div>
-            <header id="header_type2">
+            <header id="headerType2">
                 <div>
                     <p>쿠폰적용</p>
-                    <div class="header_ico_wrap">
-                        <a href="./order_page.php" class="ico_left_arrow"></a>
+                    <div class="headerIcoWrap">
+                        <a href="./order_page.php" class="icoLeftArrow"></a>
                     </div>
                 </div>
             </header>
@@ -138,7 +138,7 @@
     $('.selectBoxType>button').click(function(){
         $(this).toggleClass('on')
         $(this).siblings('.optionItemWrap').toggleClass('on')
-    })
+    })//셀렉트박스
 
     $('.optionItem').click(function(){
         var textChange = $(this).text();
@@ -152,6 +152,6 @@
         $('.selectBoxType>.optionItemWrap>.optionItem').css("background","none")
         $(this).css("background","#f5f5f5")
         $(targetDiscount).css("display","block")
-    })
+    })//셀렉트박스
 </script>
 </html>

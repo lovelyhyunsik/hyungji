@@ -7,20 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/id_find.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/id_find.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>아이디 찾기</p>
-            <div class="header_ico_wrap">
-                <a href="./login.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
+            <div class="headerIcoWrap">
+                <a href="./login.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
                 </div>
             </div>
         </div>

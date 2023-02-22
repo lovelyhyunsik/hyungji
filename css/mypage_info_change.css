@@ -1,0 +1,32 @@
+#headerType2{position: relative; height: 5.6rem; width: 100%; }
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#headerType2>div>.headerIcoWrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoAlarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+
+.mypageInfoChangeMain{padding: 0 2rem;}
+.mypageInfoChangeMain>h3{padding: 2rem 0 1.6rem 0; font-family: 'Pretendard'; font-weight: 700; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
+.mypageInfoChangeMain>.greyBox{box-sizing: border-box; background: #f5f5f5; padding: 2.8rem 2rem; border-radius: 4px;}
+.mypageInfoChangeMain>.greyBox>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+.mypageInfoChangeMain>.pwCheck{padding-top: 2rem;}
+.mypageInfoChangeMain>.pwCheck>p{ font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 8px;}
+.mypageInfoChangeMain>.pwCheck>p>span{color: #e31616;}
+.mypageInfoChangeMain>.pwCheck>input{ border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+.mypageInfoChangeMain>.pwCheck>input:focus{border-color: #bdbdbd;}
+
+.bottom{position: fixed; bottom: 0; left: 0; width: 100%; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.04)); padding: 1.2rem 2rem 1.6rem 2rem; display: flex; gap: 1.6rem; box-sizing: border-box; background: #fff;}
+.bottom>a.cancel{display: block; width: 50%; border: 1px solid #E2E2E2; background: #fff; padding: 1.3rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; text-align: center; border-radius: 4px;}
+.bottom>a.check{display: block; width: 50%; background: #222; padding: 1.4rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #fff; text-align: center; border-radius: 4px;}
+
+.popLayer{display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; padding: 0 2rem; background: rgba(0, 0, 0, 0.5); box-sizing: border-box;}
+.popLayer>.popLayerContainer{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: calc(100% - 4rem); background: #fff; border-radius: 8px; padding: 3.6rem 2rem 2rem 2rem; box-sizing: border-box;}
+.popLayer>.popLayerContainer>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #696969; text-align: center;}
+.popLayer>.popLayerContainer>button{width: 100%; background: #222; border-radius: 4px; padding: 1.2rem 0; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #fff; margin-top: 5.2rem;}
+
+input::placeholder{color: #bdbdbd;}

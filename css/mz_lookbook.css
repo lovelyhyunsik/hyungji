@@ -1,28 +1,28 @@
-#header_type2{height: 5.6rem; width: 100%;}
-#header_type2>div{display: flex; height: 100%; justify-content: space-between; padding: 0 1.6rem; font-size: 0; align-items: center;}#header_type2>div>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
-#header_type2>div>a.ico_left_arrow{background: url(../img/ic-arrow-left.png ) no-repeat center;}
-#header_type2>div>button.ico_share{width: 2.4rem; height: 2.4rem; background: url(../img/ic_bag_bk.png) no-repeat center;}
-#header_type2>div img{width: 50%;}
-.lb_title{padding: 2rem 2rem 1.6rem 2rem;}
-.lb_title>p{font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #676767;}
-.lb_main_img{padding-bottom: 2.4rem;}
-.lb_main_img>img{width: 100%;}
-.lb_sub_img{padding: 0 1.6rem;}
-.lb_sub_img>img{width: 100%;}
-.lb_sub_img>img:not(:last-child){margin-bottom: 1.6rem;}
+#headerType2{height: 5.6rem; width: 100%;}
+#headerType2>div{display: flex; height: 100%; justify-content: space-between; padding: 0 1.6rem; font-size: 0; align-items: center;}#header_type2>div>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
+#headerType2>div>a.icoLeftArrow{background: url(../img/ic-arrow-left.png ) no-repeat center; width: 2.4rem; height: 2.4rem; display: block;}
+#headerType2>div>button.icoShare{width: 2.4rem; height: 2.4rem; background: url(../img/ic_bag_bk.png) no-repeat center;}
+#headerType2>div img{width: 50%;}
+.lbTitle{padding: 2rem 2rem 1.6rem 2rem;}
+.lbTitle>p{font-family: 'Pretendard'; font-weight: 700; font-size: 1.4rem; line-height: 2rem; color: #676767;}
+.lbMainImg{padding-bottom: 2.4rem;}
+.lbMainImg>img{width: 100%;}
+.lbSubImg{padding: 0 1.6rem;}
+.lbSubImg>img{width: 100%;}
+.lbSubImg>img:not(:last-child){margin-bottom: 1.6rem;}
 
-.brand_pick{/* display: flex; justify-content: space-between; */ border-top: 1px solid #F5F5F5; padding: 4rem 1.6rem 0 1.6rem; align-items: baseline;}
-.brand_pick>h3{display: inline-block;}
-.brand_pick>a{display: block; padding-top: 1.3rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem;  color: #696969; float: right;}
+.brandPick{/* display: flex; justify-content: space-between; */ border-top: 1px solid #F5F5F5; padding: 4rem 1.6rem 0 1.6rem; align-items: baseline;}
+.brandPick>h3{display: inline-block;}
+.brandPick>a{display: block; padding-top: 1.3rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem;  color: #696969; float: right;}
 
-.mz_lb_row_wrap{display: flex;  gap: 0.8rem; padding-top: 2rem; padding-bottom: 7.5rem; justify-content: space-between; flex-wrap: wrap;}
-.mz_lb_row_wrap>li{width: 31.5%;}
-.mz_lb_row_wrap>li:nth-child()
-.mz_lb_row_wrap>li>a{display: block;}
-.mz_lb_row_wrap>li>a>.mz_lb_row{}
-.mz_lb_row_wrap>li>a>.mz_lb_row>.mz_lb_row_img{}
-.mz_lb_row_wrap>li>a>.mz_lb_row>.mz_lb_row_img>img{width: 100%;}
-.mz_lb_row_wrap>li>a>.mz_lb_row>.mz_lb_row_text{padding: 0.8rem 0 2rem 0;}
-.mz_lb_row_wrap>li>a>.mz_lb_row>.mz_lb_row_text>.text_title>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap; overflow: hidden; text-overflow: ellipsis; padding-bottom: 0.8rem;}
-.mz_lb_row_wrap>li>a>.mz_lb_row>.mz_lb_row_text>.text_price>p{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap}
+.mzLbRowWrap{display: flex;  gap: 0.8rem; padding-top: 2rem; padding-bottom: 7.5rem; justify-content: space-between; flex-wrap: wrap;}
+.mzLbRowWrap>li{width: 31.5%;}
+.mzLbRowWrap>li:nth-child()
+.mzLbRowWrap>li>a{display: block;}
+.mzLbRowWrap>li>a>.mzLbRow{}
+.mzLbRowWrap>li>a>.mzLbRow>.mzLbRowImg{}
+.mzLbRowWrap>li>a>.mzLbRow>.mzLbRowImg>img{width: 100%;}
+.mzLbRowWrap>li>a>.mzLbRow>.mzLbRowText{padding: 0.8rem 0 2rem 0;}
+.mzLbRowWrap>li>a>.mzLbRow>.mzLbRowText>.textTitle>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap; overflow: hidden; text-overflow: ellipsis; padding-bottom: 0.8rem;}
+.mzLbRowWrap>li>a>.mzLbRow>.mzLbRowText>.textPrice>p{font-family: 'Pretendard'; font-weight: 700; font-size: 1.2rem; line-height: 1.6rem; color: #222; white-space:nowrap}

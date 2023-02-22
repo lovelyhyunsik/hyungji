@@ -1,18 +1,18 @@
-#announ_detail_page{background: #fff; width: 100%;}
+#announDetailPage{background: #fff; width: 100%;}
 
 
 
-#header_type2{position: relative; height: 5.6rem; width: 100%;}
-#header_type2>div{height: 5.6rem; width: 100%;}
-#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
-#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
-#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2{position: relative; height: 5.6rem; width: 100%;}
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#headerType2>div>.headerIcoWrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
 
 #announ{}
-#announ>.announ_list{padding: 1.6rem 2rem 1.6rem 2rem; border-bottom: 1px solid #f5f5f5;}
-.announ_title{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
-.announ_date{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd; text-align: right; margin-top: 6px;}
-.announ_content{padding: 2rem 2rem;}
-.announ_content>img{width: 100%; margin-bottom: 2rem;}
-.announ_content>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+#announ>.announList{padding: 1.6rem 2rem 1.6rem 2rem; border-bottom: 1px solid #f5f5f5;}
+.announTitle{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}
+.announDate{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #bdbdbd; text-align: right; margin-top: 6px;}
+.announContent{padding: 2rem 2rem;}
+.announContent>img{width: 100%; margin-bottom: 2rem;}
+.announContent>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222;}

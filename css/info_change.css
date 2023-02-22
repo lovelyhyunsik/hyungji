@@ -1,23 +1,25 @@
-#info_change{background: #fff; width: 100%;}
+#infoChange{background: #fff; width: 100%;}
 
-#header_type2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
-#header_type2>div{height: 5.6rem; width: 100%;}
-#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
-#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
-#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
-#header_type2>div >.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#headerType2{background: #fff; position: fixed; top: 0; left: 0; z-index: 997; height: 5.6rem; width: 100%;}
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#headerType2>div>.headerIcoWrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{ background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
 
 #userInfo{padding: 7.6rem 2rem 0 2rem;}
 #userInfo p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969;}
 #userInfo>.userName{}
 #userInfo>.userName>input{margin-top: 8px; display: block;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+#userInfo>.userName>input:focus{border-color: #bdbdbd;}
 #userInfo>.userEmail{margin-top: 3.2rem;}
 #userInfo>.userEmail{}
 #userInfo>.userEmail>input{display: inline-block;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 89%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem; position: relative;}
+#userInfo>.userEmail>input:focus{border-color: #bdbdbd;}
 #userInfo>.userEmail>span{margin-left: 1rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.8rem; line-height: 2.4rem; color: #222;}
 
 .selectBoxType>button{display: flex; align-items: center;  width: 100%; height: 4.8rem;  font-family: 'Pretendard'; font-size: 1.6rem; color: #222; padding: 1.1rem 1.6rem; border: 1px solid #e2e2e2; border-radius: 4px;  background: url(../img/ic-arrow-down-24.png) no-repeat 98% center; line-height: 2.4rem;}
@@ -28,12 +30,14 @@
 .selectBoxType>.optionItemWrap.on{display: block;}
 .selectBoxType>.optionItemWrap>li{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #222; padding: 1.4rem 1.6rem;}
 .selectBoxType>input{margin-top: 1.6rem; display: none;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+.selectBoxType>input:focus{border-color: #bdbdbd;}
 
 #userInfo>.userNum{margin-top: 3.2rem;}
 #userInfo>.userNum>p{margin-bottom: 8px;}
 #userInfo>.userNum>.phoneNumWrap{display: flex;}
 #userInfo>.userNum>.phoneNumWrap>span{box-sizing: border-box; display: inline-block; border: 1px solid #e2e2e2; border-radius: 4px; color: #222; font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 4.8rem; width: 8.8rem; height: 4.8rem; text-align: center;}
 #userInfo>.userNum>.phoneNumWrap>input{margin-left: 1.2rem;  border: 1px solid #e2e2e2; padding: 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+#userInfo>.userNum>.phoneNumWrap>input:focus{border-color: #bdbdbd;}
 
 #bottom{position: fixed; bottom: 0; left: 0; width: 100%; padding: 1.2rem 2rem 1.6rem 2rem; background: #fff; filter: drop-shadow(0px -1px 2px rgba(0, 0, 0, 0.04)); display: flex;  box-sizing: border-box;}
 

@@ -16,7 +16,7 @@
     <header id="header_type2">
         <div>
             <div class="header_ico_wrap">
-                <a href="./index.php" class="ico_left_arrow"></a>
+                <a href="./pw_find.php" class="ico_left_arrow"></a>
                 <div class="header_ico">
                 </div>
             </div>

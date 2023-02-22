@@ -27,24 +27,30 @@
         <div class="idInput"><!-- input에 on 하면 테두리 빨간색으로 바뀌고 p.error 태그 나타나게부탁드립니다. p태그는 display:none 시켰습니다. -->
             <span>아이디</span>
             <label>
-                <input type="text" placeholder="아이디를 입력해주세요">
-                <img src="./img/ic-close-fill-24px.png" alt="">
+                <input type="text" placeholder="아이디를 입력해주세요" class="textInput">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
             </label>
             <p class="error">올바른 아이디를 입력해주세요.</p>
         </div>
         <div class="nameInput">
             <span>이름</span>
             <label>
-                <input type="text" placeholder="이름">
-                <img src="./img/ic-close-fill-24px.png" alt="">
+                <input type="text" placeholder="이름" class="textInput">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
             </label>
         </div>
         <div class="phoneInput">
             <span>휴대전화</span>
             <div class="inputBtn">
                 <label>
-                    <input type="number" placeholder="휴대전화">
-                    <img src="./img/ic-close-fill-24px.png" alt="">
+                    <input type="number" placeholder="휴대전화" class="textInput">
+                    <button class="inputTextDelete">
+                        <img src="./img/ic-close-fill-24px.png" alt="">
+                    </button>
                 </label>
                 <button class="certifiBtn" disabled="true">인증요청</button>
             </div>
@@ -63,15 +69,6 @@
     </div>
 </body>
 <script>
-
-    /* $('input').on('input', function(){
-        if($('input').val() == ''){
-            $('input').siblings('img').css("display","none")
-        }else{
-            $('input').siblings('img').css("display","block")
-        }
-    }) */ 
-
     $('.phoneInput>.inputBtn>label>input').on('input', function () {
         if ($('.phoneInput>.phoneBtn>input').val() == '') {
             $('.certifiBtn').attr("disabled", true)
@@ -81,9 +78,8 @@
                 $('.certifiNum').css("display","block")
                 $(this).text("다시받기")
             })
-             
         }
-    });
+    });//휴대전화 인증요청 누르면 인증요청텍스트 -> 다시받기, 인증번호 입력창 나타내기
 
     $('.certifiNum>input').on('input', function () {
         if ($('.certifiNum>input').val() == '') {
@@ -91,6 +87,6 @@
         } else {
            $('.bottom>a').addClass('on ')
         }
-    });
+    }); //모든input태그 입력되어야 bottom색깔 변해야하는데 능력부족으로 인증번호 입력하면 bottom 색깔 변함으로 임시처리
 </script>
 </html>

@@ -1,29 +1,29 @@
 li{word-break: keep-all;}
 
-#brand_page{background: #fff;width: 100%; height: 100%;}
+#brandPage{background: #fff;width: 100%; height: 100%;}
 
 
-#header_type2{position: relative; height: 5.6rem; width: 100%;}
-#header_type2>div{height: 5.6rem; width: 100%;}
-#header_type2>div>.brand_logo{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
-#header_type2>div>.brand_logo>img{width: 12.7rem;}
-#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
-#header_type2>div>.header_ico_wrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{ background: url(../img/search_bk.png) no-repeat center;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#headerType2{position: relative; height: 5.6rem; width: 100%;}
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>.brandLogo{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#headerType2>div>.brandLogo>img{width: 12.7rem;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); display: flex; justify-content: space-between;}
+#headerType2>div>.headerIcoWrap>a{ display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{ background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
 
-#brand_page_main{position: relative;}
-#brand_page_main>img{width: 100%;}
-#brand_page_main>.img_text_wrap{width: 100%; position: absolute; bottom: 0; background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) -48.77%, rgba(0, 0, 0, 0) 99.99%, rgba(0, 0, 0, 0) 100%);}
-#brand_page_main>.img_text_wrap>.img_text_container{display: block; padding: 6rem 2rem 2.4rem 2rem; }
-#brand_page_main>.img_text_wrap>.img_text_container>.img_text_top{display: flex;}
-#brand_page_main>.img_text_wrap>.img_text_container>.img_text_top>img{}
-#brand_page_main>.img_text_wrap>.img_text_container>.img_text_top>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2.4rem; color: #fff; margin-left: 0.4rem;}
-#brand_page_main>.img_text_wrap>.img_text_container>.img_text_bottom{margin-top: 1.2rem;}
-#brand_page_main>.img_text_wrap>.img_text_container>.img_text_bottom>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #fff;}
+#brandPageMain{position: relative;}
+#brandPageMain>img{width: 100%;}
+#brandPageMain>.imgTextWrap{width: 100%; position: absolute; bottom: 0; background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) -48.77%, rgba(0, 0, 0, 0) 99.99%, rgba(0, 0, 0, 0) 100%);}
+#brandPageMain>.imgTextWrap>.imgTextContainer{display: block; padding: 6rem 2rem 2.4rem 2rem; }
+#brandPageMain>.imgTextWrap>.imgTextContainer>.imgTextTop{display: flex;}
+#brandPageMain>.imgTextWrap>.imgTextContainer>.imgTextTop>img{}
+#brandPageMain>.imgTextWrap>.imgTextContainer>.imgTextTop>p{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2.4rem; color: #fff; margin-left: 0.4rem;}
+#brandPageMain>.imgTextWrap>.imgTextContainer>.imgTextBottom{margin-top: 1.2rem;}
+#brandPageMain>.imgTextWrap>.imgTextContainer>.imgTextBottom>p{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #fff;}
 
 
 .popup{display: flex; justify-content: flex-end; padding: 1rem 2rem 2rem 2rem;}
@@ -116,6 +116,16 @@ li{word-break: keep-all;}
 .filter_category_tab>.filter_category_tab_wrap>.category_tabcontent>#tab04>ul>li>label{display: block; width: 12.9rem;}
 .filter_category_tab>.filter_category_tab_wrap>.category_tabcontent>#tab04>ul>li>label>input{}
 .filter_category_tab>.filter_category_tab_wrap>.category_tabcontent>#tab04>ul>li>label>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; color: #696969;}
+
+.tab>ul>.inputWrap{display: none;}
+.tab>ul>.inputWrap.show{display: block;}
+.tab>ul>.inputWrap>div{margin-top: 2.4rem; display: flex; gap: 8px; box-sizing: border-box; align-items: center;}
+.tab>ul>.inputWrap>div>label{position: relative;}
+.tab>ul>.inputWrap>div>label>input{display: block;  border: 1px solid #e2e2e2; padding: 1.1rem 4.2rem 1.1rem 1.6rem; border-radius: 4px; box-sizing: border-box; width: 100%; color: #222; font-family: 'Pretendard'; font-size: 1.6rem; line-height: 2.4rem;}
+.tab>ul>.inputWrap>div>label>input:focus{border-color: #bdbdbd;}
+.tab>ul>.inputWrap>div>label>input::placeholder{font-family: 'Pretendard'; font-size: 1.6rem; color: #bdbdbd;}
+.tab>ul>.inputWrap>div>label>span{position: absolute; right: 1.6rem; top: 50%; transform: translateY(-50%); font-family: 'Pretendard'; font-weight: 600; font-size: 1.4rem; line-height: 2.4rem; color: #696969;}
+.tab>ul>.inputWrap>div>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222;}
 
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {

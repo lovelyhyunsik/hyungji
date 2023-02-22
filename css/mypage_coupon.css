@@ -1,0 +1,35 @@
+#headerType2{position: relative; height: 5.6rem; width: 100%; }
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#headerType2>div>.headerIcoWrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoAlarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.plus{display: block; width: 2.5rem; height: 2.4rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem; color: #2e82ff;}
+
+
+.tabNav{}
+.tabNav>ul{display: flex;}
+.tabNav>ul>li{width: 50%; text-align: center; }
+.tabNav>ul>li>a{display: block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #969696; padding: 0.9rem 0; border-bottom: 3px solid #f5f5f5;}
+.tabNav>ul>li>a.on{color: #222; border-bottom: 3px solid #222;}
+.tabNav>ul>li>a>span{font-family: 'Pretendard'; font-weight: 400; font-size: 1.4rem; line-height: 2rem; margin-left: 0.4rem;}
+.tabContent{padding: 2rem 2rem;}
+
+.coupon_wrap:not(:last-child){margin-bottom: 1.6rem;}
+.coupon_wrap>.coupon_container{position: relative; background: #fff; border: 1px solid #F5F5F5; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04); border-radius: 6px; padding: 1.6rem 2rem;}
+.coupon_wrap>.coupon_container>.coupon_container_top{}
+.coupon_wrap>.coupon_container>.coupon_container_top>.down_img{position: absolute; top: 2.5rem; right: 2.4rem; width: 3.4rem; height: 3.4rem; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;}
+.coupon_wrap>.coupon_container>.coupon_container_top>.down_img>img{width: 2.4rem; height: 2.4rem;}
+.coupon_wrap>.coupon_container>.coupon_container_top>.percent{ font-family: 'Pretendard'; font-weight: 600; font-size: 1.6rem; line-height: 2.4rem; color: #e31616;}
+.coupon_wrap>.coupon_container>.coupon_container_top>.percent>span{font-weight: 400; font-size: 1.4rem; line-height: 2rem;}
+.coupon_wrap>.coupon_container>.coupon_container_top>.coupon_name{margin-top: 4px; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; padding-bottom: 1.6rem; border-bottom: 1px solid #f5f5f5;}
+.coupon_wrap>.coupon_container>.coupon_container_bottom{padding-top: 1.6rem; font-family: 'Pretendard'; font-weight: 400; font-size: 1.2rem; line-height: 1.6rem; color: #bdbdbd;}
+.coupon_wrap>.coupon_container>.coupon_container_bottom .left_text{margin-right: 1.6rem;}
+.coupon_wrap>.coupon_container>.coupon_container_bottom>.useCondition{}
+.coupon_wrap>.coupon_container>.coupon_container_bottom>.couponBenefit{margin-top: 8px;}
+.coupon_wrap>.coupon_container>.coupon_container_bottom>.validity{margin-top: 8px;}

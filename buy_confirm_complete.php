@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bu ndle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/buy_confirm_complete.css">
+    <link rel="stylesheet" href="./css/response.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header id="headerType2"> 
+        <div>
+            <p>구매확정 완료</p>
+            <div class="headerIcoWrap">
+            <a href="./bottom_gnb_mypage_member.php" class="icoLeftArrow"><span class="hide">뒤로가기</span></a>
+                <div class="headerIco">
+                    <a href="./search.php" class="icoSearch"><span class="hide">검색아이콘</span></a>
+                    <a href="./shoppingbag.php" class="icoShoppingbag"><span class="hide">쇼핑백아이콘</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="completeTop">
+        <h3>구매확정 완료</h3>
+        <p><span class="plusPonint">+5880</span>원</p>
+        <span class="TopText">후기 작성하고 포인트 최대 200원 적립받으세요!</span>
+        <div class="TopGreyBox">
+            <div class="TopGreyBox_l">내 포인트</div>
+            <div class="TopGreyBox_r">6000원</div>
+        </div>
+        <div class="btnWrap">
+            <a href="./review_write.php" class="reviewWrite">후기쓰고 포인트 더 받기</a>  
+            <a href="./index.php" class="goShoping">계속 쇼핑하기</a>  
+        </div>
+    </div>
+    <div class="bannerWrap">
+        <img src="./img/Frame 2642.png" alt="">
+        <img src="./img/Frame 2642.png" alt="">
+        <img src="./img/Frame 2642.png" alt="">
+    </div>
+</body>
+</html>

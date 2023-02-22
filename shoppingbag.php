@@ -61,7 +61,7 @@
             </li>
         </ul>
     </nav>
-    <section id="no_item" style="display: none;">
+    <section id="no_item" style="display: none;"><!-- 아이템없을경우 display:none 처리해놨습니다. -->
         <p>장바구니가 비어있어요 <br>새로운 상품으로 채워주세요</p>
         <a href="./best_section.php">베스트 상품 보러가기</a>
     </section>
@@ -86,9 +86,14 @@
                     </button>
                 </div>
                 <div class="itemInfoWrap">
-                    <a href="">
-                        <img src="./img/brand_thum_test.png" alt="">
-                    </a>
+                    <div class="itemImg">
+                        <a href="">
+                            <img src="./img/brand_thum_test.png" alt="">
+                            <div class="soldOut">
+                                SOLD OUT
+                            </div>
+                        </a>
+                    </div>
                     <div class="itemInfo">
                         <div class="itemName"><span class="color">네이비</span>/<span class="size">55</span>/<span class="count">1개</span></div>
                         <div class="itemPrice">127,000원</div>
@@ -252,7 +257,7 @@
 <script>
     $('.itemCheckDelete>.delete').click(function(){
         $(this).parents('li').remove();
-    })
+    })//아이템 x버튼 누르면 삭제
 
     $(".optionChange").click(function () {
         $('body').addClass('hidden')

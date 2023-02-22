@@ -21,7 +21,7 @@
         <div>
             <header id="header_type2">
                 <div>
-                    <a href="./index.php" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
+                    <a href="./exhibition_section.php" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
                     <a href="" class="ico_share"><span class="hide">공유</span></a>
                 </div>
             </header>
@@ -64,11 +64,11 @@
                     </a>
                 </div>
             </section>
-            <section id="one_depth_tab">
+            <section id="oneDepthTab">
                 <h3>#기획전ITEM</h3>
-                <div class="category_tab">
-                    <div class="category_tab_wrap">
-                        <div class="category_tabnav">
+                <div class="categoryTab">
+                    <div class="categoryTabWrap">
+                        <div class="categoryTabnav">
                             <ul>
                                 <li><a href="#tab01" class='on'>전체</a></li>
                                 <li><a href="#tab02">아우터</a></li>
@@ -82,22 +82,25 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="category_tabcontent">
+                    <div class="categoryTabcontent">
                         <div id="tab01" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_img1.png" alt="">
+                                        <div class="itemImg">
+                                            <div class="soldOut">
+                                                SOLD OUT
+                                            </div>
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -105,36 +108,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_img2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -142,36 +145,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_img3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -179,36 +182,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_img4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -216,18 +219,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -237,19 +240,19 @@
                         </div>
                         <div id="tab02" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -257,37 +260,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -295,37 +297,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -333,37 +334,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -371,19 +371,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -393,19 +392,19 @@
                         </div>
                         <div id="tab03" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -413,37 +412,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -451,37 +449,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -489,37 +486,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -527,19 +523,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -549,19 +544,19 @@
                         </div>
                         <div id="tab04" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -569,37 +564,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -607,37 +601,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -645,37 +638,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -683,19 +675,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -705,19 +696,19 @@
                         </div>
                         <div id="tab05" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -725,37 +716,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -763,37 +753,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -801,37 +790,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -839,19 +827,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -861,19 +848,19 @@
                         </div>
                         <div id="tab06" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -881,37 +868,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -919,37 +905,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -957,37 +942,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -995,19 +979,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -1017,19 +1000,19 @@
                         </div>
                         <div id="tab07" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1037,37 +1020,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1075,37 +1057,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1113,37 +1094,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1151,19 +1131,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -1173,19 +1152,19 @@
                         </div>
                         <div id="tab08" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1193,37 +1172,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1231,37 +1209,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1269,37 +1246,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1307,19 +1283,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -1329,19 +1304,19 @@
                         </div>
                         <div id="tab09" class="tab">
                             <ul>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_1.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_6.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1349,37 +1324,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>1</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_2.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_7.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1387,37 +1361,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>2</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_3.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_8.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1425,37 +1398,36 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>3</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="item">
                                     <a href="">
-                                        <div class="item_img">
-                                            <img src="./img/item_4.png" alt="">
+                                        <div class="itemImg">
+                                            <img src="./img/item_img/item_9.png" alt="">
                                         </div>
-                                        <div class="tab_item">
-                                            <P class="title">CHALI</P>
-                                            <P class="caption">Lorem ipsum dolor
+                                        <div class="tabItem">
+                                            <P class="itemBrand">CHALI</P>
+                                            <P class="itemName">Lorem ipsum dolor
                                                 sit,ametconsecteturddddddddddddddddddddddddddddddd</P>
                                         </div>
-                                        <div class="item_price">
-                                            <div class="sale_price">215,000</div>
-                                            <div class="no_sale_price">
+                                        <div class="itemPrice">
+                                            <div class="noSalePrice">215,000</div>
+                                            <div class="salePrice">
                                                 <div class="percent">20<span>%</span></div>
                                                 <div class="price">215,000</div>
                                             </div>
@@ -1463,19 +1435,18 @@
                                         <div class="coupon">
                                             <p>쿠폰</p>
                                         </div>
-                                        <div class="review_wrap">
-                                            <ul class="star_review">
+                                        <div class="reviewWrap">
+                                            <ul class="starReview">
                                                 <li><img src="./img/review_star.png" alt=""></li>
                                                 <li>4.9</li>
                                             </ul>
-                                            <div class="review_count">
-                                                <span class="review_text">리뷰</span>
-                                                <span class="review_count">30</span>
+                                            <div class="reviewCount">
+                                                <span class="reviewText">리뷰</span>
+                                                <span class="reviewCount">30</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="item_num"><span>4</span></div>
-                                    <div class="item_like">
+                                    <div class="itemLike">
                                         <button>
                                             <img src="./img/ic-like.png" alt="" class="img_change">
                                         </button>
@@ -1487,25 +1458,17 @@
                 </div>
             </section>
         </div>
+        <?php include("./common.php/footer.php");?>
     </div>
 </body>
 <script>
-    $('#exhibition_detail .category_tabnav>ul>li>a').click(function () {
-        $('#exhibition_detail .category_tabcontent > div').hide().filter(this.hash).fadeIn();
-        $('#exhibition_detail .category_tabnav>ul>li>a').removeClass('on');
+    $('#exhibition_detail .categoryTabnav>ul>li>a').click(function () {
+        $('#exhibition_detail .categoryTabcontent > div').hide().filter(this.hash).fadeIn();
+        $('#exhibition_detail .categoryTabnav>ul>li>a').removeClass('on');
         $(this).addClass('on');
         return false;
     }).filter(':eq(0)').click();
 
-    var num = 0;
-    $(".img_change").click(function () {
-        if (num == 0) {
-            $(this).attr("src", "./img/ic-like_pk.png");
-            num = 1;
-        } else {
-            $(this).attr("src", "./img/ic-like.png");
-            num = 0;
-        }
-    });//하트 이미지 변경
+    
 </script>
 </html>

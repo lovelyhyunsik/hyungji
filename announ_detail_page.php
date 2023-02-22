@@ -11,26 +11,26 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 </head>
 <body>
-    <div id="annon_detail_page">
+    <div id="annonDetailPage">
         <div>
-            <header id="header_type2">
+            <header id="headerType2">
                 <div>
                     <p>공지사항</p>
-                    <div class="header_ico_wrap">
-                        <a href="./announ_page.php" class="ico_left_arrow"></a>
+                    <div class="headerIcoWrap">
+                        <a href="./announ_page.php" class="icoLeftArrow"></a>
                     </div>
                 </div>
             </header>
             <section id="announ">
-                <div class="announ_list">
-                    <div class="announ_title">
+                <div class="announList">
+                    <div class="announTitle">
                         <p>[안내] 카카오 장애로 인한 일부 서비스 불가 안내내내내내내내내</p>
                     </div>
-                    <div class="announ_date">
+                    <div class="announDate">
                         2022.01.08
                     </div>
                 </div>
-                <div class="announ_content">
+                <div class="announContent">
                      
                     <p>바우하우스를 이용해 주시는 고객님께 감사 드립니다. <br>어쩌고 저쩌고<br> 공지사항 내용 영역입니다.</p>
                 </div>

@@ -314,6 +314,6 @@
     $('.unfold_content').click(function () {
         $(this).children('.toggle_img').toggleClass('on')
         $(this).siblings('.fold_content').toggleClass('on')
-    });
+    });//자주 묻는 질문 클릭시 펼쳐짐
 </script>
 </html>

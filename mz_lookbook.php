@@ -22,44 +22,44 @@
     <script src="js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
-            <a href="./index.html" class="ico_left_arrow"><span class="hide">뒤로가기</span></a>
+            <a href="./magazine_section.php" class="icoLeftArrow"><span class="hide">뒤로가기</span></a>
             <p>LOOK BOOK</p>
-            <button class="ico_share"><span class="hide">공유</span></button>
+            <button class="icoShare"><span class="hide">공유</span></button>
         </div>
     </header>
     <div class="btn_gotop">
         <img src="./img/up_arrow.png" alt="">
     </div>
-    <div class="lb_title">
+    <div class="lbTitle">
         <p>[CHATELAINE] 2022 S/S NO.1</p>
     </div>
-    <div class="lb_main_img">
+    <div class="lbMainImg">
         <img src="./img/mz_lb_main1 .png" alt="">
     </div>
-    <div class="lb_sub_img">
+    <div class="lbSubImg">
         <img src="./img/mz_lb_sub1.png" alt="">
         <img src="./img/mz_lb_sub2.png" alt="">
         <img src="./img/mz_lb_sub3.png" alt="">
         <img src="./img/mz_lb_sub4.png" alt="">
         <img src="./img/mz_lb_sub5.png" alt="">
     </div>
-    <div class="brand_pick">
+    <div class="brandPick">
         <h3>#CHATELAINE PICKS</h3>
         <a href="">더보기</a>
-        <ul class="mz_lb_row_wrap">
+        <ul class="mzLbRowWrap">
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-1.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>WaistLineShirtbaaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>
@@ -68,15 +68,15 @@
             </li>
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-2.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>Waist Line Shirtbaaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>
@@ -85,15 +85,15 @@
             </li>
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-3.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>Waist Line Shirt baaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>
@@ -102,15 +102,15 @@
             </li>
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-3.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>Waist Line Shirt baaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>
@@ -119,15 +119,15 @@
             </li>
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-3.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>Waist Line Shirt baaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>
@@ -136,15 +136,15 @@
             </li>
             <li>
                 <a href="">
-                    <div class="mz_lb_row">
-                        <div class="mz_lb_row_img">
+                    <div class="mzLbRow">
+                        <div class="mzLbRowImg">
                             <img src="./img/mz_lb_row1-3.png" alt="">
                         </div>
-                        <div class="mz_lb_row_text">
-                            <div class="text_title">
+                        <div class="mzLbRowText">
+                            <div class="textTitle">
                                 <p>Waist Line Shirt baaaaaaaam</p>
                             </div>
-                            <div class="text_price">
+                            <div class="textPrice">
                                 <p>215,000</p>
                             </div>
                         </div>

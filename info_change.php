@@ -14,13 +14,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <div id="info_change">
+    <div id="infoChange">
         <div>
-            <header id="header_type2">
+            <header id="headerType2">
                 <div>
                     <p>정보 변경</p>
-                    <div class="header_ico_wrap">
-                        <a href="./order_page.php" class="ico_left_arrow"></a>
+                    <div class="headerIcoWrap">
+                        <a href="./order_page.php" class="icoLeftArrow"></a>
                     </div>
                 </div>
             </header>
@@ -63,7 +63,7 @@
     $('.selectBoxType>button').click(function(){
         $(this).toggleClass('on')
         $('.optionItemWrap').toggleClass('on')
-    })
+    })//셀렉트 박스
 
     $('.optionItem').click(function(){
         var textChange = $(this).text();
@@ -77,6 +77,6 @@
 
     $('.optionItem:last-child').click(function(){
         $('.direct').css("display","block")
-    })
+    })//셀렉트 박스
 </script>
 </html>

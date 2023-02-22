@@ -1,14 +1,14 @@
-#header_type2{position: relative; height: 5.6rem; width: 100%; }
-#header_type2>div{height: 5.6rem; width: 100%;}
-#header_type2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
-#header_type2>div>.header_ico_wrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
-#header_type2>div>.header_ico_wrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>a.ico_left_arrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico{display: flex; float: right; margin-right: 2rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a{display: block; width: 2.4rem; height: 2.4rem;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_search{background: url(../img/search_bk.png) no-repeat center;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_alarm{ background: url(../img/alarm_bk.png) no-repeat center;}
-#header_type2>div>.header_ico_wrap>.header_ico>a.ico_shoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
+#headerType2{position: relative; height: 5.6rem; width: 100%; }
+#headerType2>div{height: 5.6rem; width: 100%;}
+#headerType2>div>p{text-align: center; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 5.6rem; color: #222;}
+#headerType2>div>.headerIcoWrap{ width: 100%; position: absolute; top: 50%; transform: translateY(-50%); /* display: flex; */ /* justify-content: space-between; */}
+#headerType2>div>.headerIcoWrap>a{display: inline-block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>a.icoLeftArrow{background: url(../img/ic-arrow-left.png) no-repeat center; margin-left: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco{display: flex; float: right; margin-right: 2rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a{display: block; width: 2.4rem; height: 2.4rem;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoSearch{background: url(../img/search_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoAlarm{ background: url(../img/alarm_bk.png) no-repeat center;}
+#headerType2>div>.headerIcoWrap>.headerIco>a.icoShoppingbag{background: url(../img/shoppingbag_bk.png) no-repeat center; margin-left: 1.2rem;}
 
 .changeReturnMethodWrap{}
 .changeReturnMethodWrap>.tab_wrap>span{font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969;}
@@ -52,6 +52,7 @@
 .tab>.pickInfo>.pickNum{padding: 2rem 0 0 0;}
 .tab>.pickInfo>.pickNum>span{display: inline-block; font-family: 'Pretendard'; font-weight: 500; font-size: 1.4rem; line-height: 2rem; color: #696969; margin-bottom: 8px;}
 .tab>.pickInfo>.pickNum>input{width: 100%; padding: 1.2rem 1.6rem; box-sizing: border-box; border: 1px solid #E2E2E2; border-radius: 4px; background: #fff; font-family: 'Pretendard'; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #222; margin-bottom: 1.6rem;}
+.tab>.pickInfo>.pickNum>input:focus{border-color: #bdbdbd;}
 .tab>.pickInfo>.pickNum>input::placeholder{color: #BDBDBD;}
 .tab>.pickInfo>.pickNum>button{width: 100%; background: #fff; font-family: 'Pretendard'; font-weight: 500; font-size: 1.6rem; line-height: 2.4rem; color: #222; text-align: center; padding: 1.1rem 0; border: 1px solid #E2E2E2; border-radius: 4px;}
 

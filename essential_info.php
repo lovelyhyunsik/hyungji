@@ -7,21 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/essntial_info.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/essntial_info.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/common.js"></script>
 </head>
 <body>
-    <header id="header_type2">
+    <header id="headerType2">
         <div>
             <p>회원가입</p>
-            <div class="header_ico_wrap">
-                <a href="./phone_certifi.php" class="ico_left_arrow"></a>
-                <div class="header_ico">
-                    <a href="./login.php" class="ico_close"><span class="hide">클로즈</span></a>
+            <div class="headerIcoWrap">
+                <a href="./phone_certifi.php" class="icoLeftArrow"></a>
+                <div class="headerIco">
+                    <a href="./login.php" class="icoClose"><span class="hide">클로즈</span></a>
                 </div>
             </div>
         </div>
@@ -30,22 +30,42 @@
         <h3>필수 정보 입력</h3>
         <div class="nameInput">
             <span>이름</span>
-            <input type="text" placeholder="이름">
+            <label>
+                <input class="textInput" type="text" placeholder="이름">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
         <div class="idInput">
             <span>아이디</span>
             <div class="inputBtn">
-                <input type="text" placeholder="이름">
+                <label>
+                    <input class="textInput" type="text" placeholder="이름">
+                    <button class="inputTextDelete">
+                        <img src="./img/ic-close-fill-24px.png" alt="">
+                    </button>
+                </label>
                 <button>중복확인</button>
             </div>
         </div>
         <div class="pwInput">
             <span>비밀번호</span>
-            <input type="password" placeholder="비밀번호 ">
+            <label>
+                <input class="textInput" type="password" placeholder="비밀번호">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
         <div class="pwCheckInput">
             <span>비밀번호 확인</span>
-            <input type="password" placeholder="비밀번호 확인">
+            <label>
+                <input class="textInput" type="password" placeholder="비밀번호 확인">
+                <button class="inputTextDelete">
+                    <img src="./img/ic-close-fill-24px.png" alt="">
+                </button>
+            </label>
         </div>
         <div class="birthInput">
             <span>생년월일</span>
@@ -79,21 +99,38 @@
         <div class="addressInput">
             <span>우편번호</span>
             <div class="addressBtn">
-                <input type="text" placeholder="이름">
+                <label>
+                    <input class="textInput" type="number" placeholder="이름">
+                    <button class="inputTextDelete">
+                        <img src="./img/ic-close-fill-24px.png" alt="">
+                    </button>
+                </label>
                 <button>주소찾기</button>
             </div>
-            <input type="text" class="address" placeholder="주소">
-            <input type="text" class="addressDetail" placeholder="상세주소">
+            <div class="addressText">
+                <label>
+                    <input type="text" class="address textInput" placeholder="주소">
+                    <button class="inputTextDelete">
+                        <img src="./img/ic-close-fill-24px.png" alt="">
+                    </button>
+                </label>
+                <label>
+                    <input type="text" class="addressDetail textInput" placeholder="상세주소">
+                    <button class="inputTextDelete">
+                        <img src="./img/ic-close-fill-24px.png" alt="">
+                    </button>
+                </label>
+            </div>
         </div>
      </section>
      <div class="bottom">
-        <a href="./choice_info.php ">다음</a>
+        <a href="./choice_info.php">다음</a>
     </div>
 </body>
 <script>
     $('.genderBtn>button').click(function(){
         $('.genderBtn>button').removeClass('on')
         $(this).addClass('on')
-    })
+    })//남여 선택 버튼
 </script>
 </html>
